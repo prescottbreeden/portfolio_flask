@@ -62,10 +62,212 @@
 				</div>
 			</div>
 		</div>
+		<section class="tech">
+			<h2 class="tech__header">Tech & Tools</h2>
+			<ul class="grid clear">
+				<li class="hex-container" >
+					<div class="hexagon img-1" (click)='zoom($event)'>
+						<span class="transparent">1</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-9" (click)='zoom($event)'>
+						<span class="transparent">9</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-10" (click)='zoom($event)'>
+						<span class="transparent">10</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-17" (click)='zoom($event)'>
+						<span class="transparent">17</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-18" (click)='zoom($event)'>
+						<span class="transparent">18</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-19" (click)='zoom($event)'>
+						<span class="transparent">19</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-27" (click)='zoom($event)'>
+						<span class="transparent">27</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-2" (click)='zoom($event)'>
+						<span class="transparent">2</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-8" (click)='zoom($event)'>
+						<span class="transparent">8</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-11" (click)='zoom($event)'>
+						<span class="transparent">11</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-16" (click)='zoom($event)'>
+						<span class="transparent">16</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-20" (click)='zoom($event)'>
+						<span class="transparent">20</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-26" (click)='zoom($event)'>
+						<span class="transparent">26</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-28" (click)='zoom($event)'>
+						<span class="transparent">28</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-3" (click)='zoom($event)'>
+						<span class="transparent">3</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-5" (click)='zoom($event)'>
+						<span class="transparent">5</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-7" (click)='zoom($event)'>
+						<span class="transparent">7</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-12" (click)='zoom($event)'>
+						<span class="transparent">12</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-15" (click)='zoom($event)'>
+						<span class="transparent">15</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-21" (click)='zoom($event)'>
+						<span class="transparent">21</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-25" (click)='zoom($event)'>
+						<span class="transparent">25</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-4" (click)='zoom($event)'>
+						<span class="transparent">4</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-6" (click)='zoom($event)'>
+						<span class="transparent">6</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-13" (click)='zoom($event)'>
+						<span class="transparent">13</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-14" (click)='zoom($event)'>
+						<span class="transparent">14</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-22" (click)='zoom($event)'>
+						<span class="transparent">22</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-23" (click)='zoom($event)'>
+						<span class="transparent">23</span>
+					</div>
+				</li>     
+				<li class="hex-container" >
+					<div class="hexagon img-24" (click)='zoom($event)'>
+						<span class="transparent">24</span>
+					</div>
+				</li>     
+			</ul>
+			<div class="tech__details">
+				<div class="tech__details--container">
 
-<p>tech works</p>
+					<div class="tech__logo-box">
+						{% if zoomImg %}
+						<img
+							src="static/img/logos/{{ zoomImg }}.png" 
+							alt="tech logo"
+							class="tech__logo-box--img">
+						{% endif %}
+					</div>
+					<div class="tech__explain">
+						{% if zoomImg %}
+							<p>{{ techDescription }}</p>
+						{% else %}
+							<p class="u-center">Click on a logo to learn more.</p>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__nav">
+					<ul class="footer__nav--list">
+						<li class="footer__nav--item" [routerLink]="['']">
+						<!-- About -->
+							<a href="#about" class="navigation__link">About</a>
+						</li>
+						<li class="footer__nav--item" [routerLink]="['portfolio']">
+							Portfolio
+						</li>
+						<li class="footer__nav--item" [routerLink]="['tech']">
+							Technology
+						</li>
+						<li class="footer__nav--item" [routerLink]="['contact']">
+							Contact
+						</li>
+					</ul>
+				</div>
+				<div class="footer__text">
+					<p>
+						This site was built by Prescott Breeden. 
+						<br>
+						All rights reserved &copy; 2018.
+					</p>
+				</div>
 
+			</div>
 
+			<div class="footer__logo">
+				<img 
+					src="/static/img/p_logo5.png" 
+					alt="site logo" 
+					class="footer__logo-img"
+					>
+				<p class="footer__logo--name">Prescott Breeden, BM</p>
+				<p class="footer__logo--brand">
+					"Anything can be built, it's the idea that's the trick"
+				</p>
+			</div>
+		</footer>
 	</body>
 </html>
 

@@ -62,7 +62,7 @@ body {
 
 .img-1 {
   animation: appear 0.25s 0.05s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/flask.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/flask.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -77,14 +77,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-1:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/flask.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/flask.png");
     opacity: 1; }
   .img-1:hover:after {
     opacity: 1; }
 
 .img-2 {
   animation: appear 0.25s 0.1s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/python.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/python.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -99,14 +99,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-2:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/python.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/python.png");
     opacity: 1; }
   .img-2:hover:after {
     opacity: 1; }
 
 .img-3 {
   animation: appear 0.25s 0.15s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/sass.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/sass.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -121,14 +121,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-3:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/sass.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/sass.png");
     opacity: 1; }
   .img-3:hover:after {
     opacity: 1; }
 
 .img-4 {
   animation: appear 0.25s 0.2s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/aws.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/aws.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -143,14 +143,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-4:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/aws.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/aws.png");
     opacity: 1; }
   .img-4:hover:after {
     opacity: 1; }
 
 .img-5 {
   animation: appear 0.25s 0.25s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/jquery.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/jquery.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -165,14 +165,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-5:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/jquery.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/jquery.png");
     opacity: 1; }
   .img-5:hover:after {
     opacity: 1; }
 
 .img-6 {
   animation: appear 0.25s 0.3s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/ubuntu.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/ubuntu.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -187,14 +187,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-6:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/ubuntu.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/ubuntu.png");
     opacity: 1; }
   .img-6:hover:after {
     opacity: 1; }
 
 .img-7 {
   animation: appear 0.25s 0.35s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/bootstrap.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/bootstrap.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -209,14 +209,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-7:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/bootstrap.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/bootstrap.png");
     opacity: 1; }
   .img-7:hover:after {
     opacity: 1; }
 
 .img-8 {
   animation: appear 0.25s 0.4s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/csharp.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/csharp.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -231,14 +231,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-8:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/csharp.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/csharp.png");
     opacity: 1; }
   .img-8:hover:after {
     opacity: 1; }
 
 .img-9 {
   animation: appear 0.25s 0.45s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/django.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/django.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -253,14 +253,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-9:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/django.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/django.png");
     opacity: 1; }
   .img-9:hover:after {
     opacity: 1; }
 
 .img-10 {
   animation: appear 0.25s 0.5s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/dotnet.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/dotnet.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -275,14 +275,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-10:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/dotnet.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/dotnet.png");
     opacity: 1; }
   .img-10:hover:after {
     opacity: 1; }
 
 .img-11 {
   animation: appear 0.25s 0.55s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/r.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/r.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -297,14 +297,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-11:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/r.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/r.png");
     opacity: 1; }
   .img-11:hover:after {
     opacity: 1; }
 
 .img-12 {
   animation: appear 0.25s 0.6s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/postman.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/postman.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -319,14 +319,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-12:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/postman.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/postman.png");
     opacity: 1; }
   .img-12:hover:after {
     opacity: 1; }
 
 .img-13 {
   animation: appear 0.25s 0.65s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/nginx.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/nginx.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -341,14 +341,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-13:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/nginx.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/nginx.png");
     opacity: 1; }
   .img-13:hover:after {
     opacity: 1; }
 
 .img-14 {
   animation: appear 0.25s 0.7s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/html5.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/html5.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -363,14 +363,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-14:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/html5.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/html5.png");
     opacity: 1; }
   .img-14:hover:after {
     opacity: 1; }
 
 .img-15 {
   animation: appear 0.25s 0.75s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/git.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/git.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -385,14 +385,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-15:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/git.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/git.png");
     opacity: 1; }
   .img-15:hover:after {
     opacity: 1; }
 
 .img-16 {
   animation: appear 0.25s 0.8s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/sql.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/sql.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -407,14 +407,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-16:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/sql.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/sql.png");
     opacity: 1; }
   .img-16:hover:after {
     opacity: 1; }
 
 .img-17 {
   animation: appear 0.25s 0.85s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/nodejs.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/nodejs.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -429,14 +429,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-17:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/nodejs.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/nodejs.png");
     opacity: 1; }
   .img-17:hover:after {
     opacity: 1; }
 
 .img-18 {
   animation: appear 0.25s 0.9s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/express.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/express.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -451,14 +451,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-18:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/express.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/express.png");
     opacity: 1; }
   .img-18:hover:after {
     opacity: 1; }
 
 .img-19 {
   animation: appear 0.25s 0.95s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/angular.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/angular.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -473,14 +473,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-19:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/angular.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/angular.png");
     opacity: 1; }
   .img-19:hover:after {
     opacity: 1; }
 
 .img-20 {
   animation: appear 0.25s 1s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/mongodb.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/mongodb.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -495,14 +495,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-20:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/mongodb.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/mongodb.png");
     opacity: 1; }
   .img-20:hover:after {
     opacity: 1; }
 
 .img-21 {
   animation: appear 0.25s 1.05s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/github.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/github.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -517,14 +517,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-21:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/github.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/github.png");
     opacity: 1; }
   .img-21:hover:after {
     opacity: 1; }
 
 .img-22 {
   animation: appear 0.25s 1.1s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/css3.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/css3.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -539,14 +539,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-22:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/css3.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/css3.png");
     opacity: 1; }
   .img-22:hover:after {
     opacity: 1; }
 
 .img-23 {
   animation: appear 0.25s 1.15s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/javascript.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/javascript.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -561,14 +561,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-23:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/javascript.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/javascript.png");
     opacity: 1; }
   .img-23:hover:after {
     opacity: 1; }
 
 .img-24 {
   animation: appear 0.25s 1.2s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/vscode.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/vscode.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -583,14 +583,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-24:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/vscode.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/vscode.png");
     opacity: 1; }
   .img-24:hover:after {
     opacity: 1; }
 
 .img-25 {
   animation: appear 0.25s 1.25s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/vim.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/vim.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -605,14 +605,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-25:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/vim.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/vim.png");
     opacity: 1; }
   .img-25:hover:after {
     opacity: 1; }
 
 .img-26 {
   animation: appear 0.25s 1.3s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/firebase.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/firebase.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -627,14 +627,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-26:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/firebase.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/firebase.png");
     opacity: 1; }
   .img-26:hover:after {
     opacity: 1; }
 
 .img-27 {
   animation: appear 0.25s 1.35s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/react.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/react.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -649,14 +649,14 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-27:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/react.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/react.png");
     opacity: 1; }
   .img-27:hover:after {
     opacity: 1; }
 
 .img-28 {
   animation: appear 0.25s 1.4s 1 ease-out forwards;
-  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("assets/logos/sqlite.png");
+  background-image: linear-gradient(to bottom, rgba(255, 156, 103, 0), rgba(255, 156, 103, 0)), url("img/logos/sqlite.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -671,7 +671,7 @@ body {
     text-transform: uppercase;
     opacity: 0; }
   .img-28:hover {
-    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("assets/logos/sqlite.png");
+    background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("img/logos/sqlite.png");
     opacity: 1; }
   .img-28:hover:after {
     opacity: 1; }

@@ -1,0 +1,15 @@
+.btn {
+    padding: 1rem 3rem;
+    background-color: $color-primary;
+    color: white;
+    border: none;
+    outline: none;
+
+    &__cube {
+        margin-bottom: 5rem;
+    }
+
+    &:hover {
+        background-color: green;
+    }
+}

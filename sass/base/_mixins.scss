@@ -1,0 +1,50 @@
+@mixin center-element {
+    postiion: absolute;
+    top: 50%;
+    left: 50%;
+    // transform: translateX(-50%);
+}
+
+@mixin rotate-start {
+
+}
+@mixin rotate-null {
+
+}
+
+@mixin rotate-one {
+    transform:  
+        translateX(-.2rem) 
+        translateY(12.7rem) 
+        rotateX(45deg) 
+        rotateY(26deg) 
+        rotateZ(62deg);
+}
+
+@mixin rotate-two {
+    transform:  
+        translateX(-200px) 
+        translateY(-250px) 
+        rotateX(47deg) 
+        rotateY(26deg) 
+        rotateZ(62deg);
+}
+
+@mixin rotate-max {
+    transform: 
+        rotateX(30deg) 
+        rotateY(-300deg) 
+        rotateZ(700deg);
+}
+
+@mixin cube-interior-bg-props($file) {
+    background-image: url('../src/assets/#{$file}.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin cube-size($size) {
+    height: $size;
+    width: $size;
+}

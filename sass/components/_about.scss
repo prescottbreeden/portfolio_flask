@@ -1,0 +1,100 @@
+.about {
+    padding: 3rem 5rem;
+    background-color: $color-white;
+    
+    &__text-box {
+        padding-top: 6rem;
+        display: flex;
+        margin-bottom: 4rem;
+    }
+
+    &__heading {
+        flex: 3 20%;
+    }
+
+    &__blurb {
+        flex: 5 40%;
+        hyphens: manual;
+    }
+
+
+
+    &__courses {
+        margin-top: 12rem;
+    }
+}
+
+.services {
+    padding: 3rem 5rem;
+    background-image: url('./img/building.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &--heading {
+        color: $color-white;
+    }
+    &--container {
+        // padding: 3rem; 
+        // margin-top: 4rem;
+        margin: 0 auto;
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // border: 1px dashed red;
+    }
+
+    &--list {
+        list-style: none;
+    }
+
+    &--front-end {
+        display: flex;
+        align-items: center;
+        // border: 1px dashed red;
+
+    }
+
+    &--backend {
+        display: flex;
+        align-items: center;
+        // border: 1px dashed red;
+    }
+
+    &--db {
+        display: flex;
+        align-items: center;
+        // border: 1px dashed red;
+    }
+
+}
+.wrapper {
+    // display: flex;
+    // flex-direction: column;
+
+    h3 {
+        // border: 1px dashed red;
+        display: inline-block;
+        width: 12rem;
+        margin-left: 2.2rem;
+        text-align: center;
+    }
+}
+.cube {
+
+    &__container {
+        
+    }
+
+    &__img {
+        height: 15rem;
+        width: auto;
+        margin: 2rem;
+    }
+
+    &__text {
+
+    }
+}

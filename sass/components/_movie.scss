@@ -1,0 +1,15 @@
+.movie {
+    animation: remove-movie-bg .5s linear 12s 1 forwards;
+    width: 100%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.matrix-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

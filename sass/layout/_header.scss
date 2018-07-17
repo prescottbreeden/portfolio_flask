@@ -1,0 +1,73 @@
+.header {
+    height: 90vh;
+    margin-top: 5rem;
+    background-image: linear-gradient(to bottom, 
+                        rgba($color-black, .0), 
+                        rgba($color-black, .0)),
+                        url('/img/p_logo5.png');
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+    @media only screen and (max-width: 900px) {
+        background-attachment: inherit;
+    }
+
+    &__logo {
+        position: relative;
+
+        // &-img {
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translateX(-50%);
+        //     height: 80rem;
+        //     width: auto;
+
+        // }
+
+    }
+
+    &__title {
+        width: 500%;
+        // color: white;
+        color: $color-white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+   }
+
+    &__primary-text {
+        font-family: 'Vollkorn', serif;
+        font-size: 6rem;
+        letter-spacing: .3rem;
+        text-transform: uppercase;
+    }
+
+    &__secondary-text {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+
+    &__tertiary-text {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        font-style: italic;
+        letter-spacing: 1px;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: $color-red;
+    }
+
+    &__blink {
+        font-size: 3rem;
+        animation: blink 1.5s 4s step-end infinite;
+    }
+}

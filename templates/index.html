@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Prescott Breeden | Software Devleoper</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+		<base href="/">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="{{ url_for('static', filename='app.js') }}"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__title">
+				<h1 class="header__primary-text">
+					Prescott Breeden<span class="header__blink">_</span>
+				</h1>
+				<p class="header__secondary-text">Full-stack Software Developer</p>
+			</div>
+
+		</header>
+		<div class="navigation" id="nav">
+			<div class="navigation__list">
+				<div class="navigation__item navigation__item--home">
+					<svg class="navigation__icon">
+						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-profile"></use>
+					</svg>
+					<span>
+						<a href="#about" class="navigation__link">About</a>
+					</span>
+				</div>
+				<div class="navigation__item">
+					<svg class="navigation__icon navigation__icon--portfolio">
+						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-embed2"></use>
+					</svg>
+					<span>
+						<!-- <a href="#" class="navigation__link">Portfolio</a> -->
+						Portfolio
+					</span>
+				</div>
+				<div class="navigation__item">
+					<svg class="navigation__icon navigation__icon--about">
+						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-database"></use>
+					</svg>
+					<span>
+						<!-- <a href="#tech-top" class="navigation__link">Technology</a> -->
+						Technology
+					</span>
+				</div>
+				<div class="navigation__item">
+					<svg class="navigation__icon navigation__icon--contact">
+						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-envelop"></use>
+					</svg>
+					<span>
+						<!-- <a href="#" class="navigation__link">Contact</a> -->
+						Contact
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="about" id="about">
+			<h2 class="u-center">Welcome!</h2>
+			<div class="about__text-box">
+				<h2 class="about__heading">About Me</h2>
+				<p class="about__blurb">I'm a full-stack software developer with a 
+					background in the arts and sciences. As a former opera singer, then
+					CEO and then neuro&shy;scientist, the one consistency across all
+					realms was the need for newer and better tech to drive innovation. 
+					I love to think big and have a passion for tackling challenges to 
+					find elegant solutions that are clean, efficient and reusable.</p>
+			</div>
+		</div>
+		<div class="services">
+			<h2 class="services--heading">What I Do</h2>
+			<div class="services--container">
+				<div class="empty-space">
+					<!-- empty -->
+				</div>
+				<div class="wrapper">
+					<h3>Front End</h3>
+					<div class="services--front-end">
+						<div class="cube__container">
+							<img 
+							class="cube__img"
+							src="/static/img/cube_primary.png" 
+							alt="blue cube">
+						</div>	
+						<div class="cube__text">
+							<ul class="services--list">
+								<li>Responsive Layouts</li>
+								<li>Mobile Scaling</li>
+								<li>Animations</li>
+							</ul>
+						</div>
+					</div>
+					<h3>Back End</h3>
+					<div class="services--backend">
+						<div class="cube__container">
+							<img 
+							class="cube__img"
+							src="/static/img/cube_red.png" 
+							alt="blue cube">
+						</div>
+						<div class="cube__text">
+							<ul class="services--list">
+								<li>MVC Architecture</li>
+								<li>Restful API Design</li>
+								<li>Object Relational Mapping</li>
+							</ul>
+						</div>
+					</div>
+					<h3>Databases</h3>
+					<div class="services--db">
+						<div class="cube__container">
+							<img 
+							class="cube__img"
+							src="/static/img/cube_teal.png" 
+							alt="blue cube">
+						</div>
+						<div class="cube__text">
+							<ul class="services--list">
+								<li>Database Design</li>
+								<li>SQL Databases</li>
+								<li>NoSQL Databases</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__nav">
+			<ul class="footer__nav--list">
+				<li class="footer__nav--item">
+				<!-- About -->
+				<a href="#about" class="navigation__link">About</a>
+				</li>
+				<li class="footer__nav--item">
+				Portfolio
+				</li>
+				<li class="footer__nav--item">
+				Technology
+				</li>
+				<li class="footer__nav--item">
+				Contact
+				</li>
+			</ul>
+			</div>
+			<div class="footer__text">
+			<p>This site was built by Prescott Breeden. <br>All rights reserved &copy; 2018.</p>
+			</div>
+		
+		</div>
+
+		<div class="footer__logo">
+			<img src="/static/img/p_logo5.png" alt="site logo" class="footer__logo-img">
+			<p class="footer__logo--name">Prescott Breeden, BM</p>
+				<p class="footer__logo--brand">
+			"Anything can be built, it's the idea that's the trick"
+				</p>
+		</div>
+		</footer>
+
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,24 @@
+//base
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_base';
+@import 'base/_typography';
+@import 'base/_animations';
+@import 'base/_utilities';
+@import 'base/_functions';
+
+//layout
+@import 'layout/_footer';
+@import 'layout/_header';
+@import 'layout/_navigation';
+
+//components
+@import 'components/_btn';
+@import 'components/_bg-video';
+@import 'components/_contact';
+@import 'components/_form';
+@import 'components/_movie';
+@import 'components/_portfolio';
+@import 'components/_terminal';
+@import 'components/_about';
+@import 'components/_tech';

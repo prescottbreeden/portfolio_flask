@@ -866,7 +866,7 @@ input:focus {
     max-width: 130rem;
     display: flex;
     padding: 2.5rem 6rem;
-    background-image: linear-gradient(65deg, transparent 40%, rgba(103, 145, 178, 0.9) 0%, rgba(74, 132, 159, 0.9) 60%), url("assets/phpcode.jpeg");
+    background-image: linear-gradient(65deg, transparent 40%, rgba(103, 145, 178, 0.9) 0%, rgba(74, 132, 159, 0.9) 60%), url("img/phpcode.jpeg");
     background-size: cover;
     border-radius: 4px;
     box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5); }

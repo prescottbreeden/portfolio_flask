@@ -62,9 +62,79 @@
 				</div>
 			</div>
 		</div>
-
-<p>contact works</p>
-
+		<section class="contact">
+			<h2 class="contact__header">Get In Touch</h2>
+			<div class="contact__container">
+				<div class="contact__form-box">
+					<!-- empty -->
+				</div>
+				<form class="form" action="/process" method="POST">
+					<div class="form__group">
+						<input 
+							class="form__input" 
+							id="name_fieild" 
+							type="text" 
+							name="name"
+							placeholder="Full Name"
+							autocomplete="name">
+						<label 
+							for="name"
+							class="form__label">
+							Full Name
+						</label>
+					</div>
+					<div class="form__group">
+						<input 
+							class="form__input" 
+							id="email_field" 
+							type="email" 
+							name="email"
+							placeholder="Email Address"
+							autocomplete="email">
+						<label 
+							for="email"
+							class="form__label">
+							Email Address
+						</label>
+					</div>
+					<div class="form__group">
+					<p class="form__textarea-label">
+						Got an idea for a project?</p>
+						
+					<textarea 
+						name="project"
+						maxlength="500"
+						wrap="hard"
+						class="form__textarea"></textarea>
+					</div>	
+					<button class="form__btn">Send &#9993;</button>
+					<p class="form__cta">Send a message and let's chat!</p>
+				</form>
+			</div>
+			<ul class="contact__info">
+				<li class="contact__info--item">
+					<a 
+						href="https://github.com/prescottbreeden"
+						target="_blank">
+						<svg class="contact__icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-github">
+							</use>
+						</svg>
+					</a>
+					<a 
+						href="http://www.linkedin.com/in/prescottbreeden"
+						target="_blank">
+						<svg class="contact__icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-linkedin">
+							</use>
+						</svg>
+					</a>
+			
+				</li>
+			</ul>
+		</section>
 
 		<footer class="footer">
 			<div class="footer__container">

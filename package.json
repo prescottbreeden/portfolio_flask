@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"watch:sass": "node-sass sass/main.scss static/css/styles.css -w",
-	"compile:sass": "node-sass sass/main.scss static/css/styles.comp.css",
-	"prefix:css": "postcss --use autoprefixer -b 'last 10 versions' static/css/styles.comp.css -o static/css/styles.prefix.css",
-	"compress:css": "node-sass static/css/styles.prefix.css static/css/styles.css --output-style compressed",
+	"watch:sass": "node-sass sass/main.scss static/styles.css -w",
+	"compile:sass": "node-sass sass/main.scss static/styles.comp.css",
+	"prefix:css": "postcss --use autoprefixer -b 'last 10 versions' static/styles.comp.css -o static/styles.prefix.css",
+	"compress:css": "node-sass static/styles.prefix.css static/styles.css --output-style compressed",
 	"build:css": "npm-run-all compile:sass prefix:css compress:css"	
   },
   "keywords": [],

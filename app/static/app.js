@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	console.log('power overwhelming');
 
-	$('#fold').waypoint(function(direction){
+	// sticky navigation trigger
+	$('#fold').waypoint(function(direction) {
 		if (direction == "down") {
 			console.log('triggered down');
 			$('.nav').addClass('sticky');
@@ -11,9 +12,9 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.js--scroll-to-fold').click(function(){
-	});
-
+	//=========================================================//
+	//						 NAVIGATION
+	//=========================================================//
 
 	$('.about-nav').on('click', function() {
 		loadAbout();
@@ -35,6 +36,18 @@ $(document).ready(function() {
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})
 
+
+	//=========================================================//
+	//					   TECH DESCRIPTIONS
+	//=========================================================//
+
+
+	$(document).on('click', '.hexagon', function() {
+		console.log(this.innerText);
+	})
+
+
+	
 	//==========================================================//
 	//					      DOM CONTENT
 	//==========================================================//
@@ -265,142 +278,142 @@ $(document).ready(function() {
 			<h2 class="tech__header">Tech & Tools</h2>
 			<ul class="grid clear">
 				<li class="hex-container" >
-					<div class="hexagon img-1" (click)='zoom($event)'>
+					<div class="hexagon img-1"> 
 						<span class="transparent">1</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-9" (click)='zoom($event)'>
+					<div class="hexagon img-9">
 						<span class="transparent">9</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-10" (click)='zoom($event)'>
+					<div class="hexagon img-10">
 						<span class="transparent">10</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-17" (click)='zoom($event)'>
+					<div class="hexagon img-17">
 						<span class="transparent">17</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-18" (click)='zoom($event)'>
+					<div class="hexagon img-18">
 						<span class="transparent">18</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-19" (click)='zoom($event)'>
+					<div class="hexagon img-19">
 						<span class="transparent">19</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-27" (click)='zoom($event)'>
+					<div class="hexagon img-27">
 						<span class="transparent">27</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-2" (click)='zoom($event)'>
+					<div class="hexagon img-2" >
 						<span class="transparent">2</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-8" (click)='zoom($event)'>
+					<div class="hexagon img-8">
 						<span class="transparent">8</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-11" (click)='zoom($event)'>
+					<div class="hexagon img-11">
 						<span class="transparent">11</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-16" (click)='zoom($event)'>
+					<div class="hexagon img-16">
 						<span class="transparent">16</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-20" (click)='zoom($event)'>
+					<div class="hexagon img-20">
 						<span class="transparent">20</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-26" (click)='zoom($event)'>
+					<div class="hexagon img-26">
 						<span class="transparent">26</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-28" (click)='zoom($event)'>
+					<div class="hexagon img-28">
 						<span class="transparent">28</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-3" (click)='zoom($event)'>
+					<div class="hexagon img-3">
 						<span class="transparent">3</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-5" (click)='zoom($event)'>
+					<div class="hexagon img-5">
 						<span class="transparent">5</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-7" (click)='zoom($event)'>
+					<div class="hexagon img-7">
 						<span class="transparent">7</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-12" (click)='zoom($event)'>
+					<div class="hexagon img-12">
 						<span class="transparent">12</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-15" (click)='zoom($event)'>
+					<div class="hexagon img-15">
 						<span class="transparent">15</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-21" (click)='zoom($event)'>
+					<div class="hexagon img-21">
 						<span class="transparent">21</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-25" (click)='zoom($event)'>
+					<div class="hexagon img-25">
 						<span class="transparent">25</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-4" (click)='zoom($event)'>
+					<div class="hexagon img-4">
 						<span class="transparent">4</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-6" (click)='zoom($event)'>
+					<div class="hexagon img-6">
 						<span class="transparent">6</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-13" (click)='zoom($event)'>
+					<div class="hexagon img-13">
 						<span class="transparent">13</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-14" (click)='zoom($event)'>
+					<div class="hexagon img-14">
 						<span class="transparent">14</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-22" (click)='zoom($event)'>
+					<div class="hexagon img-22">
 						<span class="transparent">22</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-23" (click)='zoom($event)'>
+					<div class="hexagon img-23">
 						<span class="transparent">23</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
-					<div class="hexagon img-24" (click)='zoom($event)'>
+					<div class="hexagon img-24">
 						<span class="transparent">24</span>
 					</div>
 				</li>     

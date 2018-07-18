@@ -1232,27 +1232,3 @@ input:focus {
 
 .grid .hex-container:nth-child(14n+8) {
   margin-left: 1%; }
-
-/*
-
-// .grid .hex-container:nth-child(1n+1) {
-// 	margin: 0.5%;
-// }
-
-.grid .hex-container:nth-child(14n+8), 
-.grid .hex-container:nth-child(14n+9), 
-.grid .hex-container:nth-child(14n+10), 
-.grid .hex-container:nth-child(14n+11), 
-.grid .hex-container:nth-child(14n+12), 
-.grid .hex-container:nth-child(14n+13), 
-.grid .hex-container:nth-child(14n+14) {
-    margin: -3.74% 0;
-    transform: translateX(50%) rotate(-60deg) skewY(30deg);
-}
-
-.grid .hex-container:nth-child(14n+8) { 
-    // margin-left: 7.5%;
-    // margin-left: 1%;
-}
-
-*/

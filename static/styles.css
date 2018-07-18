@@ -729,8 +729,7 @@ body {
     color: #f7f7f7; }
 
 .header {
-  height: 90vh;
-  margin-top: 5rem;
+  height: 95vh;
   background-image: linear-gradient(to bottom, rgba(34, 34, 34, 0), rgba(34, 34, 34, 0)), url("img/p_logo5.png");
   background-position: center center;
   background-size: 50%;
@@ -774,7 +773,7 @@ body {
     animation: blink 1.5s 4s step-end infinite; }
 
 #fold {
-  padding-top: 5rem; }
+  padding-top: 4rem; }
 
 .nav {
   position: absolute;
@@ -816,7 +815,7 @@ body {
     height: 5px;
     background-color: #4A849F;
     transform: scaleX(0);
-    transition: transform 0.2s, background-color 0.1s; }
+    transition: transform .2s, background-color .1s; }
   .nav__item:hover::before {
     transform: scaleY(1); }
   .nav__icon {

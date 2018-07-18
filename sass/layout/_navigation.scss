@@ -1,5 +1,5 @@
 #fold {
-	padding-top: 5rem;
+	padding-top: 4rem;
 }
 
 .nav {
@@ -10,13 +10,8 @@
     z-index: 300;
     background-color: $color-black-light;
     width: 100%;
-    // color: var(--color-grey-light-1);
     color: $color-white;
     
-    &__sidebar {
-        // position: fixed;
-    }
-
     &__list {
         margin: 0 auto;
         width: 60%;
@@ -36,7 +31,6 @@
         padding: 1rem;
         display: flex;
         letter-spacing: 1.5px;
-
 
         & > * {
             height: 100%;  
@@ -59,13 +53,11 @@
         background-color: $color-primary;
         transform: scaleX(0);
         transition: transform .2s,
-                    // height .4s cubic-bezier(1,0,0,1) .2s,
                     background-color .1s;
     }
 
     &__item:hover::before {
         transform: scaleY(1);
-        // width: 100%;
     }
 
     &__icon {

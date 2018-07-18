@@ -1,6 +1,10 @@
-.navigation {
-    position: fixed;
-    top: 0;
+#fold {
+	padding-top: 5rem;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0;
     left: 0;
     height: 5rem;
     z-index: 300;
@@ -76,10 +80,9 @@
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
     
 }
 

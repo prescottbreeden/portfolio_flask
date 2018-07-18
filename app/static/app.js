@@ -16,22 +16,22 @@ $(document).ready(function() {
 	//						 NAVIGATION
 	//=========================================================//
 
-	$('.about-nav').on('click', function() {
+	$(document).on('click', '.about-nav', function() {
 		loadAbout();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})
 
-	$('.portfolio-nav').on('click', function() {
+	$(document).on('click', '.portfolio-nav', function() {
 		loadPortfolio();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})
 	
-	$('.tech-nav').on('click', function() {
+	$(document).on('click', '.tech-nav', function() {
 		loadTech();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})
 
-	$('.contact-nav').on('click', function() {
+	$(document).on('click', '.contact-nav', function() {
 		loadContact();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})

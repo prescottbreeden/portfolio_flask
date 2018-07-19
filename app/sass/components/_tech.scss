@@ -37,6 +37,15 @@
         position: relative;
         border: 1px solid $color-black;
 
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			height: inherit;
+			width: auto;
+		}
+
         &--img {
             padding: .5rem;
             position: absolute;

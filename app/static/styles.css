@@ -1158,6 +1158,13 @@ input:focus {
     width: 12rem;
     position: relative;
     border: 1px solid #222; }
+    .tech__logo-box img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: inherit;
+      width: auto; }
     .tech__logo-box--img {
       padding: .5rem;
       position: absolute;

@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	console.log('power overwhelming');
 
+
 	// sticky navigation trigger
 	$('#fold').waypoint(function(direction) {
 		if (direction == "down") {
@@ -44,6 +45,22 @@ $(document).ready(function() {
 
 	$(document).on('click', '.hexagon', function() {
 		console.log(this.innerText);
+		id = this.innerText;
+		$.ajax({
+			url: `/tech/${id}`,
+			dataType: 'json',
+			success: function(res) {
+				console.log(res);
+				blurb = res['blurb'];
+				name = res['name'];
+				document.getElementById('blurb').innerHTML=`
+				<p>${blurb}</p>
+				`
+				document.getElementById('tech_image').innerHTML=`
+				<img src="/static/img/logos/${name}.png">
+				`
+			}
+		});
 	})
 
 
@@ -279,152 +296,152 @@ $(document).ready(function() {
 			<ul class="grid clear">
 				<li class="hex-container" >
 					<div class="hexagon img-1"> 
-						<span class="transparent">1</span>
+						<span class="transparent">flask</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-9">
-						<span class="transparent">9</span>
+						<span class="transparent">django</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-10">
-						<span class="transparent">10</span>
+						<span class="transparent">dotnet</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-17">
-						<span class="transparent">17</span>
+						<span class="transparent">nodejs</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-18">
-						<span class="transparent">18</span>
+						<span class="transparent">express</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-19">
-						<span class="transparent">19</span>
+						<span class="transparent">angular</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-27">
-						<span class="transparent">27</span>
+						<span class="transparent">react</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-2" >
-						<span class="transparent">2</span>
+						<span class="transparent">python</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-8">
-						<span class="transparent">8</span>
+						<span class="transparent">csharp</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-11">
-						<span class="transparent">11</span>
+						<span class="transparent">r</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-16">
-						<span class="transparent">16</span>
+						<span class="transparent">sql</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-20">
-						<span class="transparent">20</span>
+						<span class="transparent">mongodb</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-26">
-						<span class="transparent">26</span>
+						<span class="transparent">firebase</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-28">
-						<span class="transparent">28</span>
+						<span class="transparent">sqlite</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-3">
-						<span class="transparent">3</span>
+						<span class="transparent">sass</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-5">
-						<span class="transparent">5</span>
+						<span class="transparent">jquery</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-7">
-						<span class="transparent">7</span>
+						<span class="transparent">bootstrap</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-12">
-						<span class="transparent">12</span>
+						<span class="transparent">postman</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-15">
-						<span class="transparent">15</span>
+						<span class="transparent">git</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-21">
-						<span class="transparent">21</span>
+						<span class="transparent">github</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-25">
-						<span class="transparent">25</span>
+						<span class="transparent">vim</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-4">
-						<span class="transparent">4</span>
+						<span class="transparent">aws</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-6">
-						<span class="transparent">6</span>
+						<span class="transparent">ubuntu</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-13">
-						<span class="transparent">13</span>
+						<span class="transparent">nginx</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-14">
-						<span class="transparent">14</span>
+						<span class="transparent">html5</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-22">
-						<span class="transparent">22</span>
+						<span class="transparent">css3</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-23">
-						<span class="transparent">23</span>
+						<span class="transparent">javascript</span>
 					</div>
 				</li>     
 				<li class="hex-container" >
 					<div class="hexagon img-24">
-						<span class="transparent">24</span>
+						<span class="transparent">vscode</span>
 					</div>
 				</li>     
 			</ul>
 			<div class="tech__details">
 				<div class="tech__details--container">
 
-					<div class="tech__logo-box">
+					<div class="tech__logo-box" id="tech_image">
 						<!-- empty -->
 					</div>
-					<div class="tech__explain">
+					<div class="tech__explain" id="blurb">
 						<p class="u-center">Click on a logo to learn more.</p>
 					</div>
 				</div>

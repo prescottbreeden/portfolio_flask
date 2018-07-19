@@ -1098,7 +1098,7 @@ input:focus {
 
 .services {
   padding: 3rem 5rem;
-  background-image: url("img/turtle.jpg");
+  background-image: linear-gradient(to right, rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1)), url("img/herbie.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

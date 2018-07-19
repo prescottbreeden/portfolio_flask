@@ -26,7 +26,10 @@
 
 .services {
     padding: 3rem 5rem;
-    background-image: url('img/turtle.jpg');
+    background-image: linear-gradient(to right,
+						rgba($color-black, .1),
+						rgba($color-black, .1)),
+						url('img/herbie.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;

@@ -6,10 +6,6 @@ import json
 
 @app.route('/')
 def home():
-    tech = Tech.query.all()
-    print(tech)
-    for t in tech:
-        print(t)
     return render_template('index.html')
 
 

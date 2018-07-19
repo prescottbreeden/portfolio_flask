@@ -678,9 +678,9 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 4rem 0;
+  padding: 10rem 3rem;
   position: relative;
-  height: 20rem; }
+  height: 30rem; }
   .footer__container {
     display: flex;
     justify-content: space-between; }
@@ -1102,7 +1102,6 @@ input:focus {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: #f7f7f7; }
   .services--heading {
     color: #f7f7f7; }

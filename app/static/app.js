@@ -164,117 +164,98 @@ $(document).ready(function() {
 			<h2 class="portfolio__header">My Work</h2>
 			<div class="project">
 				<div class="project__description">
-				<h2 class="project__description--header">
-					Powder
-				</h2>
-				<p class="project__description--text">
-					Powder is a mock-landing page showcasing various animations 
-					and features capable with just CSS3 and HTML5 alone. The 
-					site is fully responsive to provide a smooth user 
-					experience on various device sizes.
-				</p>
-				<p class="project__description--link">
-					<a 
-					href="http://13.58.172.1/"
-					target="_blank">Visit Website &rarr;</a>
-				</p>
+					<h2 class="project__description--header">
+						Powder
+					</h2>
+					<p class="project__description--text">
+						Powder is a mock-landing page showcasing various animations 
+						and features capable with just CSS3 and HTML5 alone. The 
+						site is fully responsive to provide a smooth user 
+						experience on various device sizes.
+					</p>
+					<div class="project__tech">
+						<p>Angular, Express, JavaScript, SASS, AWS</p>
+					</div>
+					<p class="project__description--link">
+						<a 
+						href="http://13.58.172.1/"
+						target="_blank">Visit Website &rarr;</a>
+					</p>
 				</div>
 				<div class="project__desktop">
-				<a 
-					href="http://13.58.172.1/"
-					target="_blank">
-					<img 
-						src="/static/img/powder_desktop.png" 
-						alt="project web page"
-						class="project__desktop--img">
-				</a>
-				</div>
-				<div class="project__tech">
-				<ul class="project__tech--list">
-					<li class="project__tech--item">Angular</li>
-					<li class="project__tech--item">Express</li>
-					<li class="project__tech--item">JavaScript</li>
-					<li class="project__tech--item">SASS</li>
-					<li class="project__tech--item">AWS</li>
-				</ul>
+					<a 
+						href="http://13.58.172.1/"
+						target="_blank">
+						<img 
+							src="/static/img/powder_desktop.png" 
+							alt="project web page"
+							class="project__desktop--img">
+					</a>
 				</div>
 			</div>
 			<div class="project">
 				<div class="project__description">
-				<h2 class="project__description--header">
-					Ultimate Fan
-				</h2>
-				<p class="project__description--text">
-					Ultimate Fan is a trivia game that tests users about 
-					athletes from selected categories. All trivia questions 
-					were generated via web scraping robot. 
-				</p>
-				<p class="project__description--link">
-					<a 
-					href="http://18.220.231.186/"
-					target="_blank">Visit Website &rarr;</a>
-				</p>
+					<h2 class="project__description--header">
+						Ultimate Fan
+					</h2>
+					<p class="project__description--text">
+						Ultimate Fan is a trivia game that tests users about 
+						athletes from selected categories. All trivia questions 
+						were generated via web scraping robot. 
+					</p>
+					<div class="project__tech">
+						<p>
+							Django, Python, JavaScript, SASS, SQLite, 
+							Beautiful Soup,	Chart.js, Bcrypt, AWS
+						</p>
+					</div>
+					<p class="project__description--link">
+						<a 
+						href="http://18.220.231.186/"
+						target="_blank">Visit Website &rarr;</a>
+					</p>
 				</div>
 				<div class="project__desktop">
-				<a 
-					href="http://18.220.231.186/"
-					target="blank">
-					<img 
-						src="/static/img/ultimate_fan.png" 
-						alt="project web page"
-						class="project__desktop--img">
-				</a>
-				</div>
-				<div class="project__tech">
-				<ul class="project__tech--list">
-					<li class="project__tech--item">Django</li>
-					<li class="project__tech--item">Python</li>
-					<li class="project__tech--item">JavaScript</li>
-					<li class="project__tech--item">SASS</li>
-					<li class="project__tech--item">SQLite</li>
-					<li class="project__tech--item">Beautiful Soup</li>
-					<li class="project__tech--item">Chart.js</li>
-					<li class="project__tech--item">Bcrypt</li>
-					<li class="project__tech--item">AWS</li>
-				</ul>
+					<a 
+						href="http://18.220.231.186/"
+						target="blank">
+						<img 
+							src="/static/img/ultimate_fan.png" 
+							alt="project web page"
+							class="project__desktop--img">
+					</a>
 				</div>
 			</div>
 			<div class="project">
 				<div class="project__description">
-				<h2 class="project__description--header">
-					Casino 31
-				</h2>
-				<p class="project__description--text">
-					Casino 31 is a card game for 1-6 players. Users can play 
-					with their friends, the AI computer, or even just watch the 
-					computer play. 
-				</p>
-				<p class="project__description--link">
-					<a 
-					href="http://18.188.70.127/"
-					target="_blank">Visit Website &rarr;</a>
-				</p>
+					<h2 class="project__description--header">
+						Casino 31
+					</h2>
+					<p class="project__description--text">
+						Casino 31 is a card game for 1-6 players. Users can play 
+						with their friends, the AI computer, or even just watch the 
+						computer play. 
+					</p>
+					<div class="project__tech">
+						<p>
+							ASP.NET Core, C#, JavaScript, jQuery, AJAX, SASS, AWS
+						</p>
+					</div>
+					<p class="project__description--link">
+						<a 
+						href="http://18.188.70.127/"
+						target="_blank">Visit Website &rarr;</a>
+					</p>
 				</div>
 				<div class="project__desktop">
-				<a 
-					href="http://18.188.70.127/"
-					target="_blank">
-					<img 
-						src="/static/img/casino31.png" 
-						alt="project web page"
-						class="project__desktop--img">
-				</a>
-				</div>
-				<div class="project__tech">
-				<ul class="project__tech--list">
-					<li class="project__tech--item">ASP.NET Core</li>
-					<li class="project__tech--item">C#</li>
-					<li class="project__tech--item">JavaScript</li>
-					<li class="project__tech--item">jQuery</li>
-					<li class="project__tech--item">AJAX</li>
-					<li class="project__tech--item">SASS</li>
-					<li class="project__tech--item">AWS</li>
-				</ul>
+					<a 
+						href="http://18.188.70.127/"
+						target="_blank">
+						<img 
+							src="/static/img/casino31.png" 
+							alt="project web page"
+							class="project__desktop--img">
+					</a>
 				</div>
 			</div>
 		</section>

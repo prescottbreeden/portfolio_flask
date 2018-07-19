@@ -37,6 +37,8 @@
         }
 
         &--link {
+            margin-top: 4rem;
+
             a {
                 padding: .3rem;
                 color: $color-primary;
@@ -44,41 +46,36 @@
                 border-bottom: 3px dashed $color-primary;
                 letter-spacing: 1px;
                 font-weight: 700;
+				transition: all .2s;
 
                 &:hover {
                     background-color: rgba($color-primary, .5);
                     color: $color-white;
                 }
             }
-            margin-top: 4rem;
-            transition: all .2s;
 
         }
     }
 
     &__tech {
-        flex: 1 1 10%;
-        // border: 1px dashed orangered;
-
-        &--list {
-            // margin-top: 4rem;
-            padding: 3rem;
-            list-style: none;
-        }
-
-        &--item {
-            text-align: left;
-        }
+		margin-top: 2rem;
+		font-style: italic;
     }
 
     &__desktop {
         flex: 2 2 40%;
         // border: 1px dashed orangered;
         text-align: center;
+		animation: appear .5s linear 1;
 
         &--img {
             height: 40rem;
             width: auto;
+			transition: all .2s;
+
+			&:hover {
+				transform: scale(1.1);
+			}
         }
     }
 

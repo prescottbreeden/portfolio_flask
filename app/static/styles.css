@@ -51,6 +51,12 @@ body {
   100% {
     opacity: 1; } }
 
+@keyframes slide {
+  0% {
+    transform: translateX(50rem); }
+  100% {
+    transform: translateX(50rem); } }
+
 .u-color-purple {
   color: purple; }
 
@@ -678,12 +684,25 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem 3rem;
-  position: relative;
-  height: 30rem; }
+  padding: 10rem 3rem 15rem 3rem;
+  position: relative; }
+  .footer__logo {
+    text-align: center; }
+    .footer__logo-img {
+      height: 20rem;
+      width: auto; }
+    .footer__logo--brand {
+      text-align: center;
+      color: #F2845C;
+      letter-spacing: 1px; }
+    .footer__logo--name {
+      font-family: Raleway;
+      font-size: 3rem;
+      color: #f7f7f7; }
   .footer__container {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 8rem; }
   .footer__nav {
     width: 30%;
     display: inline-block;
@@ -702,31 +721,22 @@ body {
       flex: 1 100%;
       outline: none;
       cursor: pointer;
-      transition: all .2s;
-      z-index: 100; }
+      transition: all .2s; }
       .footer__nav--item:hover {
-        border-top: 0.3rem solid #28b485;
+        border-top: 0.3rem solid #ff9c67;
         color: #28b485; }
-  .footer__logo {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-    .footer__logo-img {
-      height: 10rem;
-      width: auto; }
-    .footer__logo--brand {
-      text-align: center;
-      color: #F2845C;
-      letter-spacing: 1px; }
-    .footer__logo--name {
-      color: #f7f7f7; }
+      .footer__nav--item:active {
+        border-top: 0.3rem solid #28b485; }
   .footer__text {
     width: 30%;
+    border-top: 0.3rem solid #f7f7f7;
+    padding-top: 1rem;
     margin-right: 10rem;
     text-align: center;
     color: #f7f7f7; }
+    .footer__text:hover {
+      border-top: 0.3rem solid #ff9c67;
+      cursor: pointer; }
 
 .header {
   height: 95vh;
@@ -1016,31 +1026,31 @@ input:focus {
     .project__description--header {
       padding: 3rem; }
     .project__description--link {
-      margin-top: 4rem;
-      transition: all .2s; }
+      margin-top: 4rem; }
       .project__description--link a {
         padding: .3rem;
         color: #4A849F;
         text-decoration: none;
         border-bottom: 3px dashed #4A849F;
         letter-spacing: 1px;
-        font-weight: 700; }
+        font-weight: 700;
+        transition: all .2s; }
         .project__description--link a:hover {
           background-color: rgba(74, 132, 159, 0.5);
           color: #f7f7f7; }
   .project__tech {
-    flex: 1 1 10%; }
-    .project__tech--list {
-      padding: 3rem;
-      list-style: none; }
-    .project__tech--item {
-      text-align: left; }
+    margin-top: 2rem;
+    font-style: italic; }
   .project__desktop {
     flex: 2 2 40%;
-    text-align: center; }
+    text-align: center;
+    animation: appear .5s linear 1; }
     .project__desktop--img {
       height: 40rem;
-      width: auto; }
+      width: auto;
+      transition: all .2s; }
+      .project__desktop--img:hover {
+        transform: scale(1.1); }
 
 .terminal {
   font-size: 2rem;
@@ -1098,7 +1108,7 @@ input:focus {
 
 .services {
   padding: 3rem 5rem;
-  background-image: linear-gradient(to right, rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1)), url("img/herbie.jpg");
+  background-image: linear-gradient(to right, rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1)), url("img/turtle.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

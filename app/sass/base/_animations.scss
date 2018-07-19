@@ -16,4 +16,11 @@
     }
 }
 
-
+@keyframes slide {
+	0% {
+		transform: translateX(50rem);
+	}
+	100% {
+		transform: translateX(50rem);
+	}
+}

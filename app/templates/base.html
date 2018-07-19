@@ -26,44 +26,43 @@
 				</h1>
 				<p class="header__secondary-text">Full-stack Software Developer</p>
 			</div>
-
+			<nav class="nav">
+				<div class="nav__list">
+					<div class="nav__item nav__item--home about-nav">
+						<svg class="nav__icon">
+							<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-profile"></use>
+						</svg>
+						<span>
+							<a class="nav__link">About</a>
+						</span>
+					</div>
+					<div class="nav__item portfolio-nav">
+						<svg class="nav__icon nav__icon--portfolio">
+							<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-embed2"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Portfolio</a>
+						</span>
+					</div>
+					<div class="nav__item tech-nav">
+						<svg class="nav__icon navigation__icon--about">
+							<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-database"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Technology</a>
+						</span>
+					</div>
+					<div class="nav__item contact-nav">
+						<svg class="nav__icon navigation__icon--contact">
+							<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-envelop"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Contact</a>
+						</span>
+					</div>
+				</div>
+			</nav>
 		</header>
-		<nav class="nav">
-			<div class="nav__list">
-				<div class="nav__item nav__item--home about-nav">
-					<svg class="nav__icon">
-						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-profile"></use>
-					</svg>
-					<span>
-						<a class="nav__link">About</a>
-					</span>
-				</div>
-				<div class="nav__item portfolio-nav">
-					<svg class="nav__icon nav__icon--portfolio">
-						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-embed2"></use>
-					</svg>
-					<span>
-						<a class="nav__link">Portfolio</a>
-					</span>
-				</div>
-				<div class="nav__item tech-nav">
-					<svg class="nav__icon navigation__icon--about">
-						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-database"></use>
-					</svg>
-					<span>
-						<a class="nav__link">Technology</a>
-					</span>
-				</div>
-				<div class="nav__item contact-nav">
-					<svg class="nav__icon navigation__icon--contact">
-						<use xlink:href="/static/img/icomoon_15_icons/sprite.svg#icon-envelop"></use>
-					</svg>
-					<span>
-						<a class="nav__link">Contact</a>
-					</span>
-				</div>
-			</div>
-		</nav>
 		{% block content %}{% endblock %}
 		<footer class="footer">
 		<div class="footer__logo">

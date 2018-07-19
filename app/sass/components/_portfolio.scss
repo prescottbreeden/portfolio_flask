@@ -1,5 +1,5 @@
 .portfolio {
-    padding-top: 6rem;
+    padding: 6rem 3rem 3rem 3rem;
     background-color: $color-white;
 
     &__header {
@@ -7,28 +7,18 @@
     }
 }
 
-.divider {
-    margin: 3rem auto 0 auto;
-    width: 40%;
-    height: 1rem;
-    border-bottom: 2px solid rgba($color-black-light, .6);
-}
-
-
 .project {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
-    min-height: 50vh;
-    padding: 6rem 3rem 3rem 3rem;
+    padding: 3rem;
     background-color: $color-white;
 
     &__description {
-        flex: 2 2 20%;
-        text-align: center;
         // border: 1px dashed orangered;
 
         &--header {
+			text-align: center;
             padding: 3rem;
         }
 
@@ -37,6 +27,7 @@
         }
 
         &--link {
+			text-align: center;
             margin-top: 4rem;
 
             a {
@@ -58,12 +49,12 @@
     }
 
     &__tech {
+        text-align: center;
 		margin-top: 2rem;
 		font-style: italic;
     }
 
     &__desktop {
-        flex: 2 2 40%;
         // border: 1px dashed orangered;
         text-align: center;
 		animation: appear .5s linear 1;

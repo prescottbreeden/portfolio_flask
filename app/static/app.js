@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 	// sticky navigation trigger
-	$('#fold').waypoint(function(direction) {
+	$('nav').waypoint(function(direction) {
 		if (direction == "down") {
 			console.log('triggered down');
 			$('.nav').addClass('sticky');

@@ -26,11 +26,12 @@
 
 .services {
     padding: 3rem 5rem;
-    background-image: url('img/building.jpeg');
+    background-image: url('img/turtle.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+	color: $color-white;
 
     &--heading {
         color: $color-white;

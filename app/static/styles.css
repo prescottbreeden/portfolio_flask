@@ -1098,11 +1098,12 @@ input:focus {
 
 .services {
   padding: 3rem 5rem;
-  background-image: url("img/building.jpeg");
+  background-image: url("img/turtle.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  color: #f7f7f7; }
   .services--heading {
     color: #f7f7f7; }
   .services--container {

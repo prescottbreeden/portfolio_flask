@@ -418,12 +418,18 @@ $(document).ready(function() {
 			</ul>
 			<div class="tech__details">
 				<div class="tech__details--container">
-
-					<div class="tech__logo-box" id="tech_image">
-						<!-- empty -->
+					<div class="tech__logo-box">
+						<div class="tech__logo-pad">
+							<div class="tech__logo" id="tech_image">
+								<!-- empty -->
+							</div>
+						</div>
 					</div>
 					<div class="tech__explain" id="blurb">
-						<p class="u-center">Click on a logo to learn more.</p>
+						<p>
+							Click on a logo above to learn more about some of
+							my favorite tech!
+						</p>
 					</div>
 				</div>
 			</div>

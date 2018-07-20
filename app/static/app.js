@@ -1,3 +1,5 @@
+$.mobile.loader.prototype.options.text = "";
+
 $(document).ready(function() {
 	console.log('power overwhelming');
 

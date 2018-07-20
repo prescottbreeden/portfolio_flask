@@ -663,25 +663,30 @@ $(document).ready(function() {
 					<p class="form__cta">Send a message and let's chat!</p>
 				</form>
 			</div>
+			<h3 class="contact__info--header">Connect</h3>
 			<ul class="contact__info">
 				<li class="contact__info--item">
 					<a 
 						href="https://github.com/prescottbreeden"
-						target="_blank">
+						target="_blank"
+						class="contact__info--link">
 						<svg class="contact__icon">
 							<use 
 								xlink:href="/static/img/icomoon/sprite.svg#icon-github">
 							</use>
 						</svg>
+						Github
 					</a>
 					<a 
 						href="http://www.linkedin.com/in/prescottbreeden"
-						target="_blank">
+						target="_blank"
+						class="contact__info--link">
 						<svg class="contact__icon">
 							<use 
 								xlink:href="/static/img/icomoon/sprite.svg#icon-linkedin">
 							</use>
 						</svg>
+						LinkedIn
 					</a>
 			
 				</li>

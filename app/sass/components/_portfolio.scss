@@ -6,10 +6,17 @@
         text-align: center;
     }
 }
-.contrib-link {
+
+.contrib-link:link,
+.contrib-link:visited {
 	margin-left: 1rem;
 	color: $color-primary-dark;
+
+	&:hover {
+		color: $color-green-dark;
+	}
 }
+
 .project {
     display: flex;
     justify-content: center;

@@ -950,18 +950,28 @@ input:focus {
   .contact__form-box {
     width: 50%; }
   .contact__info {
-    padding: 6rem; }
+    padding: 4rem; }
+    .contact__info--header {
+      text-align: center;
+      text-transform: uppercase;
+      visibility: hidden; }
     .contact__info--item {
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center; }
+    .contact__info--link:link, .contact__info--link:visited {
+      text-decoration: none;
+      color: #28b485;
+      letter-spacing: 1px; }
   .contact__icon {
     height: 5rem;
     width: 5rem;
-    margin: 2rem; }
+    margin: 0 2rem;
+    display: flex;
+    fill: #28b485; }
     .contact__icon:hover {
-      fill: #4A849F;
+      fill: #ff9c67;
       cursor: pointer; }
 
 .form {
@@ -1070,9 +1080,13 @@ input:focus {
   .portfolio__header {
     text-align: center; }
 
-.contrib-link {
+.contrib-link:link,
+.contrib-link:visited {
   margin-left: 1rem;
   color: #3f7188; }
+  .contrib-link:link:hover,
+  .contrib-link:visited:hover {
+    color: #28b485; }
 
 .project {
   display: flex;

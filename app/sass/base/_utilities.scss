@@ -1,4 +1,8 @@
-.u-color-purple { color: purple }
-.u-color-grey { color: grey }
-
+.u-color-primary { 
+	color: $color-primary; 
+}
+.u-color-red { 
+	color: $color-red-light; 
+	font-weight: 700;
+}
 .u-center { text-align: center !important; }

@@ -184,19 +184,55 @@ $(document).ready(function() {
 						Powder
 					</h2>
 					<p class="project__description--text">
-						Powder is a mock-landing page showcasing various animations 
+						<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
 						and features capable with just CSS3 and HTML5 alone. The 
 						site is fully responsive to provide a smooth user 
 						experience on various device sizes.
 					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
-						<p>[Angular, Express, JavaScript, SASS, AWS]</p>
+					</div>
+					<div class="project__tech-row">
+						<img
+							src="/static/img/logos/angular.png"
+							alt="angular logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/express.png"
+							alt="express logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/nodejs.png"
+							alt="nodejs logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/sass.png"
+							alt="sass logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/aws.png"
+							alt="aws logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/html5.png"
+							alt="html5 logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/css3.png"
+							alt="css3 logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/logos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
 					</div>
 					<p class="project__description--link">
 						<a 
-						href="http://13.58.172.1/"
-						target="_blank">Visit Website &rarr;</a>
+							href="https://github.com/prescottbreeden/powder_angular"
+							target="_blank">Source Code &rarr;</a>
+						<a 
+							href="http://13.58.172.1/"
+							target="_blank">Visit Website &rarr;</a>
 					</p>
 				</div>
 				<div class="project__desktop">
@@ -216,21 +252,63 @@ $(document).ready(function() {
 						Ultimate Fan
 					</h2>
 					<p class="project__description--text">
-						Ultimate Fan is a trivia game that tests users about 
+						<span class="u-color-red">Ultimate Fan</span> is a trivia game that tests users about 
 						athletes from selected categories. All trivia questions 
 						were generated via web scraping robot. 
 					</p>
+					<p><span class="u-color-red">Contributors:</span> Stephen Silverstein</p>
 					<div class="project__tech">
 						<p>Built with:</p>
-						<p>
-							[Django, Python, JavaScript, SASS, SQLite, 
-							Beautiful Soup,	Chart.js, Bcrypt, AWS]
-						</p>
+						<div class="project__tech-row">
+							<img
+								src="/static/img/logos/django.png"
+								alt="django logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/python.png"
+								alt="python logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/nodejs.png"
+								alt="nodejs logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/sqlite.png"
+								alt="sqlite logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/sass.png"
+								alt="sass logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/jquery.png"
+								alt="jquery logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/aws.png"
+								alt="aws logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/html5.png"
+								alt="html5 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/css3.png"
+								alt="css3 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/javascript.png"
+								alt="javascript logo"
+								class="project__tech-row--img">
+						</div>
 					</div>
 					<p class="project__description--link">
 						<a 
-						href="http://18.220.231.186/"
-						target="_blank">Visit Website &rarr;</a>
+							href="https://github.com/prescottbreeden/ultimate_fan_project"
+							target="_blank">Source Code &rarr;</a>
+						<a 
+							href="http://18.220.231.186/"
+							target="_blank">Visit Website &rarr;</a>
 					</p>
 				</div>
 				<div class="project__desktop">
@@ -250,20 +328,73 @@ $(document).ready(function() {
 						Casino 31
 					</h2>
 					<p class="project__description--text">
-						Casino 31 is a card game for 1-6 players. Users can play 
+						<span class="u-color-red">Casino 31</span> is a card game for 1-6 players. Users can play 
 						with their friends, the AI computer, or even just watch the 
-						computer play. 
+						computer play. Cards are served from our own API on a 
+						seperate express server 
+					</p>
+					<p><span class="u-color-red">Contributors:</span> Lawyer Helbing, Justin Peterson</p>
+					<p>
+						<span class="u-color-red">Note:</span> due to free-hosting limitations, the
+						card-API server takes about 30s to fire up before they can
+						be rendered with gameplay.
 					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
-						<p>
-							[ASP.NET Core, C#, JavaScript, jQuery, AJAX, SASS, AWS]
-						</p>
+						<div class="project__tech-row">
+							<img
+								src="/static/img/logos/dotnet.png"
+								alt="dotnet logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/csharp.png"
+								alt="csharp logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/express.png"
+								alt="express logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/nodejs.png"
+								alt="nodejs logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/bootstrap.png"
+								alt="bootstrap logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/sass.png"
+								alt="sass logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/jquery.png"
+								alt="jquery logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/aws.png"
+								alt="aws logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/html5.png"
+								alt="html5 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/css3.png"
+								alt="css3 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/logos/javascript.png"
+								alt="javascript logo"
+								class="project__tech-row--img">
+						</div>
 					</div>
 					<p class="project__description--link">
 						<a 
-						href="http://18.188.70.127/"
-						target="_blank">Visit Website &rarr;</a>
+							href="https://github.com/prescottbreeden/_31_by_3"
+							target="_blank">Source Code &rarr;</a>
+						<a 
+							href="http://18.188.70.127/"
+							target="_blank">Visit Website &rarr;</a>
 					</p>
 				</div>
 				<div class="project__desktop">

@@ -15,7 +15,7 @@
     background-color: $color-white;
 
     &__description {
-        // border: 1px dashed orangered;
+        text-align: center;
 
         &--header {
 			text-align: center;
@@ -49,9 +49,10 @@
     }
 
     &__tech {
-        text-align: center;
+		text-align: center;
 		margin-top: 2rem;
 		font-style: italic;
+		font-size: 1.5rem;
     }
 
     &__desktop {

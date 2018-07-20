@@ -174,7 +174,8 @@ $(document).ready(function() {
 						experience on various device sizes.
 					</p>
 					<div class="project__tech">
-						<p>Angular, Express, JavaScript, SASS, AWS</p>
+						<p>Built with:</p>
+						<p>[Angular, Express, JavaScript, SASS, AWS]</p>
 					</div>
 					<p class="project__description--link">
 						<a 
@@ -204,9 +205,10 @@ $(document).ready(function() {
 						were generated via web scraping robot. 
 					</p>
 					<div class="project__tech">
+						<p>Built with:</p>
 						<p>
-							Django, Python, JavaScript, SASS, SQLite, 
-							Beautiful Soup,	Chart.js, Bcrypt, AWS
+							[Django, Python, JavaScript, SASS, SQLite, 
+							Beautiful Soup,	Chart.js, Bcrypt, AWS]
 						</p>
 					</div>
 					<p class="project__description--link">
@@ -237,8 +239,9 @@ $(document).ready(function() {
 						computer play. 
 					</p>
 					<div class="project__tech">
+						<p>Built with:</p>
 						<p>
-							ASP.NET Core, C#, JavaScript, jQuery, AJAX, SASS, AWS
+							[ASP.NET Core, C#, JavaScript, jQuery, AJAX, SASS, AWS]
 						</p>
 					</div>
 					<p class="project__description--link">

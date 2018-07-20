@@ -1075,27 +1075,30 @@ input:focus {
   align-items: flex-start;
   padding: 3rem;
   background-color: #f7f7f7; }
-  .project__description--header {
-    text-align: center;
-    padding: 3rem; }
-  .project__description--link {
-    text-align: center;
-    margin-top: 4rem; }
-    .project__description--link a {
-      padding: .3rem;
-      color: #4A849F;
-      text-decoration: none;
-      border-bottom: 3px dashed #4A849F;
-      letter-spacing: 1px;
-      font-weight: 700;
-      transition: all .2s; }
-      .project__description--link a:hover {
-        background-color: rgba(74, 132, 159, 0.5);
-        color: #f7f7f7; }
+  .project__description {
+    text-align: center; }
+    .project__description--header {
+      text-align: center;
+      padding: 3rem; }
+    .project__description--link {
+      text-align: center;
+      margin-top: 4rem; }
+      .project__description--link a {
+        padding: .3rem;
+        color: #4A849F;
+        text-decoration: none;
+        border-bottom: 3px dashed #4A849F;
+        letter-spacing: 1px;
+        font-weight: 700;
+        transition: all .2s; }
+        .project__description--link a:hover {
+          background-color: rgba(74, 132, 159, 0.5);
+          color: #f7f7f7; }
   .project__tech {
     text-align: center;
     margin-top: 2rem;
-    font-style: italic; }
+    font-style: italic;
+    font-size: 1.5rem; }
   .project__desktop {
     text-align: center;
     animation: appear .5s linear 1; }

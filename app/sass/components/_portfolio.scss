@@ -6,7 +6,10 @@
         text-align: center;
     }
 }
-
+.contrib-link {
+	margin-left: 1rem;
+	color: $color-primary-dark;
+}
 .project {
     display: flex;
     justify-content: center;

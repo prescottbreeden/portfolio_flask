@@ -258,7 +258,12 @@ $(document).ready(function() {
 						athletes from selected categories. All trivia questions 
 						were generated via web scraping robot. 
 					</p>
-					<p><span class="u-color-red">Contributors:</span> Stephen Silverstein</p>
+					<p>
+						<span class="u-color-red">Contributors:</span> 
+						<a href="https://github.com/" class="contrib-link">
+							Stephen Silverstein
+						</a>
+					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
 						<div class="project__tech-row">
@@ -335,7 +340,15 @@ $(document).ready(function() {
 						computer play. Cards are served from our own API on a 
 						seperate express server 
 					</p>
-					<p><span class="u-color-red">Contributors:</span> Lawyer Helbing, Justin Peterson</p>
+					<p>
+						<span class="u-color-red">Contributors:</span> 
+						<a href="https://github.com/lawyerh" class="contrib-link">
+							Lawyer Helbing 
+						</a>
+						<a href="https://github.com/petersonjustin" class="contrib-link">
+							Justin Peterson
+						</a>
+					</p>
 					<p>
 						<span class="u-color-red">Note:</span> due to free-hosting limitations, the
 						card-API server takes about 30s to fire up before they can

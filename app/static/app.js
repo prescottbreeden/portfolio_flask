@@ -42,15 +42,13 @@ $(document).ready(function() {
 	//					   TECH DESCRIPTIONS
 	//=========================================================//
 
-
+	
 	$(document).on('click', '.hexagon', function() {
-		console.log(this.innerText);
 		id = this.innerText;
 		$.ajax({
 			url: `/tech/${id}`,
 			dataType: 'json',
 			success: function(res) {
-				console.log(res);
 				blurb = res['blurb'];
 				name = res['name'];
 				document.getElementById('blurb').innerHTML=`
@@ -63,6 +61,24 @@ $(document).ready(function() {
 		});
 	})
 
+
+	$(document).on('vclick', '.hexagon', function() {
+		id = this.innerText;
+		$.ajax({
+			url: `/tech/${id}`,
+			dataType: 'json',
+			success: function(res) {
+				blurb = res['blurb'];
+				name = res['name'];
+				document.getElementById('blurb').innerHTML=`
+				<p>${blurb}</p>
+				`
+				document.getElementById('tech_image').innerHTML=`
+				<img src="/static/img/logos/${name}.png">
+				`
+			}
+		});
+	})
 
 	
 	//==========================================================//

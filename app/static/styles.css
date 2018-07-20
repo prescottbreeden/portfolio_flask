@@ -1275,11 +1275,6 @@ input:focus {
   padding: 0 0 14.87860145166612% 0;
   overflow: hidden;
   visibility: hidden; }
-  .hex-container p {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: -50%, -50%; }
 
 .hexagon {
   box-sizing: border-box;

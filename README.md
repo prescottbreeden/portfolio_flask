@@ -3,15 +3,16 @@
 ## To Install
 1) clone repository
 2) run 'python3 -m venv virtualenv' to create environment
-3) run 'pip install -r requirements.txt'
-4) run 'npm install' (optional)
-5) run 'export FLASK_APP=server.py'
-6) run 'export FLASK_ENV=development'
-7) run 'export FLASK_DEBUG=1'
-8) run 'flask run'
+3) run 'source virtualenv/bin/activate' to activate environment
+4) run 'pip install -r requirements.txt'
+5) run 'npm install' (optional)
+6) run 'export FLASK_APP=server.py'
+7) run 'export FLASK_ENV=development'
+8) run 'export FLASK_DEBUG=1'
+9) run 'flask run'
 
 ### Debug pip
-Sometimes installing pip modules from requirements.txt is buggy and you have to install dependencies individually:
+If you get an error, chances are it is because installing pip modules from requirements.txt can be buggy and you will have to install dependencies individually.  Run these lines with your virtual environment active:
 - pip install flask
 - pip install flask-migrate
 - pip install flask-sqlalchemy

@@ -14,7 +14,7 @@
 If you do not get an error, the website will be running at 'localhost:5000' in your browser
 
 ### 'flask not found' error
-If you get this error, check that your virtualenv is active
+If you get this error, check that your virtualenv is active  
 When active, your cursor in the terminal will look something like: >(virtualenv) $
 
 if virtualenv is active and you are getting this error, it is because installing pip modules from requirements.txt can be buggy and you will have to install dependencies individually.  Run these lines with your virtual environment active:

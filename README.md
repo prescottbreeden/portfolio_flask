@@ -13,9 +13,13 @@
 
 If you do not get an error, the website will be running at 'localhost:5000' in your browser
 
-### Debug pip
-If you get an error, chances are it is because installing pip modules from requirements.txt can be buggy and you will have to install dependencies individually.  Run these lines with your virtual environment active:
+### 'flask not found' error
+If you get this error, check that your virtualenv is active - your cursor in the terminal will look something like: >(virtualenv) $
+
+if virtualenv is active and you are getting this error, it is because installing pip modules from requirements.txt can be buggy and you will have to install dependencies individually.  Run these lines with your virtual environment active:
 - pip install flask
 - pip install flask-migrate
 - pip install flask-sqlalchemy
 - pip install sqlalchemy
+
+to double check they they are installed, you can run 'pip list' to see all installed packages

@@ -1,7 +1,7 @@
 # portfolio_flask
 
-## To Install
-1) clone repository
+## To Install on linux/mac
+1) clone repository and then run 'cd portfolio_flask'
 2) run 'python3 -m venv virtualenv' to create environment
 3) run 'source virtualenv/bin/activate' to activate environment
 4) run 'pip install -r requirements.txt'

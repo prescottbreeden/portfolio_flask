@@ -64,7 +64,8 @@ body {
     transform: rotateY(0deg); } }
 
 .u-color-primary {
-  color: #4A849F; }
+  color: #4A849F;
+  cursor: pointer; }
 
 .u-color-red {
   color: #ff9c67;
@@ -1345,11 +1346,12 @@ input:focus {
   .site__subheading {
     color: #ff9c67; }
   .site__wrapper:not(:last-child) {
-    margin-bottom: 4rem; }
+    margin-bottom: 6rem; }
   .site__container {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    max-width: 100rem; }
     .site__container:not(:last-child) {
       margin-bottom: 3rem; }
     .site__container--tool {

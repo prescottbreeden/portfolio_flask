@@ -125,8 +125,8 @@ $(document).ready(function() {
 						<div class="cube__text">
 							<ul class="services--list">
 								<li>Responsive Layouts</li>
-								<li>Mobile Scaling</li>
-								<li>Animations</li>
+								<li>Styling and Animations</li>
+								<li>Front-end Architecture</li>
 							</ul>
 						</div>
 					</div>
@@ -438,7 +438,7 @@ $(document).ready(function() {
 		content.innerHTML = `
 
 		<section class="tech">
-			<h2 class="tech__header">A Few of My Favorite Things</h2>
+			<h2 class="tech__header">Some of My Favorite Tech</h2>
 			<ul class="grid clear">
 				<li class="hex-container" >
 					<div class="hexagon img-1"> 
@@ -599,7 +599,7 @@ $(document).ready(function() {
 				</div>
 			</div>
 			<div class="site">
-				<h2 class="site__header">This Website</h2>		
+				<h2 class="site__header">What This Website is Built With</h2>		
 				<div class="site__wrapper">
 					<h3 class="site__subheading">Front-end</h3>
 					<div class="site__container">
@@ -633,16 +633,14 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text">
 							<p>
-								The styling was all built using SASS which is a mainstay
-								of almost any project I develop these days. As example, 
-								the hexagon grid at the top of this page has an animation
-								for each hexagon that is separated by 0.05s to create the
-								<span class="tech-nav u-color-primary">waterfall effect</span>. 
-								Without SASS, testing and developing a sequence of 28 
-								animations would have been simply ridiculous;
-								however, SASS functions, while not often employed by many
-								developers I speak with, allowed me to generate the sequence
-								of animations with just 3 lines of code.
+								SASS is an invaluable tool for generating CSS.
+								For example, the hexagon grid at the top of this 
+								page is the result of 28 individual animations 
+								separated by 0.05s to create the 
+								<span class="tech-nav u-color-primary">
+								waterfall effect</span>. SASS functions allowed 
+								me to generate the sequence of animations with 
+								just 3 lines of code.
 							</p>
 						</div>
 					</div>
@@ -700,7 +698,7 @@ $(document).ready(function() {
 							<p>
 								Python is without a doubt one of my favorite 
 								languages for writing anything from scrapers, to
-								bots and crawlers, to scripts, to backend servers. 
+								bots and crawlers, to scripts, to back-end servers. 
 								Python is an extremely rich language and PEP8 
 								provides great consistency across code bases.
 							</p>
@@ -802,7 +800,13 @@ $(document).ready(function() {
 								control. I tend to make commits frequently by
 								the component I'm working on so my git logs
 								do not contain multiple tasks completed at once.
-								You can see the git log for this project here.
+								You can see the git log for this project 
+								<a
+									href="https://github.com/prescottbreeden/portfolio_flask/network"
+									target="_blank"	
+									class="contrib-link">
+									here
+								</a>.
 							</p>
 						</div>
 					</div>

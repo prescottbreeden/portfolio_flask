@@ -23,4 +23,4 @@ if virtualenv is active and you are getting this error, it is because installing
 - pip install flask-sqlalchemy
 - pip install sqlalchemy
 
-to double check they they are installed, you can run 'pip list' to see all installed packages
+to double check that they are installed, you can run 'pip list' to see all installed packages

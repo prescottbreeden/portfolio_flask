@@ -73,6 +73,9 @@ body {
 .u-center {
   text-align: center !important; }
 
+.u-indent {
+  margin-left: 2rem; }
+
 .img-1 {
   animation: appear 0.25s 0.05s 1 ease-out forwards;
   background-image: url("img/logos/flask.png");
@@ -1334,3 +1337,28 @@ input:focus {
 
 .grid .hex-container:nth-child(14n+8) {
   margin-left: 1%; }
+
+.site {
+  padding: 3rem 5rem; }
+  .site__header {
+    text-align: center; }
+  .site__subheading {
+    color: #ff9c67; }
+  .site__wrapper:not(:last-child) {
+    margin-bottom: 4rem; }
+  .site__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .site__container:not(:last-child) {
+      margin-bottom: 3rem; }
+    .site__container--tool {
+      width: 40%;
+      text-align: center; }
+      .site__container--tool-img {
+        height: 10rem;
+        width: auto; }
+    .site__container--text {
+      display: flex;
+      flex-direction: column;
+      width: 60%; }

@@ -1,15 +1,17 @@
 # portfolio_flask
 
 ## To Install on linux/mac
-1) clone repository and then run 'cd portfolio_flask'
-2) run 'python3 -m venv virtualenv' to create environment
-3) run 'source virtualenv/bin/activate' to activate environment
-4) run 'pip install -r requirements.txt'
-5) run 'npm install' (optional)
-6) run 'export FLASK_APP=server.py'
-7) run 'export FLASK_ENV=development'
-8) run 'export FLASK_DEBUG=1'
-9) run 'flask run'
+- navigate to directory you wish to download the project
+- run 'git clone https://github.com/prescottbreeden/portfolio_flask'
+- run 'cd portfolio_flask'
+- run 'python3 -m venv virtualenv' to create environment
+- run 'source virtualenv/bin/activate' to activate environment
+- run 'pip install -r requirements.txt'
+- run 'npm install' (optional)
+- run 'export FLASK_APP=server.py'
+- run 'export FLASK_ENV=development'
+- run 'export FLASK_DEBUG=1'
+- run 'flask run'
 
 If you do not get an error, the website will be running at 'localhost:5000' in your browser
 

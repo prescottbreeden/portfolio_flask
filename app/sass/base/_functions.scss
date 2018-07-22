@@ -44,11 +44,10 @@ $total: length($technologies);
         background-size: cover;
         background-position: center;
         position: relative;
-        backface-visibility: hidden;
-		opacity: 0;
+		z-index: -1;
 
 		&:hover {
-			opacity: 1;
+		//	opacity: 1;
 		}
 
     }

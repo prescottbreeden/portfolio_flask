@@ -79,7 +79,7 @@ body {
 
 .img-1 {
   animation: appear 0.25s 0.05s 1 ease-out forwards;
-  background-image: url("img/logos/flask.png");
+  background-image: url("img/tlogos/flask.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -103,7 +103,7 @@ body {
 
 .img-2 {
   animation: appear 0.25s 0.1s 1 ease-out forwards;
-  background-image: url("img/logos/python.png");
+  background-image: url("img/tlogos/python.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -127,7 +127,7 @@ body {
 
 .img-3 {
   animation: appear 0.25s 0.15s 1 ease-out forwards;
-  background-image: url("img/logos/sass.png");
+  background-image: url("img/tlogos/sass.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -151,7 +151,7 @@ body {
 
 .img-4 {
   animation: appear 0.25s 0.2s 1 ease-out forwards;
-  background-image: url("img/logos/aws.png");
+  background-image: url("img/tlogos/aws.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -175,7 +175,7 @@ body {
 
 .img-5 {
   animation: appear 0.25s 0.25s 1 ease-out forwards;
-  background-image: url("img/logos/jquery.png");
+  background-image: url("img/tlogos/jquery.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -199,7 +199,7 @@ body {
 
 .img-6 {
   animation: appear 0.25s 0.3s 1 ease-out forwards;
-  background-image: url("img/logos/ubuntu.png");
+  background-image: url("img/tlogos/ubuntu.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -223,7 +223,7 @@ body {
 
 .img-7 {
   animation: appear 0.25s 0.35s 1 ease-out forwards;
-  background-image: url("img/logos/bootstrap.png");
+  background-image: url("img/tlogos/bootstrap.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -247,7 +247,7 @@ body {
 
 .img-8 {
   animation: appear 0.25s 0.4s 1 ease-out forwards;
-  background-image: url("img/logos/csharp.png");
+  background-image: url("img/tlogos/csharp.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -271,7 +271,7 @@ body {
 
 .img-9 {
   animation: appear 0.25s 0.45s 1 ease-out forwards;
-  background-image: url("img/logos/django.png");
+  background-image: url("img/tlogos/django.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -295,7 +295,7 @@ body {
 
 .img-10 {
   animation: appear 0.25s 0.5s 1 ease-out forwards;
-  background-image: url("img/logos/dotnet.png");
+  background-image: url("img/tlogos/dotnet.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -319,7 +319,7 @@ body {
 
 .img-11 {
   animation: appear 0.25s 0.55s 1 ease-out forwards;
-  background-image: url("img/logos/r.png");
+  background-image: url("img/tlogos/r.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -343,7 +343,7 @@ body {
 
 .img-12 {
   animation: appear 0.25s 0.6s 1 ease-out forwards;
-  background-image: url("img/logos/postman.png");
+  background-image: url("img/tlogos/postman.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -367,7 +367,7 @@ body {
 
 .img-13 {
   animation: appear 0.25s 0.65s 1 ease-out forwards;
-  background-image: url("img/logos/nginx.png");
+  background-image: url("img/tlogos/nginx.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -391,7 +391,7 @@ body {
 
 .img-14 {
   animation: appear 0.25s 0.7s 1 ease-out forwards;
-  background-image: url("img/logos/html5.png");
+  background-image: url("img/tlogos/html5.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -415,7 +415,7 @@ body {
 
 .img-15 {
   animation: appear 0.25s 0.75s 1 ease-out forwards;
-  background-image: url("img/logos/git.png");
+  background-image: url("img/tlogos/git.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -439,7 +439,7 @@ body {
 
 .img-16 {
   animation: appear 0.25s 0.8s 1 ease-out forwards;
-  background-image: url("img/logos/sql.png");
+  background-image: url("img/tlogos/sql.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -463,7 +463,7 @@ body {
 
 .img-17 {
   animation: appear 0.25s 0.85s 1 ease-out forwards;
-  background-image: url("img/logos/nodejs.png");
+  background-image: url("img/tlogos/nodejs.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -487,7 +487,7 @@ body {
 
 .img-18 {
   animation: appear 0.25s 0.9s 1 ease-out forwards;
-  background-image: url("img/logos/express.png");
+  background-image: url("img/tlogos/express.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -511,7 +511,7 @@ body {
 
 .img-19 {
   animation: appear 0.25s 0.95s 1 ease-out forwards;
-  background-image: url("img/logos/angular.png");
+  background-image: url("img/tlogos/angular.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -535,7 +535,7 @@ body {
 
 .img-20 {
   animation: appear 0.25s 1s 1 ease-out forwards;
-  background-image: url("img/logos/mongodb.png");
+  background-image: url("img/tlogos/mongodb.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -559,7 +559,7 @@ body {
 
 .img-21 {
   animation: appear 0.25s 1.05s 1 ease-out forwards;
-  background-image: url("img/logos/github.png");
+  background-image: url("img/tlogos/github.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -583,7 +583,7 @@ body {
 
 .img-22 {
   animation: appear 0.25s 1.1s 1 ease-out forwards;
-  background-image: url("img/logos/css3.png");
+  background-image: url("img/tlogos/css3.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -607,7 +607,7 @@ body {
 
 .img-23 {
   animation: appear 0.25s 1.15s 1 ease-out forwards;
-  background-image: url("img/logos/javascript.png");
+  background-image: url("img/tlogos/javascript.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -631,7 +631,7 @@ body {
 
 .img-24 {
   animation: appear 0.25s 1.2s 1 ease-out forwards;
-  background-image: url("img/logos/vscode.png");
+  background-image: url("img/tlogos/vscode.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -655,7 +655,7 @@ body {
 
 .img-25 {
   animation: appear 0.25s 1.25s 1 ease-out forwards;
-  background-image: url("img/logos/vim.png");
+  background-image: url("img/tlogos/vim.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -679,7 +679,7 @@ body {
 
 .img-26 {
   animation: appear 0.25s 1.3s 1 ease-out forwards;
-  background-image: url("img/logos/firebase.png");
+  background-image: url("img/tlogos/firebase.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -703,7 +703,7 @@ body {
 
 .img-27 {
   animation: appear 0.25s 1.35s 1 ease-out forwards;
-  background-image: url("img/logos/react.png");
+  background-image: url("img/tlogos/react.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -727,7 +727,7 @@ body {
 
 .img-28 {
   animation: appear 0.25s 1.4s 1 ease-out forwards;
-  background-image: url("img/logos/sqlite.png");
+  background-image: url("img/tlogos/sqlite.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1237,14 +1237,16 @@ input:focus {
   padding-top: 6rem;
   width: 100vw;
   position: relative;
-  background-image: linear-gradient(to top right, #f7f7f7, #ddd); }
+  background-image: linear-gradient(to top right, #222, #222); }
   .tech__header {
-    text-align: center; }
+    text-align: center;
+    color: #f7f7f7; }
   .tech__details {
     padding: 3rem 0;
-    background-color: #f7f7f7; }
+    background-color: #ddd;
+    color: #f7f7f7; }
     .tech__details--container {
-      background-image: linear-gradient(45deg, #6791b2 0%, #6791b2 18%, #ff9c67 18%, #ff9c67 23%, #6791b2 23%, #6791b2 100%);
+      background-image: linear-gradient(45deg, #333 0%, #333 18%, #ff9c67 18%, #ff9c67 23%, #333 23%, #333 100%);
       max-width: 100rem;
       margin: 0 auto;
       padding: 1rem;
@@ -1259,7 +1261,7 @@ input:focus {
     height: 13rem;
     width: 13rem;
     border-radius: 200px;
-    background-color: #9dc9b4;
+    background-color: #6791b2;
     box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.2);
     position: relative; }
   .tech__logo {
@@ -1340,27 +1342,34 @@ input:focus {
   margin-left: 1%; }
 
 .site {
-  padding: 3rem 5rem; }
+  padding: 3rem 5rem;
+  background-color: #222; }
   .site__header {
-    text-align: center; }
+    text-align: center;
+    color: #f7f7f7; }
   .site__subheading {
-    color: #ff9c67; }
-  .site__wrapper:not(:last-child) {
-    margin-bottom: 6rem; }
+    color: #f7f7f7; }
+  .site__wrapper {
+    border: 2px dashed blue; }
+    .site__wrapper:not(:last-child) {
+      margin-bottom: 6rem; }
   .site__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100rem; }
+    border: 1px dashed red;
+    max-width: 100rem;
+    color: #f7f7f7; }
+    .site__container img:first-child {
+      height: 20rem;
+      width: auto; }
     .site__container:not(:last-child) {
       margin-bottom: 3rem; }
     .site__container--tool {
-      width: 40%;
-      text-align: center; }
+      border: 1px dashed green;
+      text-align: center;
+      display: inline-block; }
       .site__container--tool-img {
         height: 10rem;
         width: auto; }
     .site__container--text {
-      display: flex;
-      flex-direction: column;
-      width: 60%; }
+      display: inline-block;
+      border: 1px dashed green;
+      display: none; }

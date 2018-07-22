@@ -8,27 +8,29 @@
 
     position: relative;
     background-image: linear-gradient(to top right, 
-						$color-white, 
-						$color-grey-light);
+						$color-black, 
+						$color-black);
 	
 	&__header {
 		text-align: center;
+		color: $color-white;
 	}
 
 
 	&__details {
         padding: 3rem 0;
-        background-color: $color-white;
+        background-color: $color-grey-light;
+		color: $color-white;
         
         &--container {
 			background-image: linear-gradient(
 								45deg,
-								$color-primary-light 0%,
-								$color-primary-light 18%,
+								$color-black-light 0%,
+								$color-black-light 18%,
 								$color-red-light 18%,
 								$color-red-light 23%,
-								$color-primary-light 23%,
-								$color-primary-light 100%);
+								$color-black-light 23%,
+								$color-black-light 100%);
 								
             max-width: 100rem;
             margin: 0 auto;
@@ -50,7 +52,7 @@
 		height: 13rem;
 		width: 13rem;
 		border-radius: 200px;
-		background-color: $color-foam-dark;
+		background-color: $color-primary-light;
 		box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 		position: relative;
 	}
@@ -154,38 +156,43 @@
 
 .site {
 	padding: 3rem 5rem;
+	background-color: $color-black;
 
 	&__header {
 		text-align: center;
+		color: $color-white;
 	}
 
 	&__subheading {
 		// text-align: center;
-		color: $color-red-light;
+		color: $color-white;
 	}
 
 	&__wrapper {
-		// border: 2px dashed blue;
+		border: 2px dashed blue;
 		&:not(:last-child) {
 			margin-bottom: 6rem;
 		}
 	}
 
 	&__container {
-		// border: 1px dashed red;	
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		border: 1px dashed red;	
 		max-width: 100rem;
+		color: $color-white;
 
+		img:first-child {
+			height: 20rem;
+			width: auto;
+		}
 		&:not(:last-child) {
 			margin-bottom: 3rem;
 		}
 
 		&--tool {
-			width: 40%;
-			// border: 1px dashed green;
+			// width: 40%;
+			border: 1px dashed green;
 			text-align: center;
+			display: inline-block;
 
 			&-img {
 				height: 10rem;
@@ -195,11 +202,10 @@
 		}
 
 		&--text {
-			display: flex;
-			flex-direction: column;
-			width: 60%;
-			// border: 1px dashed green;
-
+			display: inline-block;
+			// width: 40%;
+			border: 1px dashed green;
+			display: none;
 		}
 	}
 }

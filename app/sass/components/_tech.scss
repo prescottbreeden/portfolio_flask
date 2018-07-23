@@ -177,9 +177,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 1;
+	transition: all .2s;
 
 	&:hover {
 		cursor: pointer;
+		background-image: url('img/cube_red.png');
 	}
 
 }
@@ -200,8 +202,8 @@
 .grid .hex-container:nth-child(14n+12), 
 .grid .hex-container:nth-child(14n+13), 
 .grid .hex-container:nth-child(14n+14) {
-    margin-top: -3.7285714285%;
-    margin-bottom: -3.7285714285%;
+    margin-top: -3.8285714285%;
+    margin-bottom: -3.8285714285%;
     transform: translateX(50%);
 }
 

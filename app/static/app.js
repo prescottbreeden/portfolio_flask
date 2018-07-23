@@ -511,7 +511,7 @@ technologies = technologies.reverse();
 			else if (i === 14) {
 			grid += `
 				<li class="hex-container">
-					<div class="img-cube-red" id="cube${i}"></div>
+					<div class="img-cube-foam" id="cube${i}"></div>
 				</li>     
 
 			`	

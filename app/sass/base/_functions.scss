@@ -5,13 +5,11 @@ $technologies:
 'aws',
 'jquery',
 'ubuntu',
-'bootstrap',
 'csharp',
 'django',
 'dotnet', 
 'r',
 'postman',
-'nginx',
 'html5',
 'git',
 'sql',
@@ -22,10 +20,8 @@ $technologies:
 'github',
 'css3', 
 'javascript',
-'vscode',
 'vim',
 'firebase',
-'react', 
 'sqlite',
 ;
 
@@ -36,40 +32,6 @@ $total: length($technologies);
 }
 
 @for $i from 1 through $total {
-    .img-#{$i} { 
-        @include beehive-appear($i); 
-        background-image: url('img/tlogos/#{nth($technologies, $i)}.png');
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        backface-visibility: hidden;
 
-        &:after {
-            content: "#{nth($technologies, $i)}";
-            color: $color-white;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-transform: uppercase;
-			text-align: center;
-			padding: .25rem 1rem;
-			width: 90%;
-			border-radius: 200px;
-            opacity: 0;
-        }
-
-
-        &:hover:after {
-            opacity: 1;
-			background-color: rgba($color-black, .8);
-        }
-    }
 }
-
-// @for $i from 1 through $total {
-//     .preload-#{$i} { 
-//         background-image: url('assets/logos/#{nth($technologies, $i)}.png');
-//     }
-// }
 

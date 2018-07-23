@@ -439,148 +439,256 @@ $(document).ready(function() {
 
 		<section class="tech">
 			<h2 class="tech__header">Some of My Favorite Tech</h2>
-			<ul class="grid clear">
-				<li class="hex-container" >
-					<div class="hexagon img-1"> 
-						<span class="transparent">flask</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-9">
-						<span class="transparent">django</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-10">
-						<span class="transparent">dotnet</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-17">
-						<span class="transparent">nodejs</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-18">
-						<span class="transparent">express</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-19">
-						<span class="transparent">angular</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-27">
-						<span class="transparent">react</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-2" >
-						<span class="transparent">python</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-8">
-						<span class="transparent">csharp</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-11">
-						<span class="transparent">r</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-16">
-						<span class="transparent">sql</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-20">
-						<span class="transparent">mongodb</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-26">
-						<span class="transparent">firebase</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-28">
-						<span class="transparent">sqlite</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-3">
-						<span class="transparent">sass</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-5">
-						<span class="transparent">jquery</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-7">
-						<span class="transparent">bootstrap</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-12">
-						<span class="transparent">postman</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-15">
-						<span class="transparent">git</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-21">
-						<span class="transparent">github</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-25">
-						<span class="transparent">vim</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-4">
-						<span class="transparent">aws</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-6">
-						<span class="transparent">ubuntu</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-13">
-						<span class="transparent">nginx</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-14">
-						<span class="transparent">html5</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-22">
-						<span class="transparent">css3</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-23">
-						<span class="transparent">javascript</span>
-					</div>
-				</li>     
-				<li class="hex-container" >
-					<div class="hexagon img-24">
-						<span class="transparent">vscode</span>
-					</div>
-				</li>     
-			</ul>
+			<div class="hex-wrapper">
+				<div class="hex-row">
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/django.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/flask.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/python.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sass.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/jquery.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sql.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+				</div>
+				<div class="hex-row indent">
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/django.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/flask.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/python.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sass.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/jquery.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sql.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+				</div>
+				<div class="hex-row slideup">
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/django.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/flask.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/python.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sass.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/jquery.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sql.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+				</div>
+				<div class="hex-row indent">
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/django.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/flask.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/python.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sass.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/jquery.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+					<div class="hex-container">
+						<img 
+							src="/static/img/tlogos/sql.png" 
+							alt="cunts"
+							class="hex-tech">
+						<img 
+							src="/static/img/cube_primary.png" 
+							alt="fuckers"
+							class="hex-cube">
+					</div>     
+				</div>
+			</div>
 			<div class="tech__details">
 				<div class="tech__details--container">
 					<div class="tech__logo-box">
@@ -592,8 +700,7 @@ $(document).ready(function() {
 					</div>
 					<div class="tech__explain" id="blurb">
 						<p>
-							Click on a logo above to learn more about some of
-							my favorite tech!
+							Click on a logo above to learn more about some of my favorite tech!
 						</p>
 					</div>
 				</div>

@@ -452,14 +452,7 @@ let technologies = [
 	'firebase',
 	'r',
 	'ubuntu',
-	'vim',
-	'github',
-	'git',
-	'aws',
-	'postman',
-	'nginx',
-	'bootstrap',
-	'vscode'
+	'vim'
 ];
 
 technologies = technologies.reverse();
@@ -518,24 +511,6 @@ technologies = technologies.reverse();
 					<div class="site__container">
 						<img src="/static/img/cube_primary.png" alt="blue cube">
 						<div class="site__container--tool">
-							<h4>jQuery</h4>
-							<img 
-								src="/static/img/tlogos/jquery.png" 
-								alt="jquery logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>SASS</h4>
-							<img 
-								src="/static/img/tlogos/sass.png" 
-								alt="sass logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
 							<h4>HTML5</h4>
 							<img 
 								src="/static/img/tlogos/html5.png" 
@@ -549,6 +524,33 @@ technologies = technologies.reverse();
 							<img 
 								src="/static/img/tlogos/css3.png" 
 								alt="css3 logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>JavaScript</h4>
+							<img 
+								src="/static/img/tlogos/javascript.png" 
+								alt="css3 logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>jQuery</h4>
+							<img 
+								src="/static/img/tlogos/jquery.png" 
+								alt="jquery logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>SASS</h4>
+							<img 
+								src="/static/img/tlogos/sass.png" 
+								alt="sass logo"
 								class="site__container--tool-img">
 						</div>
 						<div class="site__container--text">

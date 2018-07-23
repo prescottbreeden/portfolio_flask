@@ -81,6 +81,39 @@ $(document).ready(function() {
 			}
 		});
 	})
+	
+	// show front-end
+	$(document).on('click', '#cube1', function() {
+		console.log('clicked');
+		$('.cube-1').toggleClass('hide');
+		$('.cube-2').toggleClass('hide');
+		$('.cube-3').toggleClass('hide');
+		$('.cube-4').toggleClass('hide');
+		$('.cube-5').toggleClass('hide');
+		$('.cube-6').toggleClass('hide');
+	})
+
+	// show databse
+	$(document).on('click', '#cube14', function() {
+		console.log('clicked');
+		$('.cube-7').toggleClass('hide');
+		$('.cube-8').toggleClass('hide');
+		$('.cube-9').toggleClass('hide');
+		$('.cube-10').toggleClass('hide');
+		$('.cube-11').toggleClass('hide');
+		$('.cube-12').toggleClass('hide');
+	})
+
+	// show back-end
+	$(document).on('click', '#cube15', function() {
+		console.log('clicked');
+		$('.cube-13').toggleClass('hide');
+		$('.cube-14').toggleClass('hide');
+		$('.cube-15').toggleClass('hide');
+		$('.cube-16').toggleClass('hide');
+		$('.cube-17').toggleClass('hide');
+		$('.cube-18').toggleClass('hide');
+	})
 
 	
 	//==========================================================//
@@ -440,7 +473,6 @@ let technologies = [
 	'sass',
 	'angular', 
 	'mongodb', 
-	'firebase',
 	'sql',
 	'sqlite',
 	'r',
@@ -452,36 +484,34 @@ let technologies = [
 	'csharp',
 	'express',
 	'nodejs',
-	'aws',
-	'ubuntu',
-	'git',
-	'github',
-	'vim'
 ];
 technologies = technologies.reverse();
 
 	function loadTech() {
 		const content = document.getElementById('fold');
-		const total = 28;
+		const total = 21;
 		let counter = 1;
 		let grid = ` 
 				<section class="tech">
 					<h2 class="tech__header">Some of My Favorite Tech</h2>
 					<ul class="grid clear">
 		`
+		//===============================================//
+		//					tech grid					 //
+		//===============================================//
 
 		for(let i = 1; i <= total; i++) {
 			if(i === 1 || i === 15) {
 			grid += `
 				<li class="hex-container">
-					<div class="img-cube-foam"></div>
+					<div class="img-cube-foam" id="cube${i}"></div>
 				</li>     
 			`	
 			}
-			else if (i === 14 || i === 28) {
+			else if (i === 14) {
 			grid += `
 				<li class="hex-container">
-					<div class="img-cube-red"></div>
+					<div class="img-cube-red" id="cube${i}"></div>
 				</li>     
 
 			`	
@@ -491,7 +521,7 @@ technologies = technologies.reverse();
 				grid += `
 					<li class="hex-container">
 						<div class="hexagon img-${counter}"></div>
-						<div class="img-cube">
+						<div class="img-cube cube-${counter}">
 							<span class="transparent">${techName}</span>
 						</div>
 					</li>     
@@ -499,6 +529,10 @@ technologies = technologies.reverse();
 				counter++
 			}
 		}
+
+		//===============================================//
+		//					tech details				//
+		//===============================================//
 
 		grid += `
 			</ul>

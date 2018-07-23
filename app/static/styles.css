@@ -79,13 +79,13 @@ body {
 
 .img-1 {
   animation: appear 0.25s 0.05s 1 ease-out forwards;
-  background-image: url("img/tlogos/flask.png");
+  background-image: url("img/tlogos/html5.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-1:after {
-    content: "flask";
+    content: "html5";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -103,13 +103,13 @@ body {
 
 .img-2 {
   animation: appear 0.25s 0.1s 1 ease-out forwards;
-  background-image: url("img/tlogos/python.png");
+  background-image: url("img/tlogos/css3.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-2:after {
-    content: "python";
+    content: "css3";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -127,13 +127,13 @@ body {
 
 .img-3 {
   animation: appear 0.25s 0.15s 1 ease-out forwards;
-  background-image: url("img/tlogos/sass.png");
+  background-image: url("img/tlogos/javascript.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-3:after {
-    content: "sass";
+    content: "javascript";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -151,13 +151,13 @@ body {
 
 .img-4 {
   animation: appear 0.25s 0.2s 1 ease-out forwards;
-  background-image: url("img/tlogos/aws.png");
+  background-image: url("img/tlogos/angular.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-4:after {
-    content: "aws";
+    content: "angular";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -175,13 +175,13 @@ body {
 
 .img-5 {
   animation: appear 0.25s 0.25s 1 ease-out forwards;
-  background-image: url("img/tlogos/jquery.png");
+  background-image: url("img/tlogos/react.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-5:after {
-    content: "jquery";
+    content: "react";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -199,13 +199,13 @@ body {
 
 .img-6 {
   animation: appear 0.25s 0.3s 1 ease-out forwards;
-  background-image: url("img/tlogos/ubuntu.png");
+  background-image: url("img/tlogos/jquery.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-6:after {
-    content: "ubuntu";
+    content: "jquery";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -223,13 +223,13 @@ body {
 
 .img-7 {
   animation: appear 0.25s 0.35s 1 ease-out forwards;
-  background-image: url("img/tlogos/bootstrap.png");
+  background-image: url("img/tlogos/sass.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-7:after {
-    content: "bootstrap";
+    content: "sass";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -247,13 +247,13 @@ body {
 
 .img-8 {
   animation: appear 0.25s 0.4s 1 ease-out forwards;
-  background-image: url("img/tlogos/csharp.png");
+  background-image: url("img/tlogos/flask.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-8:after {
-    content: "csharp";
+    content: "flask";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -295,13 +295,13 @@ body {
 
 .img-10 {
   animation: appear 0.25s 0.5s 1 ease-out forwards;
-  background-image: url("img/tlogos/dotnet.png");
+  background-image: url("img/tlogos/python.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-10:after {
-    content: "dotnet";
+    content: "python";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -319,13 +319,13 @@ body {
 
 .img-11 {
   animation: appear 0.25s 0.55s 1 ease-out forwards;
-  background-image: url("img/tlogos/r.png");
+  background-image: url("img/tlogos/dotnet.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-11:after {
-    content: "r";
+    content: "dotnet";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -343,13 +343,13 @@ body {
 
 .img-12 {
   animation: appear 0.25s 0.6s 1 ease-out forwards;
-  background-image: url("img/tlogos/postman.png");
+  background-image: url("img/tlogos/csharp.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-12:after {
-    content: "postman";
+    content: "csharp";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -367,13 +367,13 @@ body {
 
 .img-13 {
   animation: appear 0.25s 0.65s 1 ease-out forwards;
-  background-image: url("img/tlogos/nginx.png");
+  background-image: url("img/tlogos/nodejs.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-13:after {
-    content: "nginx";
+    content: "nodejs";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -391,13 +391,13 @@ body {
 
 .img-14 {
   animation: appear 0.25s 0.7s 1 ease-out forwards;
-  background-image: url("img/tlogos/html5.png");
+  background-image: url("img/tlogos/express.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-14:after {
-    content: "html5";
+    content: "express";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -415,13 +415,13 @@ body {
 
 .img-15 {
   animation: appear 0.25s 0.75s 1 ease-out forwards;
-  background-image: url("img/tlogos/git.png");
+  background-image: url("img/tlogos/sql.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-15:after {
-    content: "git";
+    content: "sql";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -439,13 +439,13 @@ body {
 
 .img-16 {
   animation: appear 0.25s 0.8s 1 ease-out forwards;
-  background-image: url("img/tlogos/sql.png");
+  background-image: url("img/tlogos/sqlite.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-16:after {
-    content: "sql";
+    content: "sqlite";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -463,13 +463,13 @@ body {
 
 .img-17 {
   animation: appear 0.25s 0.85s 1 ease-out forwards;
-  background-image: url("img/tlogos/nodejs.png");
+  background-image: url("img/tlogos/mongodb.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-17:after {
-    content: "nodejs";
+    content: "mongodb";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -487,13 +487,13 @@ body {
 
 .img-18 {
   animation: appear 0.25s 0.9s 1 ease-out forwards;
-  background-image: url("img/tlogos/express.png");
+  background-image: url("img/tlogos/firebase.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-18:after {
-    content: "express";
+    content: "firebase";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -511,13 +511,13 @@ body {
 
 .img-19 {
   animation: appear 0.25s 0.95s 1 ease-out forwards;
-  background-image: url("img/tlogos/angular.png");
+  background-image: url("img/tlogos/r.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-19:after {
-    content: "angular";
+    content: "r";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -535,13 +535,13 @@ body {
 
 .img-20 {
   animation: appear 0.25s 1s 1 ease-out forwards;
-  background-image: url("img/tlogos/mongodb.png");
+  background-image: url("img/tlogos/ubuntu.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-20:after {
-    content: "mongodb";
+    content: "ubuntu";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -559,13 +559,13 @@ body {
 
 .img-21 {
   animation: appear 0.25s 1.05s 1 ease-out forwards;
-  background-image: url("img/tlogos/github.png");
+  background-image: url("img/tlogos/vim.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-21:after {
-    content: "github";
+    content: "vim";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -583,13 +583,13 @@ body {
 
 .img-22 {
   animation: appear 0.25s 1.1s 1 ease-out forwards;
-  background-image: url("img/tlogos/css3.png");
+  background-image: url("img/tlogos/github.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-22:after {
-    content: "css3";
+    content: "github";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -607,13 +607,13 @@ body {
 
 .img-23 {
   animation: appear 0.25s 1.15s 1 ease-out forwards;
-  background-image: url("img/tlogos/javascript.png");
+  background-image: url("img/tlogos/git.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-23:after {
-    content: "javascript";
+    content: "git";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -631,13 +631,13 @@ body {
 
 .img-24 {
   animation: appear 0.25s 1.2s 1 ease-out forwards;
-  background-image: url("img/tlogos/vscode.png");
+  background-image: url("img/tlogos/aws.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-24:after {
-    content: "vscode";
+    content: "aws";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -655,13 +655,13 @@ body {
 
 .img-25 {
   animation: appear 0.25s 1.25s 1 ease-out forwards;
-  background-image: url("img/tlogos/vim.png");
+  background-image: url("img/tlogos/postman.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-25:after {
-    content: "vim";
+    content: "postman";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -679,13 +679,13 @@ body {
 
 .img-26 {
   animation: appear 0.25s 1.3s 1 ease-out forwards;
-  background-image: url("img/tlogos/firebase.png");
+  background-image: url("img/tlogos/nginx.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-26:after {
-    content: "firebase";
+    content: "nginx";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -703,13 +703,13 @@ body {
 
 .img-27 {
   animation: appear 0.25s 1.35s 1 ease-out forwards;
-  background-image: url("img/tlogos/react.png");
+  background-image: url("img/tlogos/bootstrap.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-27:after {
-    content: "react";
+    content: "bootstrap";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -727,13 +727,13 @@ body {
 
 .img-28 {
   animation: appear 0.25s 1.4s 1 ease-out forwards;
-  background-image: url("img/tlogos/sqlite.png");
+  background-image: url("img/tlogos/vscode.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-28:after {
-    content: "sqlite";
+    content: "vscode";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -1261,7 +1261,7 @@ input:focus {
     height: 13rem;
     width: 13rem;
     border-radius: 200px;
-    background-color: #6791b2;
+    background-color: #9dc9b4;
     box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.2);
     position: relative; }
   .tech__logo {
@@ -1273,7 +1273,7 @@ input:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 200px;
-    background-color: #cae2d6; }
+    background-color: #f7f7f7; }
     .tech__logo img {
       position: absolute;
       top: 50%;

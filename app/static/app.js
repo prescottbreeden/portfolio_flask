@@ -45,7 +45,7 @@ $(document).ready(function() {
 	//=========================================================//
 
 	
-	$(document).on('click', '.hexagon', function() {
+	$(document).on('click', '.img-cube', function() {
 		id = this.innerText;
 		$.ajax({
 			url: `/tech/${id}`,
@@ -64,7 +64,7 @@ $(document).ready(function() {
 	})
 
 
-	$(document).on('vclick', '.hexagon', function() {
+	$(document).on('vclick', '.img-cube', function() {
 		id = this.innerText;
 		$.ajax({
 			url: `/tech/${id}`,
@@ -432,9 +432,38 @@ $(document).ready(function() {
 
 	//------------------- TECH -----------------------//
 
+let technologies = [
+	'html5',
+	'css3', 
+	'javascript',
+	'jquery',
+	'sass',
+	'angular', 
+	'mongodb', 
+	'firebase',
+	'sql',
+	'sqlite',
+	'r',
+	'postman',
+	'flask',
+	'django',
+	'python', 
+	'dotnet', 
+	'csharp',
+	'express',
+	'nodejs',
+	'aws',
+	'ubuntu',
+	'git',
+	'github',
+	'vim'
+];
+technologies = technologies.reverse();
+
 	function loadTech() {
 		const content = document.getElementById('fold');
 		const total = 28;
+		let counter = 1;
 		let grid = ` 
 				<section class="tech">
 					<h2 class="tech__header">Some of My Favorite Tech</h2>
@@ -442,22 +471,33 @@ $(document).ready(function() {
 		`
 
 		for(let i = 1; i <= total; i++) {
-			let box = 'img-cube';
 			if(i === 1 || i === 15) {
-				box = 'img-cube-red';
-			}
-			if (i === 14 || i === 28) {
-				box = 'img-cube-foam'
-			}
 			grid += `
 				<li class="hex-container">
-					<div class="hexagon img-${i}"> 
-						<span class="transparent">flask</span>
-					</div>
-					<div class="${box}"></div>
+					<div class="img-cube-foam"></div>
+				</li>     
+			`	
+			}
+			else if (i === 14 || i === 28) {
+			grid += `
+				<li class="hex-container">
+					<div class="img-cube-red"></div>
 				</li>     
 
 			`	
+			}
+			else {
+				let techName = technologies.pop();
+				grid += `
+					<li class="hex-container">
+						<div class="hexagon img-${counter}"></div>
+						<div class="img-cube">
+							<span class="transparent">${techName}</span>
+						</div>
+					</li>     
+				`	
+				counter++
+			}
 		}
 
 		grid += `

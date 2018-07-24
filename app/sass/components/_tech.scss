@@ -93,7 +93,7 @@
 .grid {
     position: relative;
     width: 90%;    
-    max-width: 110rem;
+    max-width: 101rem;
     margin: 0 auto;
     padding: 2rem 2rem 6rem 2rem;
     box-sizing: border-box; 
@@ -131,7 +131,7 @@
 }
 
 .grid .hex-container:nth-child(1n+1) {
-	margin: 0.5%;
+	margin: 0%;
 }
 
 .grid .hex-container:nth-child(14n+8), 
@@ -141,13 +141,13 @@
 .grid .hex-container:nth-child(14n+12), 
 .grid .hex-container:nth-child(14n+13), 
 .grid .hex-container:nth-child(14n+14) {
-    margin-top: -2.9285714285%;
-    margin-bottom: -2.9285714285%;
+    margin-top: -3.8285714285%;
+    margin-bottom: -3.8285714285%;
     transform: translateX(50%);
 }
 
 .grid .hex-container:nth-child(14n+8) { 
-    margin-left: 1%;
+    margin-left: 0%;
 }
 
 .site {

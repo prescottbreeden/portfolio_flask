@@ -452,10 +452,10 @@ $(document).ready(function() {
 			'sql',
 			'sqlite',
 			'mongodb', 
-			'firebase',
 			'r',
 			'ubuntu',
-			'vim'
+			'vim',
+			'github'
 		];
 
 		technologies = technologies.reverse();
@@ -509,170 +509,63 @@ $(document).ready(function() {
 			<div class="site">
 				<h2 class="site__header">What This Website is Built With</h2>		
 				<div class="site__wrapper">
-					<h3 class="site__subheading">Front-end</h3>
 					<div class="site__container">
-						<img src="/static/img/cube_primary.png" alt="blue cube">
 						<div class="site__container--tool">
-							<h4>HTML5</h4>
+							<h3 class="site__subheading">Front-end</h3>
 							<img 
-								src="/static/img/tlogos/html5.png" 
-								alt="html5 logo"
+								src="/static/img/cube_primary.png" 
+								alt="blue cube"
 								class="site__container--tool-img">
 						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>CSS3</h4>
-							<img 
-								src="/static/img/tlogos/css3.png" 
-								alt="css3 logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>JavaScript</h4>
-							<img 
-								src="/static/img/tlogos/javascript.png" 
-								alt="css3 logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>jQuery</h4>
-							<img 
-								src="/static/img/tlogos/jquery.png" 
-								alt="jquery logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>SASS</h4>
-							<img 
-								src="/static/img/tlogos/sass.png" 
-								alt="sass logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
+						<div class="site__container--tool img-1"></div>
+						<div class="site__container--tool img-2"></div>
+						<div class="site__container--tool img-3"></div>
+						<div class="site__container--tool img-6"></div>
+						<div class="site__container--tool img-7"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
-					<h3 class="site__subheading">Back-end</h3>
 					<div class="site__container">
-						<img src="/static/img/cube_red.png" alt="red cube">
 						<div class="site__container--tool">
-							<h4>Flask</h4>
+							<h3 class="site__subheading">Back-end</h3>
 							<img 
-								src="/static/img/tlogos/flask.png" 
-								alt="flask logo"
+								src="/static/img/cube_red.png" 
+								alt="red cube"
 								class="site__container--tool-img">
 						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Python</h4>
-							<img 
-								src="/static/img/tlogos/python.png" 
-								alt="python logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Ubuntu</h4>
-							<img 
-								src="/static/img/tlogos/ubuntu.png" 
-								alt="ubuntu logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Nginx</h4>
-							<img 
-								src="/static/img/tlogos/nginx.png" 
-								alt="nginx logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Gunicorn</h4>
-							<img 
-								src="/static/img/tlogos/nginx.png" 
-								alt="Gunicorn logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
+						<div class="site__container--tool img-8"></div>
+						<div class="site__container--tool img-10"></div>
+						<div class="site__container--tool img-19"></div>
+						<div class="site__container--tool img-26"></div>
+						<div class="site__container--tool img-26"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
-					<h3 class="site__subheading">Database</h3>
 					<div class="site__container">
-						<img src="/static/img/cube_teal.png" alt="teal cube">
 						<div class="site__container--tool">
-							<h4>SQLite</h4>
+							<h3 class="site__subheading">Database</h3>
 							<img 
-								src="/static/img/tlogos/sqlite.png" 
-								alt="sqlite logo"
+								src="/static/img/cube_teal.png" 
+								alt="foam cube"
 								class="site__container--tool-img">
 						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>SQLAlchemy</h4>
-							<img 
-								src="/static/img/tlogos/sqlite.png" 
-								alt="SQLAlchemy logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
+						<div class="site__container--tool img-16"></div>
+						<div class="site__container--tool img-16"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
-					<h4 class="site__subheading">Dev Tools</h4>
 					<div class="site__container">
 						<div class="site__container--tool">
-							<h4>Node.js</h4>
+							<h3 class="site__subheading">Dev Tools</h3>
 							<img 
-								src="/static/img/tlogos/nodejs.png" 
-								alt="nodejs logo"
+								src="/static/img/cube_primary.png" 
+								alt="blue cube"
 								class="site__container--tool-img">
 						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Github</h4>
-							<img 
-								src="/static/img/tlogos/github.png" 
-								alt="github logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>Vim</h4>
-							<img 
-								src="/static/img/tlogos/vim.png" 
-								alt="vim logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
-							<h4>AWS</h4>
-							<img 
-								src="/static/img/tlogos/aws.png" 
-								alt="aws logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
+						<div class="site__container--tool img-13"></div>
+						<div class="site__container--tool img-21"></div>
+						<div class="site__container--tool img-20"></div>
+						<div class="site__container--tool img-24"></div>
 					</div>
 				</div>
 			</div>

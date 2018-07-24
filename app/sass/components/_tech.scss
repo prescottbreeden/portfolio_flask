@@ -152,16 +152,15 @@
 
 .site {
 	padding: 3rem 5rem;
-	background-color: $color-black;
+	background-color: $color-grey-light;
 
 	&__header {
 		text-align: center;
-		color: $color-white;
+		margin-bottom: 3rem;
 	}
 
 	&__subheading {
 		// text-align: center;
-		color: $color-white;
 	}
 
 	&__wrapper {
@@ -173,11 +172,10 @@
 
 	&__container {
 		// border: 1px dashed red;	
-		max-width: 100rem;
-		color: $color-white;
+		text-align: center;
 
 		img:first-child {
-			height: 20rem;
+			height: 15rem;
 			width: auto;
 		}
 		&:not(:last-child) {
@@ -189,19 +187,26 @@
 			// border: 1px dashed green;
 			text-align: center;
 			display: inline-block;
+			background-size: cover;
+			height: 15rem;
+			width: 12.5rem;
 
-			&-img {
-				height: 10rem;
-				width: auto;
+			&:hover {
+				cursor: pointer;
+			}
+
+			img {
+				height: 15rem;
+				width: 12.5rem;
 			}
 
 		}
 
 		&--text {
-			display: inline-block;
-			// width: 40%;
-			// border: 1px dashed green;
-			display: none;
+			height: 30rem;
+			width: 50%;
+			background-color: orangered;
 		}
 	}
+
 }

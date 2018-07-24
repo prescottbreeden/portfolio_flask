@@ -487,13 +487,13 @@ body {
 
 .img-18 {
   animation: appear 0.25s 0.9s 1 ease-out forwards;
-  background-image: url("img/tlogos/firebase.png");
+  background-image: url("img/tlogos/r.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-18:after {
-    content: "firebase";
+    content: "r";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -511,13 +511,13 @@ body {
 
 .img-19 {
   animation: appear 0.25s 0.95s 1 ease-out forwards;
-  background-image: url("img/tlogos/r.png");
+  background-image: url("img/tlogos/ubuntu.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-19:after {
-    content: "r";
+    content: "ubuntu";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -535,13 +535,13 @@ body {
 
 .img-20 {
   animation: appear 0.25s 1s 1 ease-out forwards;
-  background-image: url("img/tlogos/ubuntu.png");
+  background-image: url("img/tlogos/vim.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-20:after {
-    content: "ubuntu";
+    content: "vim";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -559,13 +559,13 @@ body {
 
 .img-21 {
   animation: appear 0.25s 1.05s 1 ease-out forwards;
-  background-image: url("img/tlogos/vim.png");
+  background-image: url("img/tlogos/github.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-21:after {
-    content: "vim";
+    content: "github";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -583,13 +583,13 @@ body {
 
 .img-22 {
   animation: appear 0.25s 1.1s 1 ease-out forwards;
-  background-image: url("img/tlogos/github.png");
+  background-image: url("img/tlogos/firebase.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-22:after {
-    content: "github";
+    content: "firebase";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -1181,7 +1181,7 @@ input:focus {
 
 .about {
   padding: 6rem 5rem 3rem 5rem;
-  background-color: #f7f7f7; }
+  background-color: #ddd; }
   .about__text-box {
     padding-top: 6rem;
     display: flex;
@@ -1344,28 +1344,31 @@ input:focus {
 
 .site {
   padding: 3rem 5rem;
-  background-color: #222; }
+  background-color: #ddd; }
   .site__header {
     text-align: center;
-    color: #f7f7f7; }
-  .site__subheading {
-    color: #f7f7f7; }
+    margin-bottom: 3rem; }
   .site__wrapper:not(:last-child) {
     margin-bottom: 6rem; }
   .site__container {
-    max-width: 100rem;
-    color: #f7f7f7; }
+    text-align: center; }
     .site__container img:first-child {
-      height: 20rem;
+      height: 15rem;
       width: auto; }
     .site__container:not(:last-child) {
       margin-bottom: 3rem; }
     .site__container--tool {
       text-align: center;
-      display: inline-block; }
-      .site__container--tool-img {
-        height: 10rem;
-        width: auto; }
-    .site__container--text {
       display: inline-block;
-      display: none; }
+      background-size: cover;
+      height: 15rem;
+      width: 12.5rem; }
+      .site__container--tool:hover {
+        cursor: pointer; }
+      .site__container--tool img {
+        height: 15rem;
+        width: 12.5rem; }
+    .site__container--text {
+      height: 30rem;
+      width: 50%;
+      background-color: orangered; }

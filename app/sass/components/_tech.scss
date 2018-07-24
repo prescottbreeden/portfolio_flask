@@ -165,14 +165,14 @@
 	}
 
 	&__wrapper {
-		border: 2px dashed blue;
+		// border: 2px dashed blue;
 		&:not(:last-child) {
 			margin-bottom: 6rem;
 		}
 	}
 
 	&__container {
-		border: 1px dashed red;	
+		// border: 1px dashed red;	
 		max-width: 100rem;
 		color: $color-white;
 
@@ -186,7 +186,7 @@
 
 		&--tool {
 			// width: 40%;
-			border: 1px dashed green;
+			// border: 1px dashed green;
 			text-align: center;
 			display: inline-block;
 
@@ -200,7 +200,7 @@
 		&--text {
 			display: inline-block;
 			// width: 40%;
-			border: 1px dashed green;
+			// border: 1px dashed green;
 			display: none;
 		}
 	}

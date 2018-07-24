@@ -954,7 +954,8 @@ input:focus {
   .contact__form-box {
     width: 50%; }
   .contact__info {
-    padding: 4rem; }
+    padding: 4rem;
+    background-color: #222; }
     .contact__info--header {
       text-align: center;
       text-transform: uppercase;
@@ -966,14 +967,14 @@ input:focus {
       align-items: center; }
     .contact__info--link:link, .contact__info--link:visited {
       text-decoration: none;
-      color: #28b485;
+      color: #f7f7f7;
       letter-spacing: 1px; }
   .contact__icon {
     height: 5rem;
     width: 5rem;
     margin: 0 2rem;
     display: flex;
-    fill: #28b485; }
+    fill: #f7f7f7; }
     .contact__icon:hover {
       fill: #ff9c67;
       cursor: pointer; }
@@ -1349,12 +1350,9 @@ input:focus {
     color: #f7f7f7; }
   .site__subheading {
     color: #f7f7f7; }
-  .site__wrapper {
-    border: 2px dashed blue; }
-    .site__wrapper:not(:last-child) {
-      margin-bottom: 6rem; }
+  .site__wrapper:not(:last-child) {
+    margin-bottom: 6rem; }
   .site__container {
-    border: 1px dashed red;
     max-width: 100rem;
     color: #f7f7f7; }
     .site__container img:first-child {
@@ -1363,7 +1361,6 @@ input:focus {
     .site__container:not(:last-child) {
       margin-bottom: 3rem; }
     .site__container--tool {
-      border: 1px dashed green;
       text-align: center;
       display: inline-block; }
       .site__container--tool-img {
@@ -1371,5 +1368,4 @@ input:focus {
         width: auto; }
     .site__container--text {
       display: inline-block;
-      border: 1px dashed green;
       display: none; }

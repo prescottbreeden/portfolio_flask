@@ -431,33 +431,35 @@ $(document).ready(function() {
 
 
 	//------------------- TECH -----------------------//
-let technologies = [
-	'html5',
-	'css3', 
-	'javascript',
-	'angular', 
-	'react', 
-	'jquery',
-	'sass',
-	'flask',
-	'django',
-	'python', 
-	'dotnet', 
-	'csharp',
-	'nodejs',
-	'express',
-	'sql',
-	'sqlite',
-	'mongodb', 
-	'firebase',
-	'r',
-	'ubuntu',
-	'vim'
-];
-
-technologies = technologies.reverse();
 
 	function loadTech() {
+
+		let technologies = [
+			'html5',
+			'css3', 
+			'javascript',
+			'angular', 
+			'react', 
+			'jquery',
+			'sass',
+			'flask',
+			'django',
+			'python', 
+			'dotnet', 
+			'csharp',
+			'nodejs',
+			'express',
+			'sql',
+			'sqlite',
+			'mongodb', 
+			'firebase',
+			'r',
+			'ubuntu',
+			'vim'
+		];
+
+		technologies = technologies.reverse();
+
 		const content = document.getElementById('fold');
 		const total = 21;
 		let counter = 1;

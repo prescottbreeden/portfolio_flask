@@ -562,15 +562,6 @@ technologies = technologies.reverse();
 					<div class="site__container">
 						<img src="/static/img/cube_red.png" alt="red cube">
 						<div class="site__container--tool">
-							<h4>Python</h4>
-							<img 
-								src="/static/img/tlogos/python.png" 
-								alt="python logo"
-								class="site__container--tool-img">
-						</div>
-						<div class="site__container--text">
-						</div>
-						<div class="site__container--tool">
 							<h4>Flask</h4>
 							<img 
 								src="/static/img/tlogos/flask.png" 
@@ -580,10 +571,37 @@ technologies = technologies.reverse();
 						<div class="site__container--text">
 						</div>
 						<div class="site__container--tool">
+							<h4>Python</h4>
+							<img 
+								src="/static/img/tlogos/python.png" 
+								alt="python logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
 							<h4>Ubuntu</h4>
 							<img 
 								src="/static/img/tlogos/ubuntu.png" 
 								alt="ubuntu logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>Nginx</h4>
+							<img 
+								src="/static/img/tlogos/nginx.png" 
+								alt="nginx logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>Gunicorn</h4>
+							<img 
+								src="/static/img/tlogos/nginx.png" 
+								alt="Gunicorn logo"
 								class="site__container--tool-img">
 						</div>
 						<div class="site__container--text">
@@ -599,6 +617,15 @@ technologies = technologies.reverse();
 							<img 
 								src="/static/img/tlogos/sqlite.png" 
 								alt="sqlite logo"
+								class="site__container--tool-img">
+						</div>
+						<div class="site__container--text">
+						</div>
+						<div class="site__container--tool">
+							<h4>SQLAlchemy</h4>
+							<img 
+								src="/static/img/tlogos/sqlite.png" 
+								alt="SQLAlchemy logo"
 								class="site__container--tool-img">
 						</div>
 						<div class="site__container--text">

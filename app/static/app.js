@@ -179,7 +179,7 @@ $(document).ready(function() {
 		content.innerHTML = `
 
 		<section class="portfolio">
-			<h2 class="portfolio__header">My Work</h2>
+			<h2 class="portfolio__header">Some of My Work</h2>
 			<div class="project">
 				<div class="project__description">
 					<h2 class="project__description--header">
@@ -196,35 +196,35 @@ $(document).ready(function() {
 					</div>
 					<div class="project__tech-row">
 						<img
-							src="/static/img/logos/angular.png"
+							src="/static/img/tlogos/angular.png"
 							alt="angular logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/express.png"
+							src="/static/img/tlogos/express.png"
 							alt="express logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/nodejs.png"
+							src="/static/img/tlogos/nodejs.png"
 							alt="nodejs logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/sass.png"
+							src="/static/img/tlogos/sass.png"
 							alt="sass logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/aws.png"
+							src="/static/img/tlogos/aws.png"
 							alt="aws logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/html5.png"
+							src="/static/img/tlogos/html5.png"
 							alt="html5 logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/css3.png"
+							src="/static/img/tlogos/css3.png"
 							alt="css3 logo"
 							class="project__tech-row--img">
 						<img
-							src="/static/img/logos/javascript.png"
+							src="/static/img/tlogos/javascript.png"
 							alt="javascript logo"
 							class="project__tech-row--img">
 					</div>
@@ -268,43 +268,43 @@ $(document).ready(function() {
 						<p>Built with:</p>
 						<div class="project__tech-row">
 							<img
-								src="/static/img/logos/django.png"
+								src="/static/img/tlogos/django.png"
 								alt="django logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/python.png"
+								src="/static/img/tlogos/python.png"
 								alt="python logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/nodejs.png"
+								src="/static/img/tlogos/nodejs.png"
 								alt="nodejs logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/sqlite.png"
+								src="/static/img/tlogos/sqlite.png"
 								alt="sqlite logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/sass.png"
+								src="/static/img/tlogos/sass.png"
 								alt="sass logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/jquery.png"
+								src="/static/img/tlogos/jquery.png"
 								alt="jquery logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/aws.png"
+								src="/static/img/tlogos/aws.png"
 								alt="aws logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/html5.png"
+								src="/static/img/tlogos/html5.png"
 								alt="html5 logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/css3.png"
+								src="/static/img/tlogos/css3.png"
 								alt="css3 logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/javascript.png"
+								src="/static/img/tlogos/javascript.png"
 								alt="javascript logo"
 								class="project__tech-row--img">
 						</div>
@@ -358,47 +358,47 @@ $(document).ready(function() {
 						<p>Built with:</p>
 						<div class="project__tech-row">
 							<img
-								src="/static/img/logos/dotnet.png"
+								src="/static/img/tlogos/dotnet.png"
 								alt="dotnet logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/csharp.png"
+								src="/static/img/tlogos/csharp.png"
 								alt="csharp logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/express.png"
+								src="/static/img/tlogos/express.png"
 								alt="express logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/nodejs.png"
+								src="/static/img/tlogos/nodejs.png"
 								alt="nodejs logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/bootstrap.png"
+								src="/static/img/tlogos/bootstrap.png"
 								alt="bootstrap logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/sass.png"
+								src="/static/img/tlogos/sass.png"
 								alt="sass logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/jquery.png"
+								src="/static/img/tlogos/jquery.png"
 								alt="jquery logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/aws.png"
+								src="/static/img/tlogos/aws.png"
 								alt="aws logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/html5.png"
+								src="/static/img/tlogos/html5.png"
 								alt="html5 logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/css3.png"
+								src="/static/img/tlogos/css3.png"
 								alt="css3 logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/logos/javascript.png"
+								src="/static/img/tlogos/javascript.png"
 								alt="javascript logo"
 								class="project__tech-row--img">
 						</div>

@@ -1341,18 +1341,25 @@ input:focus {
   .site__header {
     text-align: center;
     margin-bottom: 3rem; }
-  .site__wrapper:not(:last-child) {
+  .site__wrapper {
     margin-bottom: 6rem; }
   .site__container {
-    border-top: 1px solid rgba(34, 34, 34, 0.5);
+    border-top: 1px solid #333;
     display: flex;
     justify-content: center; }
     .site__container--heading {
       text-align: center;
       width: 30%; }
+      .site__container--heading h3 {
+        background-color: #333;
+        color: #f7f7f7;
+        display: inline-block;
+        padding: 0 2rem;
+        border-radius: 0 0 4px 4px;
+        text-transform: uppercase;
+        font-weight: 300; }
     .site__container--text {
-      box-sizing: border-box;
-      border: 2px solid #4A849F;
+      border: 0.5px solid #4A849F;
       max-height: 0;
       transition: all 1s; }
       .site__container--text > p {
@@ -1362,7 +1369,7 @@ input:focus {
       .site__container--text-box {
         width: 60%; }
     .site__container--tool-box {
-      margin: 4rem;
+      margin: 6rem 4rem 4rem 4rem;
       display: flex;
       justify-content: space-around; }
     .site__container--tool {
@@ -1377,19 +1384,19 @@ input:focus {
     .site__container--more {
       display: inline-block;
       border-radius: 4px 4px 0 0;
-      background-color: #4A849F;
+      background-color: rgba(40, 180, 133, 0.8);
       color: #f7f7f7;
-      height: 4rem;
-      font-weight: 700;
+      font-weight: 400;
       transition: all .2s; }
       .site__container--more-text {
         display: flex;
         align-items: center;
-        height: 100%; }
+        margin: 0 2rem; }
         .site__container--more-text svg {
+          height: 3rem;
+          display: inline-block;
           transition: all .5s; }
         .site__container--more-text p {
-          margin-left: 2rem;
           text-transform: uppercase; }
         .site__container--more-text:hover > svg {
           transform: rotate(90deg); }
@@ -1402,9 +1409,8 @@ input:focus {
           max-height: 1000px; }
   .site__icon {
     fill: #f7f7f7;
-    height: 100%;
     width: 2rem;
-    margin: 0 2rem; }
+    margin-left: 1rem; }
 
 .transparent {
   color: transparent; }

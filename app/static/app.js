@@ -510,11 +510,14 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
+			
 			<div class="site">
 				<h2 class="site__header">What This Website is Built With</h2>		
 				<div class="site__wrapper">
 					<div class="site__container">
-						<h3 class="site__container--heading">Front-end</h3>
+						<div class="site__container--heading">
+							<h3>Front-end</h3>					
+						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
 								<div class="site__container--tool img-1">
@@ -569,14 +572,36 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<h3 class="site__container--heading">Back-end</h3>
+						<div class="site__container--heading">
+							<h3>Back-end</h3>					
+						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-8"></div>
-								<div class="site__container--tool img-10"></div>
-								<div class="site__container--tool img-19"></div>
-								<div class="site__container--tool img-26"></div>
-								<div class="site__container--tool img-29"></div>
+								<div class="site__container--tool img-8">
+									<h4 class="site__container--tool-name">
+										Flask	
+									</h4>
+								</div>
+								<div class="site__container--tool img-10">
+									<h4 class="site__container--tool-name">
+										Python	
+									</h4>
+								</div>
+								<div class="site__container--tool img-19">
+									<h4 class="site__container--tool-name">
+										Ubuntu
+									</h4>
+								</div>
+								<div class="site__container--tool img-26">
+									<h4 class="site__container--tool-name">
+										Nginx
+									</h4>
+								</div>
+								<div class="site__container--tool img-29">
+									<h4 class="site__container--tool-name">
+										Gunicorn
+									</h4>
+								</div>
 							</div>
 							<div class="site__container--more">
 								<div class="site__container--more-text">
@@ -607,11 +632,21 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<h3 class="site__container--heading">Database</h3>
+						<div class="site__container--heading">
+							<h3>Database</h3>					
+						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-16"></div>
-								<div class="site__container--tool img-30"></div>
+								<div class="site__container--tool img-16">
+									<h4 class="site__container--tool-name">
+										SQLite
+									</h4>
+								</div>
+								<div class="site__container--tool img-30">
+									<h4 class="site__container--tool-name">
+										SQLALchemy
+									</h4>
+								</div>
 							</div>
 							<div class="site__container--more">
 								<div class="site__container--more-text">
@@ -643,13 +678,31 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<h3 class="site__container--heading">Dev Tools</h3>
+						<div class="site__container--heading">
+							<h3>Dev Tools</h3>					
+						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-13"></div>
-								<div class="site__container--tool img-21"></div>
-								<div class="site__container--tool img-20"></div>
-								<div class="site__container--tool img-24"></div>
+								<div class="site__container--tool img-13">
+									<h4 class="site__container--tool-name">
+										Node.js
+									</h4>
+								</div>
+								<div class="site__container--tool img-21">
+									<h4 class="site__container--tool-name">
+										GitHub
+									</h4>
+								</div>
+								<div class="site__container--tool img-20">
+									<h4 class="site__container--tool-name">
+										Vim
+									</h4>
+								</div>
+								<div class="site__container--tool img-24">
+									<h4 class="site__container--tool-name">
+										AWS
+									</h4>
+								</div>
 							</div>
 							<div class="site__container--more">
 								<div class="site__container--more-text">

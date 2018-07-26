@@ -8,24 +8,31 @@
 	}
 
 	&__wrapper {
-		&:not(:last-child) {
-			margin-bottom: 6rem;
-		}
+		margin-bottom: 6rem;
 	}
 
 	&__container {
-		border-top: 1px solid rgba($color-black, .5);
+		border-top: 1px solid $color-black-light;
 		display: flex;
 		justify-content: center;
 		
 		&--heading {
 			text-align: center;
 			width: 30%;
+		
+			h3 {
+				background-color: $color-black-light;
+				color: $color-white;
+				display: inline-block;
+				padding: 0 2rem;
+				border-radius: 0 0 4px 4px;
+				text-transform: uppercase;
+				font-weight: 300;
+			}
 		}
 
 		&--text {
-			box-sizing: border-box;
-			border: 2px solid $color-primary;
+			border: .5px solid $color-primary;
 			max-height: 0;
 			transition: all 1s;
 		
@@ -42,7 +49,7 @@
 		}
 
 		&--tool-box {
-			margin: 4rem;
+			margin: 6rem 4rem 4rem 4rem;
 			display: flex;
 			justify-content: space-around;
 		}
@@ -66,23 +73,24 @@
 		&--more {
 			display: inline-block;
 			border-radius: 4px 4px 0 0;
-			background-color: $color-primary;
+			background-color: rgba($color-green-dark, .8);
 			color: $color-white;
-			height: 4rem;
-			font-weight: 700;
+			font-weight: 400;
 			transition: all .2s;
 
 			&-text {
 				display: flex;
 				align-items: center;
-				height: 100%;
+				margin: 0 2rem;
 
 				svg {
+					height: 3rem;
+					display: inline-block;
 					transition: all .5s;
 				}
 
 				p {
-					margin-left: 2rem;
+					// margin-left: 2rem;
 					text-transform: uppercase;
 				}
 				
@@ -107,9 +115,8 @@
 
 	&__icon {
 		fill: $color-white;
-		height: 100%;
 		width: 2rem;
-		margin: 0 2rem;
+		margin-left: 1rem;
 	}
 
 }

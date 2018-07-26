@@ -544,7 +544,7 @@ $(document).ready(function() {
 								<div class="site__container--tool img-10"></div>
 								<div class="site__container--tool img-19"></div>
 								<div class="site__container--tool img-26"></div>
-								<div class="site__container--tool img-26"></div>
+								<div class="site__container--tool img-29"></div>
 							</div>
 							<p class="site__container--text">
 								I chose to use Flask as my back-end for this site
@@ -567,7 +567,7 @@ $(document).ready(function() {
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
 								<div class="site__container--tool img-16"></div>
-								<div class="site__container--tool img-16"></div>
+								<div class="site__container--tool img-30"></div>
 							</div>
 							<p class="site__container--text">
 								Data and databases rock, so even though this

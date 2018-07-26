@@ -27,6 +27,8 @@ $technologies:
 	'nginx',
 	'bootstrap',
 	'vscode',
+	'gunicorn2',
+	'sqlalchemy'
 ;
 
 $total: length($technologies);

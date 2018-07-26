@@ -36,8 +36,13 @@ $total: length($technologies);
 }
 
 @for $i from 1 through $total {
+	.tech__animate-#{$i} {
+		@include beehive-appear($i); 
+	}
+}
+
+@for $i from 1 through $total {
     .img-#{$i} { 
-        @include beehive-appear($i); 
         background-image: url('img/tlogos/#{nth($technologies, $i)}.png');
         background-size: cover;
         background-position: center;

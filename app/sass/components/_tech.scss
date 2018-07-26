@@ -55,6 +55,28 @@
 		background-color: $color-foam-dark;
 		box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 		position: relative;
+	
+	}
+	&__active {
+		padding: 1rem;
+        height: 12rem;
+        width: 12rem;
+        position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 200px;
+		background-color: $color-primary;
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			height: 11rem;
+			width: auto;
+		}
+
 	}
     
     &__logo {
@@ -172,40 +194,37 @@
 
 	&__container {
 		// border: 1px dashed red;	
-		text-align: center;
+		margin-bottom: 3rem;
+		display: flex;
+		justify-content: center;
 
-		img:first-child {
-			height: 15rem;
-			width: auto;
+		&--text-box {
+			width: 60%;
 		}
-		&:not(:last-child) {
-			margin-bottom: 3rem;
+
+		&--tool-box {
+			display: flex;
+			justify-content: space-around;
 		}
 
 		&--tool {
-			// width: 40%;
 			// border: 1px dashed green;
-			text-align: center;
-			display: inline-block;
 			background-size: cover;
-			height: 15rem;
-			width: 12.5rem;
+			height: 10rem;
+			width: 9rem;
 
 			&:hover {
 				cursor: pointer;
 			}
+		}
 
-			img {
-				height: 15rem;
-				width: 12.5rem;
-			}
-
+		&--heading {
+			text-align: center;
+			width: 30%;
 		}
 
 		&--text {
-			height: 30rem;
-			width: 50%;
-			background-color: orangered;
+
 		}
 	}
 

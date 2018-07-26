@@ -77,8 +77,91 @@ body {
 .u-indent {
   margin-left: 2rem; }
 
+.tech__animate-1 {
+  animation: appear 0.25s 0.05s 1 ease-out forwards; }
+
+.tech__animate-2 {
+  animation: appear 0.25s 0.1s 1 ease-out forwards; }
+
+.tech__animate-3 {
+  animation: appear 0.25s 0.15s 1 ease-out forwards; }
+
+.tech__animate-4 {
+  animation: appear 0.25s 0.2s 1 ease-out forwards; }
+
+.tech__animate-5 {
+  animation: appear 0.25s 0.25s 1 ease-out forwards; }
+
+.tech__animate-6 {
+  animation: appear 0.25s 0.3s 1 ease-out forwards; }
+
+.tech__animate-7 {
+  animation: appear 0.25s 0.35s 1 ease-out forwards; }
+
+.tech__animate-8 {
+  animation: appear 0.25s 0.4s 1 ease-out forwards; }
+
+.tech__animate-9 {
+  animation: appear 0.25s 0.45s 1 ease-out forwards; }
+
+.tech__animate-10 {
+  animation: appear 0.25s 0.5s 1 ease-out forwards; }
+
+.tech__animate-11 {
+  animation: appear 0.25s 0.55s 1 ease-out forwards; }
+
+.tech__animate-12 {
+  animation: appear 0.25s 0.6s 1 ease-out forwards; }
+
+.tech__animate-13 {
+  animation: appear 0.25s 0.65s 1 ease-out forwards; }
+
+.tech__animate-14 {
+  animation: appear 0.25s 0.7s 1 ease-out forwards; }
+
+.tech__animate-15 {
+  animation: appear 0.25s 0.75s 1 ease-out forwards; }
+
+.tech__animate-16 {
+  animation: appear 0.25s 0.8s 1 ease-out forwards; }
+
+.tech__animate-17 {
+  animation: appear 0.25s 0.85s 1 ease-out forwards; }
+
+.tech__animate-18 {
+  animation: appear 0.25s 0.9s 1 ease-out forwards; }
+
+.tech__animate-19 {
+  animation: appear 0.25s 0.95s 1 ease-out forwards; }
+
+.tech__animate-20 {
+  animation: appear 0.25s 1s 1 ease-out forwards; }
+
+.tech__animate-21 {
+  animation: appear 0.25s 1.05s 1 ease-out forwards; }
+
+.tech__animate-22 {
+  animation: appear 0.25s 1.1s 1 ease-out forwards; }
+
+.tech__animate-23 {
+  animation: appear 0.25s 1.15s 1 ease-out forwards; }
+
+.tech__animate-24 {
+  animation: appear 0.25s 1.2s 1 ease-out forwards; }
+
+.tech__animate-25 {
+  animation: appear 0.25s 1.25s 1 ease-out forwards; }
+
+.tech__animate-26 {
+  animation: appear 0.25s 1.3s 1 ease-out forwards; }
+
+.tech__animate-27 {
+  animation: appear 0.25s 1.35s 1 ease-out forwards; }
+
+.tech__animate-28 {
+  animation: appear 0.25s 1.4s 1 ease-out forwards; }
+
 .img-1 {
-  animation: appear 0.25s 0.05s 1 ease-out forwards;
   background-image: url("img/tlogos/html5.png");
   background-size: cover;
   background-position: center;
@@ -102,7 +185,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-2 {
-  animation: appear 0.25s 0.1s 1 ease-out forwards;
   background-image: url("img/tlogos/css3.png");
   background-size: cover;
   background-position: center;
@@ -126,7 +208,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-3 {
-  animation: appear 0.25s 0.15s 1 ease-out forwards;
   background-image: url("img/tlogos/javascript.png");
   background-size: cover;
   background-position: center;
@@ -150,7 +231,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-4 {
-  animation: appear 0.25s 0.2s 1 ease-out forwards;
   background-image: url("img/tlogos/angular.png");
   background-size: cover;
   background-position: center;
@@ -174,7 +254,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-5 {
-  animation: appear 0.25s 0.25s 1 ease-out forwards;
   background-image: url("img/tlogos/react.png");
   background-size: cover;
   background-position: center;
@@ -198,7 +277,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-6 {
-  animation: appear 0.25s 0.3s 1 ease-out forwards;
   background-image: url("img/tlogos/jquery.png");
   background-size: cover;
   background-position: center;
@@ -222,7 +300,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-7 {
-  animation: appear 0.25s 0.35s 1 ease-out forwards;
   background-image: url("img/tlogos/sass.png");
   background-size: cover;
   background-position: center;
@@ -246,7 +323,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-8 {
-  animation: appear 0.25s 0.4s 1 ease-out forwards;
   background-image: url("img/tlogos/flask.png");
   background-size: cover;
   background-position: center;
@@ -270,7 +346,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-9 {
-  animation: appear 0.25s 0.45s 1 ease-out forwards;
   background-image: url("img/tlogos/django.png");
   background-size: cover;
   background-position: center;
@@ -294,7 +369,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-10 {
-  animation: appear 0.25s 0.5s 1 ease-out forwards;
   background-image: url("img/tlogos/python.png");
   background-size: cover;
   background-position: center;
@@ -318,7 +392,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-11 {
-  animation: appear 0.25s 0.55s 1 ease-out forwards;
   background-image: url("img/tlogos/dotnet.png");
   background-size: cover;
   background-position: center;
@@ -342,7 +415,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-12 {
-  animation: appear 0.25s 0.6s 1 ease-out forwards;
   background-image: url("img/tlogos/csharp.png");
   background-size: cover;
   background-position: center;
@@ -366,7 +438,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-13 {
-  animation: appear 0.25s 0.65s 1 ease-out forwards;
   background-image: url("img/tlogos/nodejs.png");
   background-size: cover;
   background-position: center;
@@ -390,7 +461,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-14 {
-  animation: appear 0.25s 0.7s 1 ease-out forwards;
   background-image: url("img/tlogos/express.png");
   background-size: cover;
   background-position: center;
@@ -414,7 +484,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-15 {
-  animation: appear 0.25s 0.75s 1 ease-out forwards;
   background-image: url("img/tlogos/sql.png");
   background-size: cover;
   background-position: center;
@@ -438,7 +507,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-16 {
-  animation: appear 0.25s 0.8s 1 ease-out forwards;
   background-image: url("img/tlogos/sqlite.png");
   background-size: cover;
   background-position: center;
@@ -462,7 +530,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-17 {
-  animation: appear 0.25s 0.85s 1 ease-out forwards;
   background-image: url("img/tlogos/mongodb.png");
   background-size: cover;
   background-position: center;
@@ -486,7 +553,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-18 {
-  animation: appear 0.25s 0.9s 1 ease-out forwards;
   background-image: url("img/tlogos/r.png");
   background-size: cover;
   background-position: center;
@@ -510,7 +576,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-19 {
-  animation: appear 0.25s 0.95s 1 ease-out forwards;
   background-image: url("img/tlogos/ubuntu.png");
   background-size: cover;
   background-position: center;
@@ -534,7 +599,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-20 {
-  animation: appear 0.25s 1s 1 ease-out forwards;
   background-image: url("img/tlogos/vim.png");
   background-size: cover;
   background-position: center;
@@ -558,7 +622,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-21 {
-  animation: appear 0.25s 1.05s 1 ease-out forwards;
   background-image: url("img/tlogos/github.png");
   background-size: cover;
   background-position: center;
@@ -582,7 +645,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-22 {
-  animation: appear 0.25s 1.1s 1 ease-out forwards;
   background-image: url("img/tlogos/firebase.png");
   background-size: cover;
   background-position: center;
@@ -606,7 +668,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-23 {
-  animation: appear 0.25s 1.15s 1 ease-out forwards;
   background-image: url("img/tlogos/git.png");
   background-size: cover;
   background-position: center;
@@ -630,7 +691,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-24 {
-  animation: appear 0.25s 1.2s 1 ease-out forwards;
   background-image: url("img/tlogos/aws.png");
   background-size: cover;
   background-position: center;
@@ -654,7 +714,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-25 {
-  animation: appear 0.25s 1.25s 1 ease-out forwards;
   background-image: url("img/tlogos/postman.png");
   background-size: cover;
   background-position: center;
@@ -678,7 +737,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-26 {
-  animation: appear 0.25s 1.3s 1 ease-out forwards;
   background-image: url("img/tlogos/nginx.png");
   background-size: cover;
   background-position: center;
@@ -702,7 +760,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-27 {
-  animation: appear 0.25s 1.35s 1 ease-out forwards;
   background-image: url("img/tlogos/bootstrap.png");
   background-size: cover;
   background-position: center;
@@ -726,7 +783,6 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-28 {
-  animation: appear 0.25s 1.4s 1 ease-out forwards;
   background-image: url("img/tlogos/vscode.png");
   background-size: cover;
   background-position: center;
@@ -1081,7 +1137,7 @@ input:focus {
 
 .portfolio {
   padding: 6rem 3rem 3rem 3rem;
-  background-color: #f7f7f7; }
+  background-color: #ddd; }
   .portfolio__header {
     text-align: center; }
 
@@ -1097,8 +1153,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 3rem;
-  background-color: #f7f7f7; }
+  padding: 3rem; }
   .project__description p {
     margin: 1rem; }
   .project__description--header {
@@ -1265,6 +1320,23 @@ input:focus {
     background-color: #9dc9b4;
     box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.2);
     position: relative; }
+  .tech__active {
+    padding: 1rem;
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 200px;
+    background-color: #4A849F; }
+    .tech__active img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 11rem;
+      width: auto; }
   .tech__logo {
     padding: 1rem;
     height: 12rem;
@@ -1351,24 +1423,20 @@ input:focus {
   .site__wrapper:not(:last-child) {
     margin-bottom: 6rem; }
   .site__container {
-    text-align: center; }
-    .site__container img:first-child {
-      height: 15rem;
-      width: auto; }
-    .site__container:not(:last-child) {
-      margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center; }
+    .site__container--text-box {
+      width: 60%; }
+    .site__container--tool-box {
+      display: flex;
+      justify-content: space-around; }
     .site__container--tool {
-      text-align: center;
-      display: inline-block;
       background-size: cover;
-      height: 15rem;
-      width: 12.5rem; }
+      height: 10rem;
+      width: 9rem; }
       .site__container--tool:hover {
         cursor: pointer; }
-      .site__container--tool img {
-        height: 15rem;
-        width: 12.5rem; }
-    .site__container--text {
-      height: 30rem;
-      width: 50%;
-      background-color: orangered; }
+    .site__container--heading {
+      text-align: center;
+      width: 30%; }

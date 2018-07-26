@@ -2,6 +2,7 @@ $.mobile.loader.prototype.options.text = "";
 
 $(document).ready(function() {
 	console.log('power overwhelming');
+	
 
 
 	// sticky navigation trigger
@@ -55,10 +56,11 @@ $(document).ready(function() {
 				name = res['name'];
 				document.getElementById('blurb').innerHTML=`
 				<p>${blurb}</p>
-				`
+				`;
 				document.getElementById('tech_image').innerHTML=`
 				<img src="/static/img/tlogos/${name}.png">
-				`
+				`;
+				$('.tech__logo').addClass('tech__active');
 			}
 		});
 	})
@@ -476,7 +478,7 @@ $(document).ready(function() {
 			let techName = technologies.pop();
 			grid += `
 				<li class="hex-container">
-					<div class="hexagon img-${i}">
+					<div class="hexagon img-${i} tech__animate-${i}">
 						<span class="transparent">${techName}</span>
 					</div>
 				</li>     
@@ -494,7 +496,9 @@ $(document).ready(function() {
 					<div class="tech__logo-box">
 						<div class="tech__logo-pad">
 							<div class="tech__logo" id="tech_image">
-								<!-- empty -->
+								<img 
+									src="/static/img/cube_primary.png" 
+									alt="tech cube">
 							</div>
 						</div>
 					</div>
@@ -510,62 +514,82 @@ $(document).ready(function() {
 				<h2 class="site__header">What This Website is Built With</h2>		
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--tool">
-							<h3 class="site__subheading">Front-end</h3>
-							<img 
-								src="/static/img/cube_primary.png" 
-								alt="blue cube"
-								class="site__container--tool-img">
+						<h3 class="site__container--heading">Front-end</h3>
+						<div class="site__container--text-box">
+							<div class="site__container--tool-box">
+								<div class="site__container--tool img-1"></div>
+								<div class="site__container--tool img-2"></div>
+								<div class="site__container--tool img-3"></div>
+								<div class="site__container--tool img-6"></div>
+								<div class="site__container--tool img-7"></div>
+							</div>
+							<p class="site__container--text">
+								Given the small scale of this project, a front-end
+								framework was simply not necessary. jQuery takes
+								care of all the dynamic content and the waypoints
+								library enabled the implementation of the 
+								"sticky nav-bar" effect and page scrolling. 
+							</p>
 						</div>
-						<div class="site__container--tool img-1"></div>
-						<div class="site__container--tool img-2"></div>
-						<div class="site__container--tool img-3"></div>
-						<div class="site__container--tool img-6"></div>
-						<div class="site__container--tool img-7"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--tool">
-							<h3 class="site__subheading">Back-end</h3>
-							<img 
-								src="/static/img/cube_red.png" 
-								alt="red cube"
-								class="site__container--tool-img">
+						<h3 class="site__container--heading">Back-end</h3>
+						<div class="site__container--text-box">
+							<div class="site__container--tool-box">
+								<div class="site__container--tool img-8"></div>
+								<div class="site__container--tool img-10"></div>
+								<div class="site__container--tool img-19"></div>
+								<div class="site__container--tool img-26"></div>
+								<div class="site__container--tool img-26"></div>
+							</div>
+							<p class="site__container--text">
+								Given the small scale of this project, a front-end
+								framework was simply not necessary. jQuery takes
+								care of all the dynamic content and the waypoints
+								library enabled the implementation of the 
+								"sticky nav-bar" effect and page scrolling. 
+							</p>
 						</div>
-						<div class="site__container--tool img-8"></div>
-						<div class="site__container--tool img-10"></div>
-						<div class="site__container--tool img-19"></div>
-						<div class="site__container--tool img-26"></div>
-						<div class="site__container--tool img-26"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--tool">
-							<h3 class="site__subheading">Database</h3>
-							<img 
-								src="/static/img/cube_teal.png" 
-								alt="foam cube"
-								class="site__container--tool-img">
+						<h3 class="site__container--heading">Database</h3>
+						<div class="site__container--text-box">
+							<div class="site__container--tool-box">
+								<div class="site__container--tool img-16"></div>
+								<div class="site__container--tool img-16"></div>
+							</div>
+							<p class="site__container--text">
+								Given the small scale of this project, a front-end
+								framework was simply not necessary. jQuery takes
+								care of all the dynamic content and the waypoints
+								library enabled the implementation of the 
+								"sticky nav-bar" effect and page scrolling. 
+							</p>
 						</div>
-						<div class="site__container--tool img-16"></div>
-						<div class="site__container--tool img-16"></div>
 					</div>
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--tool">
-							<h3 class="site__subheading">Dev Tools</h3>
-							<img 
-								src="/static/img/cube_primary.png" 
-								alt="blue cube"
-								class="site__container--tool-img">
+						<h3 class="site__container--heading">Dev Tools</h3>
+						<div class="site__container--text-box">
+							<div class="site__container--tool-box">
+								<div class="site__container--tool img-13"></div>
+								<div class="site__container--tool img-21"></div>
+								<div class="site__container--tool img-20"></div>
+								<div class="site__container--tool img-24"></div>
+							</div>
+							<p class="site__container--text">
+								Given the small scale of this project, a front-end
+								framework was simply not necessary. jQuery takes
+								care of all the dynamic content and the waypoints
+								library enabled the implementation of the 
+								"sticky nav-bar" effect and page scrolling. 
+							</p>
 						</div>
-						<div class="site__container--tool img-13"></div>
-						<div class="site__container--tool img-21"></div>
-						<div class="site__container--tool img-20"></div>
-						<div class="site__container--tool img-24"></div>
 					</div>
 				</div>
 			</div>

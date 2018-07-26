@@ -528,7 +528,9 @@ $(document).ready(function() {
 								framework was simply not necessary. jQuery takes
 								care of all the dynamic content and the waypoints
 								library enabled the implementation of the 
-								"sticky nav-bar" effect and page scrolling. 
+								"sticky nav-bar" effect and page scrolling. HTML5
+								tags are optimized for added accessibility and 
+								all	CSS was built with SASS.
 							</p>
 						</div>
 					</div>
@@ -545,11 +547,16 @@ $(document).ready(function() {
 								<div class="site__container--tool img-26"></div>
 							</div>
 							<p class="site__container--text">
-								Given the small scale of this project, a front-end
-								framework was simply not necessary. jQuery takes
-								care of all the dynamic content and the waypoints
-								library enabled the implementation of the 
-								"sticky nav-bar" effect and page scrolling. 
+								I chose to use Flask as my back-end for this site
+								because as a micro-framework, Flask is unopinionated
+								about how it is structured and the tech you wish 
+								to integrate with it. I went with a fairly minimalist 
+								modularization of the server and opted to have 
+								just a single-route serving the site so that it 
+								felt snappy and modern while also decreasing the 
+								number of incoming server requests. The site is
+								being hosted on an Ubuntu server running Nginx
+								and Gunicorn.
 							</p>
 						</div>
 					</div>
@@ -563,11 +570,17 @@ $(document).ready(function() {
 								<div class="site__container--tool img-16"></div>
 							</div>
 							<p class="site__container--text">
-								Given the small scale of this project, a front-end
-								framework was simply not necessary. jQuery takes
-								care of all the dynamic content and the waypoints
-								library enabled the implementation of the 
-								"sticky nav-bar" effect and page scrolling. 
+								Data and databases rock, so even though this
+								project really did not need a database (sad panda),
+								I decided to use one to store the descriptions
+								for each tech shown above. For simplicity I chose
+								to use SQLite to take advantage of the prebuilt-ORM
+								SQLAlchemy provides Flask and the simple migration
+								features of flask-migrate. Database queries are
+								handled via AJAX calls with jQuery that return
+								JSON data back to the browser. This was a much
+								dryer solution than writing a form into each
+								hexagon individually.
 							</p>
 						</div>
 					</div>
@@ -583,11 +596,12 @@ $(document).ready(function() {
 								<div class="site__container--tool img-24"></div>
 							</div>
 							<p class="site__container--text">
-								Given the small scale of this project, a front-end
-								framework was simply not necessary. jQuery takes
-								care of all the dynamic content and the waypoints
-								library enabled the implementation of the 
-								"sticky nav-bar" effect and page scrolling. 
+								The Node package manager (NPM) was used to install
+								node-sass and generate my watch, compile, compress,
+								and prefix scripts to streamline the CSS build 
+								process. GitHub was used for version control, all
+								writing and editing was done in Vim, and the site
+								is hosted on a free-tier server with AWS.
 							</p>
 						</div>
 					</div>

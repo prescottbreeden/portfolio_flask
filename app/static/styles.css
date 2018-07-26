@@ -10,6 +10,15 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.75em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   background-color: #222;
@@ -32,6 +41,10 @@ body {
   content: "";
   display: block;
   clear: both; }
+
+::selection {
+  background-color: #ff9c67;
+  color: #f7f7f7; }
 
 body {
   font-weight: 400;
@@ -1343,7 +1356,7 @@ input:focus {
 
 .tech {
   padding-top: 6rem;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-image: linear-gradient(to top right, #222, #222); }
   .tech__header {
@@ -1475,20 +1488,63 @@ input:focus {
   .site__wrapper:not(:last-child) {
     margin-bottom: 6rem; }
   .site__container {
-    margin-bottom: 3rem;
+    margin-bottom: 9rem;
+    border-top: 1px solid rgba(34, 34, 34, 0.5);
     display: flex;
     justify-content: center; }
     .site__container--text-box {
-      width: 60%; }
+      width: 60%;
+      margin-top: 1rem; }
     .site__container--tool-box {
       display: flex;
       justify-content: space-around; }
     .site__container--tool {
       background-size: cover;
-      height: 10rem;
-      width: 9rem; }
+      height: 12rem;
+      width: 10.5rem; }
       .site__container--tool:hover {
         cursor: pointer; }
     .site__container--heading {
       text-align: center;
       width: 30%; }
+    .site__container--text {
+      box-sizing: border-box;
+      border: 2px solid #4A849F;
+      max-height: 0;
+      transition: all 1s; }
+      .site__container--text > p {
+        transition: all 1s;
+        padding: 0 1rem;
+        opacity: 0; }
+    .site__container--more {
+      display: inline-block;
+      margin-top: 2rem;
+      border-radius: 4px 4px 0 0;
+      background-color: #4A849F;
+      color: #f7f7f7;
+      height: 4rem;
+      font-weight: 700;
+      transition: all .2s; }
+      .site__container--more-text {
+        display: flex;
+        align-items: center;
+        height: 100%; }
+        .site__container--more-text svg {
+          transition: all .5s; }
+        .site__container--more-text p {
+          margin-left: 2rem;
+          text-transform: uppercase; }
+        .site__container--more-text:hover > svg {
+          transform: rotate(90deg); }
+      .site__container--more:hover {
+        background-color: #ff9c67;
+        cursor: pointer; }
+        .site__container--more:hover + div,
+        .site__container--more:hover + div > p {
+          opacity: 1;
+          max-height: 1000px; }
+  .site__icon {
+    fill: #f7f7f7;
+    height: 100%;
+    width: 2rem;
+    margin: 0 2rem; }

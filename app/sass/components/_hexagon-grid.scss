@@ -1,0 +1,59 @@
+.grid {
+    position: relative;
+    width: 90%;    
+    max-width: 101rem;
+    margin: 0 auto;
+    padding: 2rem 2rem 6rem 2rem;
+    box-sizing: border-box; 
+}
+
+.hex-container {
+    box-sizing: border-box; 
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 12.85714285714286%;
+    padding: 0 0 14.87860145166612% 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.hexagon {
+    box-sizing: border-box; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .2s;
+    color: $color-white;
+
+    &:hover {
+		cursor: pointer;
+    }
+}
+
+.grid .hex-container * {
+	visibility: visible;
+}
+
+.grid .hex-container:nth-child(1n+1) {
+	margin: 0%;
+}
+
+.grid .hex-container:nth-child(14n+8), 
+.grid .hex-container:nth-child(14n+9), 
+.grid .hex-container:nth-child(14n+10), 
+.grid .hex-container:nth-child(14n+11), 
+.grid .hex-container:nth-child(14n+12), 
+.grid .hex-container:nth-child(14n+13), 
+.grid .hex-container:nth-child(14n+14) {
+    margin-top: -3.8285714285%;
+    margin-bottom: -3.8285714285%;
+    transform: translateX(50%);
+}
+
+.grid .hex-container:nth-child(14n+8) { 
+    margin-left: 0%;
+}

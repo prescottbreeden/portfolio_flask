@@ -1,0 +1,91 @@
+.transparent {
+    color: transparent;
+}
+
+.tech {
+    padding-top: 6rem;
+    width: 100%;
+
+    position: relative;
+    background-image: linear-gradient(to top right, 
+						$color-black, 
+						$color-black);
+	
+	&__header {
+		text-align: center;
+		color: $color-white;
+	}
+
+
+	&__details {
+        padding: 3rem 0;
+        background-color: $color-grey-light;
+		color: $color-white;
+        
+        &--container {
+			background-image: linear-gradient(
+								45deg,
+								$color-black-light 0%,
+								$color-black-light 18%,
+								$color-red-light 18%,
+								$color-red-light 23%,
+								$color-black-light 23%,
+								$color-black-light 100%);
+								
+            max-width: 100rem;
+            margin: 0 auto;
+			padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+			box-shadow: 0 1rem 2rem rgba($color-black, .5);
+			border-radius: 4px;
+        }
+    }
+    
+    &__logo {
+		padding: 1rem;
+        height: 12rem;
+        width: 12rem;
+        position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 200px;
+		background-color: $color-white;
+
+		&-pad {
+			margin: 0 auto;
+			height: 13rem;
+			width: 13rem;
+			border-radius: 200px;
+			background-color: $color-foam-dark;
+			box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+			position: relative;
+		}
+
+		&-box {
+			width: 30%;
+		}
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			height: 11rem;
+			width: auto;
+		}
+
+    }
+
+    &__explain {
+		align-self: center;
+        padding-right: 7rem;
+        padding-left: 4rem;
+        flex-grow: 2;
+        flex-basis: 50%;
+		font-style: italic;
+		position: relative;
+    }
+}
+

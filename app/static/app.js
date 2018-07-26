@@ -517,11 +517,31 @@ $(document).ready(function() {
 						<h3 class="site__container--heading">Front-end</h3>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-1"></div>
-								<div class="site__container--tool img-2"></div>
-								<div class="site__container--tool img-3"></div>
-								<div class="site__container--tool img-6"></div>
-								<div class="site__container--tool img-7"></div>
+								<div class="site__container--tool img-1">
+									<h4 class="site__container--tool-name">
+										HTML5	
+									</h4>
+								</div>
+								<div class="site__container--tool img-2">
+									<h4 class="site__container--tool-name">
+										CSS3	
+									</h4>
+								</div>
+								<div class="site__container--tool img-3">
+									<h4 class="site__container--tool-name">
+										JavaScript	
+									</h4>
+								</div>
+								<div class="site__container--tool img-6">
+									<h4 class="site__container--tool-name">
+										jQuery	
+									</h4>
+								</div>
+								<div class="site__container--tool img-7">
+									<h4 class="site__container--tool-name">
+										SASS
+									</h4>
+								</div>
 							</div>
 							<div class="site__container--more">
 								<div class="site__container--more-text">

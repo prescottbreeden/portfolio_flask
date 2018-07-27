@@ -182,11 +182,11 @@ $(document).ready(function() {
 
 		<section class="portfolio">
 			<h2 class="portfolio__header">Some of My Work</h2>
-			<div class="project">
+			<div class="project clear">
+				<h2 class="project__description--header">
+					Powder
+				</h2>
 				<div class="project__description">
-					<h2 class="project__description--header">
-						Powder
-					</h2>
 					<p class="project__description--text">
 						<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
 						and features capable with just CSS3 and HTML5 alone. The 
@@ -250,21 +250,23 @@ $(document).ready(function() {
 					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project clear">
+				<h2 class="project__description--header">
+					Ultimate Fan
+				</h2>
 				<div class="project__description">
-					<h2 class="project__description--header">
-						Ultimate Fan
-					</h2>
 					<p class="project__description--text">
 						<span class="u-color-red">Ultimate Fan</span> is a trivia game that tests users about 
 						athletes from selected categories. All trivia questions 
 						were generated via web scraping robot. 
 					</p>
-					<p>
+					<p class="project__description--contrib">
 						<span class="u-color-red">Contributors:</span> 
-						<a href="https://github.com/" class="contrib-link">
-							Stephen Silverstein
-						</a>
+						<a 
+							href="https://github.com/" 
+							target="_blank"	
+							class="project__description--contrib-link">
+								Stephen Silverstein</a>
 					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
@@ -331,25 +333,29 @@ $(document).ready(function() {
 					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project clear">
+				<h2 class="project__description--header">
+					Casino 31
+				</h2>
 				<div class="project__description">
-					<h2 class="project__description--header">
-						Casino 31
-					</h2>
 					<p class="project__description--text">
 						<span class="u-color-red">Casino 31</span> is a card game for 1-6 players. Users can play 
 						with their friends, the AI computer, or even just watch the 
 						computer play. Cards are served from our own API on a 
 						seperate express server 
 					</p>
-					<p>
+					<p class="project__description--contrib">
 						<span class="u-color-red">Contributors:</span> 
-						<a href="https://github.com/lawyerh" class="contrib-link">
-							Lawyer Helbing 
-						</a>
-						<a href="https://github.com/petersonjustin" class="contrib-link">
-							Justin Peterson
-						</a>
+						<a 
+							href="https://github.com/lawyerh" 
+							target="_blank"
+							class="project__description--contrib-link">
+								Lawyer Helbing</a>
+						<a 
+							href="https://github.com/petersonjustin" 
+							target="_blank"
+							class="project__description--contrib-link">
+								Justin Peterson</a>
 					</p>
 					<p>
 						<span class="u-color-red">Note:</span> due to free-hosting limitations, the

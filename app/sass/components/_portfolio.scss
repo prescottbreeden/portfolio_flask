@@ -2,6 +2,10 @@
     padding: 6rem 3rem 3rem 3rem;
     background-color: $color-grey-light;
 
+	@include respond(phone){
+		padding: 3rem 1rem;	
+	}
+
     &__header {
         text-align: center;
     }
@@ -18,13 +22,18 @@
 }
 
 .project {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     padding: 3rem;
-    // background-color: $color-white;
+
+	@include respond(phone){
+		display: flex;
+		flex-direction: column;	
+		align-items: center;
+		padding: 3rem 1rem;
+	}
 
     &__description {
+		display: inline-block;
+		width: 50%;
 
 		p {
 			margin: 1rem;
@@ -57,13 +66,42 @@
                     background-color: rgba($color-primary, .5);
                     color: $color-white;
                 }
-            }
 
+				@include respond(phone) {
+					// display: block;
+				}
+            }
         }
+
+		&--contrib {
+
+			@include respond(phone){
+				display: flex;
+				flex-direction: column;
+			}
+
+			&-link:link,
+			&-link:visited {
+				margin-left: 1rem;
+				color: $color-primary-dark;
+
+				&:hover {
+					color: $color-green-dark;
+				}
+			}
+		}
+	
+
+		@include respond(phone){
+			order: 2;		
+			width: 100%;
+			text-align: center;	
+		}
     }
 
 	&__tech-row {
 		text-align: center;
+
 		&--img {
 			height: 6rem;
 			width: auto;
@@ -78,7 +116,9 @@
     }
 
     &__desktop {
-        // border: 1px dashed orangered;
+		display: inline-block;
+		width: 50%;
+		float: right;
         text-align: center;
 		animation: appear .5s linear 1;
 
@@ -90,7 +130,17 @@
 			&:hover {
 				transform: scale(1.1);
 			}
+
+			@include respond(phone){
+				width: 100%;
+				height: auto;
+			}
         }
+
+		@include respond(phone){
+			width: 100%;
+			order: 1;	
+		}
     }
 
 }

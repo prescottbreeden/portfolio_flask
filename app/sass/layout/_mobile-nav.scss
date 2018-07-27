@@ -1,9 +1,7 @@
 .cb-nav {
-	display: none;
-
-	@include respond(phone)	{
-		display: unset;	
-	}
+    // position: absolute;
+    // bottom: 0;
+	// left: 50%;
 
     &__checkbox {
         display: none;
@@ -19,6 +17,11 @@
 		border-radius: 50%;
 		z-index: 2000;
 		cursor: pointer;
+		display: none;
+
+		@include respond(phone){
+			display: unset;			
+		}
     }
     
     &__background {
@@ -32,6 +35,11 @@
 		z-index: 1000;
 		// box-shadow: $default-box-shadow;
 		transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+		display: none;
+
+		@include respond(phone){
+			display: unset;	
+		}
     }
 
     // functionality
@@ -49,6 +57,11 @@
     &__icon {
         position: relative;
         @include center-element;
+		display: none;
+
+		@include respond(phone){
+			display: unset;	
+		}
 
         &,
         &::before,

@@ -3,9 +3,9 @@
 }
 
 .nav {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    left: 0;
+	left: 0;
     height: 5rem;
     z-index: 300;
     background-color: $color-black-light;
@@ -14,6 +14,7 @@
 	transition: all .5s;
     
 	@include respond(phone)	{
+		position: fixed;
 		transform: translateY(100%);
 		height: auto;
 	}
@@ -98,9 +99,5 @@
     position: fixed;
     top: 0;
     left: 0;
-
-	@include respond(phone) {
-		position: inherit;			
-	}
 }
 

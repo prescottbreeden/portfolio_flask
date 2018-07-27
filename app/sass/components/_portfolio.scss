@@ -34,6 +34,7 @@
     &__description {
 		display: inline-block;
 		width: 50%;
+		min-height: 40rem;
 
 		p {
 			margin: 1rem;
@@ -101,10 +102,15 @@
 
 	&__tech-row {
 		text-align: center;
+		padding: 0 4rem;
 
 		&--img {
 			height: 6rem;
 			width: auto;
+		}
+
+		@include respond(phone){
+			padding: 0;	
 		}
 	}
 

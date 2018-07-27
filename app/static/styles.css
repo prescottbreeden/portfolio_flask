@@ -1633,7 +1633,8 @@ input:focus {
       padding: 3rem 1rem; } }
   .project__description {
     display: inline-block;
-    width: 50%; }
+    width: 50%;
+    min-height: 40rem; }
     .project__description p {
       margin: 1rem; }
     .project__description--header {
@@ -1670,10 +1671,14 @@ input:focus {
         width: 100%;
         text-align: center; } }
   .project__tech-row {
-    text-align: center; }
+    text-align: center;
+    padding: 0 4rem; }
     .project__tech-row--img {
       height: 6rem;
       width: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .project__tech-row {
+        padding: 0; } }
   .project__tech {
     text-align: center;
     margin-top: 2rem;
@@ -1770,8 +1775,6 @@ input:focus {
       @media only screen and (max-width: 37.5em) {
         .site__container--tool {
           margin: 1.5rem; } }
-      .site__container--tool:hover {
-        cursor: pointer; }
       .site__container--tool-name {
         margin-top: -3rem;
         text-align: center; }

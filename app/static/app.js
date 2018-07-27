@@ -184,67 +184,121 @@ $(document).ready(function() {
 			<h2 class="portfolio__header">Some of My Work</h2>
 			<div class="project clear">
 				<h2 class="project__description--header">
-					Powder
+					Casino 31
 				</h2>
 				<div class="project__description">
 					<p class="project__description--text">
-						<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
-						and features capable with just CSS3 and HTML5 alone. The 
-						site is fully responsive to provide a smooth user 
-						experience on various device sizes.
+						<span class="u-color-red">Casino 31</span> is a card game for 1-6 players. Users can play 
+						with their friends, the AI computer, or even just watch the 
+						computer play. Cards are served from our own API on a 
+						seperate express server.
+					</p>
+					<p class="project__description--contrib">
+						<span class="u-color-red">Contributors:</span> 
+						<a 
+							href="https://github.com/lawyerh" 
+							target="_blank"
+							class="project__description--contrib-link">
+								Lawyer Helbing</a>
+						<a 
+							href="https://github.com/petersonjustin" 
+							target="_blank"
+							class="project__description--contrib-link">
+								Justin Peterson</a>
 					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
+						<div class="project__tech-row">
+							<img
+								src="/static/img/tlogos/html5.png"
+								alt="html5 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/css3.png"
+								alt="css3 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/javascript.png"
+								alt="javascript logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/jquery.png"
+								alt="jquery logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/bootstrap.png"
+								alt="bootstrap logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/sass.png"
+								alt="sass logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/dotnet.png"
+								alt="dotnet logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/csharp.png"
+								alt="csharp logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/ubuntu.png"
+								alt="ubuntu logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/nginx.png"
+								alt="nginx logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/gunicorn2.png"
+								alt="gunicorn2 logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/github.png"
+								alt="github logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/vscode.png"
+								alt="vscode logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/aws.png"
+								alt="aws logo"
+								class="project__tech-row--img">
+						</div>
 					</div>
-					<div class="project__tech-row">
-						<img
-							src="/static/img/tlogos/angular.png"
-							alt="angular logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/express.png"
-							alt="express logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/nodejs.png"
-							alt="nodejs logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/sass.png"
-							alt="sass logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/aws.png"
-							alt="aws logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/html5.png"
-							alt="html5 logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/css3.png"
-							alt="css3 logo"
-							class="project__tech-row--img">
-						<img
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
+					<div class="project__tech">
+						<p>Card API:</p>
+						<div class="project__tech-row">
+							<img
+								src="/static/img/tlogos/express.png"
+								alt="express logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/nodejs.png"
+								alt="nodejs logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/aws.png"
+								alt="aws logo"
+								class="project__tech-row--img">
+						</div>
 					</div>
 					<p class="project__description--link">
 						<a 
-							href="https://github.com/prescottbreeden/powder_angular"
+							href="https://github.com/prescottbreeden/_31_by_3"
 							target="_blank">Source Code &rarr;</a>
 						<a 
-							href="http://13.58.172.1/"
+							href="http://18.188.70.127/"
 							target="_blank">Visit Website &rarr;</a>
 					</p>
 				</div>
 				<div class="project__desktop">
 					<a 
-						href="http://13.58.172.1/"
+						href="http://18.188.70.127/"
 						target="_blank">
 						<img 
-							src="/static/img/powder_desktop.png" 
+							src="/static/img/casino31.png" 
 							alt="project web page"
 							class="project__desktop--img">
 					</a>
@@ -272,34 +326,6 @@ $(document).ready(function() {
 						<p>Built with:</p>
 						<div class="project__tech-row">
 							<img
-								src="/static/img/tlogos/django.png"
-								alt="django logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/python.png"
-								alt="python logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/nodejs.png"
-								alt="nodejs logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/sqlite.png"
-								alt="sqlite logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/sass.png"
-								alt="sass logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/jquery.png"
-								alt="jquery logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
-								class="project__tech-row--img">
-							<img
 								src="/static/img/tlogos/html5.png"
 								alt="html5 logo"
 								class="project__tech-row--img">
@@ -310,6 +336,50 @@ $(document).ready(function() {
 							<img
 								src="/static/img/tlogos/javascript.png"
 								alt="javascript logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/jquery.png"
+								alt="jquery logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/sass.png"
+								alt="sass logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/django.png"
+								alt="django logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/python.png"
+								alt="python logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/nginx.png"
+								alt="nginx logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/gunicorn2.png"
+								alt="gunicorn logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/sqlite.png"
+								alt="sqlite logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/nodejs.png"
+								alt="nodejs logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/github.png"
+								alt="github logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/vim.png"
+								alt="vim logo"
+								class="project__tech-row--img">
+							<img
+								src="/static/img/tlogos/aws.png"
+								alt="aws logo"
 								class="project__tech-row--img">
 						</div>
 					</div>
@@ -335,97 +405,83 @@ $(document).ready(function() {
 			</div>
 			<div class="project clear">
 				<h2 class="project__description--header">
-					Casino 31
+					Powder
 				</h2>
 				<div class="project__description">
 					<p class="project__description--text">
-						<span class="u-color-red">Casino 31</span> is a card game for 1-6 players. Users can play 
-						with their friends, the AI computer, or even just watch the 
-						computer play. Cards are served from our own API on a 
-						seperate express server 
-					</p>
-					<p class="project__description--contrib">
-						<span class="u-color-red">Contributors:</span> 
-						<a 
-							href="https://github.com/lawyerh" 
-							target="_blank"
-							class="project__description--contrib-link">
-								Lawyer Helbing</a>
-						<a 
-							href="https://github.com/petersonjustin" 
-							target="_blank"
-							class="project__description--contrib-link">
-								Justin Peterson</a>
-					</p>
-					<p>
-						<span class="u-color-red">Note:</span> due to free-hosting limitations, the
-						card-API server takes about 30s to fire up before they can
-						be rendered with gameplay.
+						<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
+						and features capable with just CSS3 and HTML5 alone. The 
+						site is fully responsive to provide a smooth user 
+						experience on various device sizes.
 					</p>
 					<div class="project__tech">
 						<p>Built with:</p>
-						<div class="project__tech-row">
-							<img
-								src="/static/img/tlogos/dotnet.png"
-								alt="dotnet logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/csharp.png"
-								alt="csharp logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/express.png"
-								alt="express logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/nodejs.png"
-								alt="nodejs logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/bootstrap.png"
-								alt="bootstrap logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/sass.png"
-								alt="sass logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/jquery.png"
-								alt="jquery logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/html5.png"
-								alt="html5 logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/css3.png"
-								alt="css3 logo"
-								class="project__tech-row--img">
-							<img
-								src="/static/img/tlogos/javascript.png"
-								alt="javascript logo"
-								class="project__tech-row--img">
-						</div>
+					</div>
+					<div class="project__tech-row">
+						<img
+							src="/static/img/tlogos/html5.png"
+							alt="html5 logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/css3.png"
+							alt="css3 logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/angular.png"
+							alt="angular logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/sass.png"
+							alt="sass logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/express.png"
+							alt="express logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/ubuntu.png"
+							alt="ubuntu logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/nginx.png"
+							alt="nginx logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/nodejs.png"
+							alt="nodejs logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/github.png"
+							alt="github logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/vscode.png"
+							alt="vscode logo"
+							class="project__tech-row--img">
+						<img
+							src="/static/img/tlogos/aws.png"
+							alt="aws logo"
+							class="project__tech-row--img">
 					</div>
 					<p class="project__description--link">
 						<a 
-							href="https://github.com/prescottbreeden/_31_by_3"
+							href="https://github.com/prescottbreeden/powder_angular"
 							target="_blank">Source Code &rarr;</a>
 						<a 
-							href="http://18.188.70.127/"
+							href="http://13.58.172.1/"
 							target="_blank">Visit Website &rarr;</a>
 					</p>
 				</div>
 				<div class="project__desktop">
 					<a 
-						href="http://18.188.70.127/"
+						href="http://13.58.172.1/"
 						target="_blank">
 						<img 
-							src="/static/img/casino31.png" 
+							src="/static/img/powder_desktop.png" 
 							alt="project web page"
 							class="project__desktop--img">
 					</a>

@@ -196,11 +196,13 @@ $(document).ready(function() {
 					<p class="project__description--contrib">
 						<span class="u-color-red">Contributors:</span> 
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/lawyerh" 
 							target="_blank"
 							class="project__description--contrib-link">
 								Lawyer Helbing</a>
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/petersonjustin" 
 							target="_blank"
 							class="project__description--contrib-link">
@@ -210,58 +212,72 @@ $(document).ready(function() {
 						<p>Built with:</p>
 						<div class="project__tech-row">
 							<img
+								title="HTML5"
 								src="/static/img/tlogos/html5.png"
 								alt="html5 logo"
 								class="project__tech-row--img">
 							<img
+								title="CSS3"
 								src="/static/img/tlogos/css3.png"
 								alt="css3 logo"
 								class="project__tech-row--img">
 							<img
+								title="JavaScript"
 								src="/static/img/tlogos/javascript.png"
 								alt="javascript logo"
 								class="project__tech-row--img">
 							<img
+								title="jQuery"
 								src="/static/img/tlogos/jquery.png"
 								alt="jquery logo"
 								class="project__tech-row--img">
 							<img
+								title="Bootstrap"
 								src="/static/img/tlogos/bootstrap.png"
 								alt="bootstrap logo"
 								class="project__tech-row--img">
 							<img
+								title="SASS"
 								src="/static/img/tlogos/sass.png"
 								alt="sass logo"
 								class="project__tech-row--img">
 							<img
+								title="ASP.NET Core"
 								src="/static/img/tlogos/dotnet.png"
 								alt="dotnet logo"
 								class="project__tech-row--img">
 							<img
+								title="C#"
 								src="/static/img/tlogos/csharp.png"
 								alt="csharp logo"
 								class="project__tech-row--img">
 							<img
+								title="Ubuntu"
 								src="/static/img/tlogos/ubuntu.png"
 								alt="ubuntu logo"
 								class="project__tech-row--img">
 							<img
+								title="Nginx"
 								src="/static/img/tlogos/nginx.png"
 								alt="nginx logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/tlogos/gunicorn2.png"
-								alt="gunicorn2 logo"
+								title="Supervisor"
+								src="/static/img/tlogos/supervisor.png"
+								alt="supervisor logo"
 								class="project__tech-row--img">
 							<img
+								title="GitHub"
 								src="/static/img/tlogos/github.png"
 								alt="github logo"
 								class="project__tech-row--img">
 							<img
+								title="VS Code"
 								src="/static/img/tlogos/vscode.png"
 								alt="vscode logo"
 								class="project__tech-row--img">
 							<img
+								title="Amazon Web Services"
 								src="/static/img/tlogos/aws.png"
 								alt="aws logo"
 								class="project__tech-row--img">
@@ -271,21 +287,25 @@ $(document).ready(function() {
 						<p>Card API:</p>
 						<div class="project__tech-row">
 							<img
+								title="Express"
 								src="/static/img/tlogos/express.png"
 								alt="express logo"
 								class="project__tech-row--img">
 							<img
+								title="Node.js"
 								src="/static/img/tlogos/nodejs.png"
 								alt="nodejs logo"
 								class="project__tech-row--img">
 							<img
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
+								title="Heroku"
+								src="/static/img/tlogos/heroku.png"
+								alt="heroku logo"
 								class="project__tech-row--img">
 						</div>
 					</div>
 					<p class="project__description--link">
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/prescottbreeden/_31_by_3"
 							target="_blank">Source Code &rarr;</a>
 						<a 
@@ -295,6 +315,7 @@ $(document).ready(function() {
 				</div>
 				<div class="project__desktop">
 					<a 
+						title="View Website"
 						href="http://18.188.70.127/"
 						target="_blank">
 						<img 
@@ -317,6 +338,7 @@ $(document).ready(function() {
 					<p class="project__description--contrib">
 						<span class="u-color-red">Contributors:</span> 
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/" 
 							target="_blank"	
 							class="project__description--contrib-link">
@@ -326,58 +348,72 @@ $(document).ready(function() {
 						<p>Built with:</p>
 						<div class="project__tech-row">
 							<img
+								title="HTML5"
 								src="/static/img/tlogos/html5.png"
 								alt="html5 logo"
 								class="project__tech-row--img">
 							<img
+								title="CSS3"
 								src="/static/img/tlogos/css3.png"
 								alt="css3 logo"
 								class="project__tech-row--img">
 							<img
+								title="JavaScript"
 								src="/static/img/tlogos/javascript.png"
 								alt="javascript logo"
 								class="project__tech-row--img">
 							<img
+								title="jQuery"
 								src="/static/img/tlogos/jquery.png"
 								alt="jquery logo"
 								class="project__tech-row--img">
 							<img
+								title="SASS"
 								src="/static/img/tlogos/sass.png"
 								alt="sass logo"
 								class="project__tech-row--img">
 							<img
+								title="Django"
 								src="/static/img/tlogos/django.png"
 								alt="django logo"
 								class="project__tech-row--img">
 							<img
+								title="Python"
 								src="/static/img/tlogos/python.png"
 								alt="python logo"
 								class="project__tech-row--img">
 							<img
+								title="Nginx"
 								src="/static/img/tlogos/nginx.png"
 								alt="nginx logo"
 								class="project__tech-row--img">
 							<img
+								title="Gunicorn"
 								src="/static/img/tlogos/gunicorn2.png"
 								alt="gunicorn logo"
 								class="project__tech-row--img">
 							<img
+								title="SQLite"
 								src="/static/img/tlogos/sqlite.png"
 								alt="sqlite logo"
 								class="project__tech-row--img">
 							<img
+								title="Node.js"
 								src="/static/img/tlogos/nodejs.png"
 								alt="nodejs logo"
 								class="project__tech-row--img">
 							<img
+								title="GitHub"
 								src="/static/img/tlogos/github.png"
 								alt="github logo"
 								class="project__tech-row--img">
 							<img
+								title="Vim"
 								src="/static/img/tlogos/vim.png"
 								alt="vim logo"
 								class="project__tech-row--img">
 							<img
+								title="Amazon Web Services"
 								src="/static/img/tlogos/aws.png"
 								alt="aws logo"
 								class="project__tech-row--img">
@@ -385,6 +421,7 @@ $(document).ready(function() {
 					</div>
 					<p class="project__description--link">
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/prescottbreeden/ultimate_fan_project"
 							target="_blank">Source Code &rarr;</a>
 						<a 
@@ -394,6 +431,7 @@ $(document).ready(function() {
 				</div>
 				<div class="project__desktop">
 					<a 
+						title="View Website"
 						href="http://18.220.231.186/"
 						target="blank">
 						<img 
@@ -419,56 +457,69 @@ $(document).ready(function() {
 					</div>
 					<div class="project__tech-row">
 						<img
+							title="HTML5"
 							src="/static/img/tlogos/html5.png"
 							alt="html5 logo"
 							class="project__tech-row--img">
 						<img
+							title="CSS3"
 							src="/static/img/tlogos/css3.png"
 							alt="css3 logo"
 							class="project__tech-row--img">
 						<img
+							title="JavaScript"
 							src="/static/img/tlogos/javascript.png"
 							alt="javascript logo"
 							class="project__tech-row--img">
 						<img
+							title="Angular"
 							src="/static/img/tlogos/angular.png"
 							alt="angular logo"
 							class="project__tech-row--img">
 						<img
+							title="SASS"
 							src="/static/img/tlogos/sass.png"
 							alt="sass logo"
 							class="project__tech-row--img">
 						<img
+							title="Express"
 							src="/static/img/tlogos/express.png"
 							alt="express logo"
 							class="project__tech-row--img">
 						<img
+							title="Ubuntu"
 							src="/static/img/tlogos/ubuntu.png"
 							alt="ubuntu logo"
 							class="project__tech-row--img">
 						<img
+							title="Nginx"
 							src="/static/img/tlogos/nginx.png"
 							alt="nginx logo"
 							class="project__tech-row--img">
 						<img
+							title="Node.js"
 							src="/static/img/tlogos/nodejs.png"
 							alt="nodejs logo"
 							class="project__tech-row--img">
 						<img
+							title="GitHub"
 							src="/static/img/tlogos/github.png"
 							alt="github logo"
 							class="project__tech-row--img">
 						<img
+							title="VS Code"
 							src="/static/img/tlogos/vscode.png"
 							alt="vscode logo"
 							class="project__tech-row--img">
 						<img
+							title="Amazon Web Services"
 							src="/static/img/tlogos/aws.png"
 							alt="aws logo"
 							class="project__tech-row--img">
 					</div>
 					<p class="project__description--link">
 						<a 
+							title="Open link to GitHub"
 							href="https://github.com/prescottbreeden/powder_angular"
 							target="_blank">Source Code &rarr;</a>
 						<a 
@@ -478,6 +529,7 @@ $(document).ready(function() {
 				</div>
 				<div class="project__desktop">
 					<a 
+						title="View Website"
 						href="http://13.58.172.1/"
 						target="_blank">
 						<img 

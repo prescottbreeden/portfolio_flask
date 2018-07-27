@@ -1,0 +1,97 @@
+.cb-nav {
+	display: none;
+
+	@include respond(phone)	{
+		display: unset;	
+	}
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+		background-color: $color-white;
+		height: 7rem;
+		width: 7rem;
+		position: fixed;
+		top: 3.5rem;
+		right: 3.5rem;
+		border-radius: 50%;
+		z-index: 2000;
+		cursor: pointer;
+    }
+    
+    &__background {
+		height: 6rem;
+		width: 6rem;
+		border-radius: 50%;
+		position: fixed;
+		top: 3.7rem;
+		right: 3.7rem;
+		background-image: radial-gradient($color-primary-light, $color-primary-dark);
+		z-index: 1000;
+		// box-shadow: $default-box-shadow;
+		transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+
+    // functionality
+    &__checkbox:checked ~ .nav {
+        transform: translateY(0);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
+        left: 0;
+    }
+
+    // hamburger icon
+    &__icon {
+        position: relative;
+        @include center-element;
+
+        &,
+        &::before,
+        &::after {
+            width: 3rem;
+            height: 2px;
+            background-color: $color-black-light;
+            display: inline-block;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all .2s;
+            backface-visibility: hidden;
+        }
+
+        &::before { top: -.8rem; }
+        &::after { top: .8rem; }
+    }
+
+    &__button:hover &__icon::before{
+        top: -1rem;
+    }
+
+    &__button:hover &__icon::after{
+        top: 1rem;
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+
+        &::before {
+            top: 0;
+            transform: rotate(135deg);
+        }
+
+        &::after {
+            top: 0;
+            transform: rotate(-135deg);
+        }
+    }
+
+}

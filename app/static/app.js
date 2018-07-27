@@ -1,4 +1,4 @@
-$.mobile.loader.prototype.options.text = "";
+// $.mobile.loader.prototype.options.text = "";
 
 $(document).ready(function() {
 	console.log('power overwhelming');
@@ -520,27 +520,27 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-1">
+								<div class="site__container--tool tool-img-1">
 									<h4 class="site__container--tool-name">
 										HTML5	
 									</h4>
 								</div>
-								<div class="site__container--tool img-2">
+								<div class="site__container--tool tool-img-2">
 									<h4 class="site__container--tool-name">
 										CSS3	
 									</h4>
 								</div>
-								<div class="site__container--tool img-3">
+								<div class="site__container--tool tool-img-3">
 									<h4 class="site__container--tool-name">
 										JavaScript	
 									</h4>
 								</div>
-								<div class="site__container--tool img-6">
+								<div class="site__container--tool tool-img-6">
 									<h4 class="site__container--tool-name">
 										jQuery	
 									</h4>
 								</div>
-								<div class="site__container--tool img-7">
+								<div class="site__container--tool tool-img-7">
 									<h4 class="site__container--tool-name">
 										SASS
 									</h4>
@@ -577,27 +577,27 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-8">
+								<div class="site__container--tool tool-img-8">
 									<h4 class="site__container--tool-name">
 										Flask	
 									</h4>
 								</div>
-								<div class="site__container--tool img-10">
+								<div class="site__container--tool tool-img-10">
 									<h4 class="site__container--tool-name">
 										Python	
 									</h4>
 								</div>
-								<div class="site__container--tool img-19">
+								<div class="site__container--tool tool-img-19">
 									<h4 class="site__container--tool-name">
 										Ubuntu
 									</h4>
 								</div>
-								<div class="site__container--tool img-26">
+								<div class="site__container--tool tool-img-26">
 									<h4 class="site__container--tool-name">
 										Nginx
 									</h4>
 								</div>
-								<div class="site__container--tool img-29">
+								<div class="site__container--tool tool-img-29">
 									<h4 class="site__container--tool-name">
 										Gunicorn
 									</h4>
@@ -637,12 +637,12 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-16">
+								<div class="site__container--tool tool-img-16">
 									<h4 class="site__container--tool-name">
 										SQLite
 									</h4>
 								</div>
-								<div class="site__container--tool img-30">
+								<div class="site__container--tool tool-img-30">
 									<h4 class="site__container--tool-name">
 										SQLALchemy
 									</h4>
@@ -683,22 +683,22 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
-								<div class="site__container--tool img-13">
+								<div class="site__container--tool tool-img-13">
 									<h4 class="site__container--tool-name">
 										Node.js
 									</h4>
 								</div>
-								<div class="site__container--tool img-21">
+								<div class="site__container--tool tool-img-21">
 									<h4 class="site__container--tool-name">
 										GitHub
 									</h4>
 								</div>
-								<div class="site__container--tool img-20">
+								<div class="site__container--tool tool-img-20">
 									<h4 class="site__container--tool-name">
 										Vim
 									</h4>
 								</div>
-								<div class="site__container--tool img-24">
+								<div class="site__container--tool tool-img-24">
 									<h4 class="site__container--tool-name">
 										AWS
 									</h4>

@@ -24,14 +24,6 @@ body {
   background-color: #222;
   margin: 0 auto; }
 
-.container {
-  display: flex;
-  width: 100%; }
-
-.app__container {
-  position: relative;
-  flex: 1 1 100%; }
-
 .header {
   display: block; }
   .header__title {
@@ -179,6 +171,216 @@ body {
 
 .tech__animate-30 {
   animation: appear 0.25s 1.5s 1 ease-out forwards; }
+
+.tool-img-1 {
+  background-image: url("img/tlogos/html5.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-2 {
+  background-image: url("img/tlogos/css3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-3 {
+  background-image: url("img/tlogos/javascript.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-4 {
+  background-image: url("img/tlogos/angular.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-5 {
+  background-image: url("img/tlogos/react.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-6 {
+  background-image: url("img/tlogos/jquery.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-7 {
+  background-image: url("img/tlogos/sass.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-8 {
+  background-image: url("img/tlogos/flask.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-9 {
+  background-image: url("img/tlogos/django.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-10 {
+  background-image: url("img/tlogos/python.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-11 {
+  background-image: url("img/tlogos/dotnet.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-12 {
+  background-image: url("img/tlogos/csharp.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-13 {
+  background-image: url("img/tlogos/nodejs.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-14 {
+  background-image: url("img/tlogos/express.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-15 {
+  background-image: url("img/tlogos/sql.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-16 {
+  background-image: url("img/tlogos/sqlite.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-17 {
+  background-image: url("img/tlogos/mongodb.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-18 {
+  background-image: url("img/tlogos/r.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-19 {
+  background-image: url("img/tlogos/ubuntu.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-20 {
+  background-image: url("img/tlogos/vim.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-21 {
+  background-image: url("img/tlogos/github.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-22 {
+  background-image: url("img/tlogos/firebase.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-23 {
+  background-image: url("img/tlogos/git.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-24 {
+  background-image: url("img/tlogos/aws.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-25 {
+  background-image: url("img/tlogos/postman.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-26 {
+  background-image: url("img/tlogos/nginx.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-27 {
+  background-image: url("img/tlogos/bootstrap.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-28 {
+  background-image: url("img/tlogos/vscode.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-29 {
+  background-image: url("img/tlogos/gunicorn2.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-30 {
+  background-image: url("img/tlogos/sqlalchemy.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
 
 .img-1 {
   background-image: url("img/tlogos/html5.png");
@@ -870,6 +1072,23 @@ body {
     opacity: 1;
     background-color: rgba(34, 34, 34, 0.8); }
 
+/*
+
+		@include respond(phone){
+			background-image: linear-gradient(to right, 
+									rgba($color-primary-dark, .8),
+									rgba($color-primary-light, .8));
+
+			border: .4px solid $color-black-light;
+			&:nth-child(even) {
+				background-image: linear-gradient(to right, 
+									rgba($color-red-light, .8),
+									rgba($color-red-light, .8));
+
+			}
+		}
+
+*/
 .footer {
   background-color: #333;
   padding: 10rem 3rem 15rem 3rem;
@@ -895,6 +1114,10 @@ body {
     width: 30%;
     display: inline-block;
     margin-left: 10rem; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__nav {
+        visibility: hidden;
+        width: 0%; } }
     .footer__nav--list {
       display: flex;
       justify-content: space-around;
@@ -922,6 +1145,9 @@ body {
     margin-right: 10rem;
     text-align: center;
     color: #f7f7f7; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__text {
+        width: 100%; } }
     .footer__text:hover {
       border-top: 0.3rem solid #ff9c67;
       cursor: pointer; }
@@ -970,21 +1196,96 @@ body {
     font-size: 3rem;
     animation: blink 1.5s 4s step-end infinite; }
 
+.cb-nav {
+  display: none; }
+  @media only screen and (max-width: 37.5em) {
+    .cb-nav {
+      display: unset; } }
+  .cb-nav__checkbox {
+    display: none; }
+  .cb-nav__button {
+    background-color: #f7f7f7;
+    height: 7rem;
+    width: 7rem;
+    position: fixed;
+    top: 3.5rem;
+    right: 3.5rem;
+    border-radius: 50%;
+    z-index: 2000;
+    cursor: pointer; }
+  .cb-nav__background {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 3.7rem;
+    right: 3.7rem;
+    background-image: radial-gradient(#6791b2, #3f7188);
+    z-index: 1000;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  .cb-nav__checkbox:checked ~ .nav {
+    transform: translateY(0); }
+  .cb-nav__checkbox:checked ~ .cb-nav__nav {
+    opacity: 1;
+    width: 100%;
+    left: 0; }
+  .cb-nav__icon {
+    position: relative;
+    postiion: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .cb-nav__icon, .cb-nav__icon::before, .cb-nav__icon::after {
+      width: 3rem;
+      height: 2px;
+      background-color: #333;
+      display: inline-block; }
+    .cb-nav__icon::before, .cb-nav__icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all .2s;
+      backface-visibility: hidden; }
+    .cb-nav__icon::before {
+      top: -.8rem; }
+    .cb-nav__icon::after {
+      top: .8rem; }
+  .cb-nav__button:hover .cb-nav__icon::before {
+    top: -1rem; }
+  .cb-nav__button:hover .cb-nav__icon::after {
+    top: 1rem; }
+  .cb-nav__checkbox:checked + .cb-nav__button .cb-nav__icon {
+    background-color: transparent; }
+    .cb-nav__checkbox:checked + .cb-nav__button .cb-nav__icon::before {
+      top: 0;
+      transform: rotate(135deg); }
+    .cb-nav__checkbox:checked + .cb-nav__button .cb-nav__icon::after {
+      top: 0;
+      transform: rotate(-135deg); }
+
 .nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   height: 5rem;
   z-index: 300;
   background-color: #333;
   width: 100%;
-  color: #f7f7f7; }
+  color: #f7f7f7;
+  transition: all .5s; }
+  @media only screen and (max-width: 37.5em) {
+    .nav {
+      transform: translateY(100%);
+      height: auto; } }
   .nav__list {
     margin: 0 auto;
     width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
+    @media only screen and (max-width: 37.5em) {
+      .nav__list {
+        flex-direction: column; } }
   .nav__item {
     cursor: pointer;
     outline: none;
@@ -1024,6 +1325,9 @@ body {
   position: fixed;
   top: 0;
   left: 0; }
+  @media only screen and (max-width: 37.5em) {
+    .sticky {
+      position: inherit; } }
 
 .about {
   padding: 6rem 5rem 3rem 5rem;
@@ -1338,15 +1642,24 @@ input:focus {
 .site {
   padding: 3rem 5rem;
   background-color: #ddd; }
+  @media only screen and (max-width: 37.5em) {
+    .site {
+      padding: 3rem 0rem; } }
   .site__header {
     text-align: center;
     margin-bottom: 3rem; }
   .site__wrapper {
     margin-bottom: 6rem; }
+    @media only screen and (max-width: 37.5em) {
+      .site__wrapper {
+        margin-bottom: 3rem; } }
   .site__container {
     border-top: 1px solid #333;
     display: flex;
     justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .site__container {
+        flex-direction: column; } }
     .site__container--heading {
       text-align: center;
       width: 30%; }
@@ -1358,6 +1671,13 @@ input:focus {
         border-radius: 0 0 4px 4px;
         text-transform: uppercase;
         font-weight: 300; }
+        @media only screen and (max-width: 37.5em) {
+          .site__container--heading h3 {
+            width: 100%;
+            border-radius: 0; } }
+      @media only screen and (max-width: 37.5em) {
+        .site__container--heading {
+          width: 100%; } }
     .site__container--text {
       border: 0.5px solid #4A849F;
       max-height: 0;
@@ -1368,19 +1688,35 @@ input:focus {
         opacity: 0; }
       .site__container--text-box {
         width: 60%; }
+        @media only screen and (max-width: 37.5em) {
+          .site__container--text-box {
+            width: 100%; } }
     .site__container--tool-box {
-      margin: 6rem 4rem 4rem 4rem;
+      margin-top: 6rem;
+      margin-bottom: 4rem;
       display: flex;
       justify-content: space-around; }
+      @media only screen and (max-width: 37.5em) {
+        .site__container--tool-box {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          flex-wrap: wrap;
+          align-items: center; } }
     .site__container--tool {
       background-size: cover;
       height: 12rem;
       width: 10.5rem; }
+      @media only screen and (max-width: 37.5em) {
+        .site__container--tool {
+          margin: 1.5rem; } }
       .site__container--tool:hover {
         cursor: pointer; }
       .site__container--tool-name {
         margin-top: -3rem;
         text-align: center; }
+        @media only screen and (max-width: 37.5em) {
+          .site__container--tool-name {
+            margin-top: -2.2rem; } }
     .site__container--more {
       display: inline-block;
       border-radius: 4px 4px 0 0;
@@ -1434,6 +1770,7 @@ input:focus {
       padding: 1rem;
       display: flex;
       justify-content: space-around;
+      align-items: center;
       box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5);
       border-radius: 4px; }
   .tech__logo {

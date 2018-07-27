@@ -2,19 +2,35 @@
 	padding: 3rem 5rem;
 	background-color: $color-grey-light;
 
+	@include respond(phone)	{
+		padding: 3rem 0rem;		
+	}
+
 	&__header {
 		text-align: center;
 		margin-bottom: 3rem;
+
+		@include respond(phone){
+			
+		}
 	}
 
 	&__wrapper {
 		margin-bottom: 6rem;
+
+		@include respond(phone){
+			margin-bottom: 3rem;		
+		}
 	}
 
 	&__container {
 		border-top: 1px solid $color-black-light;
 		display: flex;
 		justify-content: center;
+
+		@include respond(phone){
+			flex-direction: column;		
+		}
 		
 		&--heading {
 			text-align: center;
@@ -28,6 +44,15 @@
 				border-radius: 0 0 4px 4px;
 				text-transform: uppercase;
 				font-weight: 300;
+
+				@include respond(phone){
+					width: 100%;	
+					border-radius: 0;
+				}
+			}
+
+			@include respond(phone){
+				width: 100%;	
 			}
 		}
 
@@ -36,28 +61,52 @@
 			max-height: 0;
 			transition: all 1s;
 		
+			@include respond(phone){
+			//	max-height: 1000px;	
+			}
+
 			& > p {
 				transition: all 1s;
 				padding: 0 1rem;
 				opacity: 0;
+
+				@include respond(phone){
+				//	opacity: 1;
+				}
 			}
 
 			&-box {
 				width: 60%;
+
+				@include respond(phone)	{
+					width: 100%;	
+				}
 			}
 
 		}
 
 		&--tool-box {
-			margin: 6rem 4rem 4rem 4rem;
+			margin-top: 6rem;
+			margin-bottom: 4rem;
 			display: flex;
 			justify-content: space-around;
+
+			@include respond(phone) {
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+				flex-wrap: wrap;
+				align-items: center;
+			}
 		}
 
 		&--tool {
 			background-size: cover;
 			height: 12rem;
 			width: 10.5rem;
+
+			@include respond(phone){
+				margin: 1.5rem;	
+			}
 
 			&:hover {
 				cursor: pointer;
@@ -66,7 +115,13 @@
 			&-name {
 				margin-top: -3rem;
 				text-align: center;
+				
+				@include respond(phone) {
+					margin-top: -2.2rem;
+				}
 			}
+
+
 		}
 
 
@@ -90,12 +145,15 @@
 				}
 
 				p {
-					// margin-left: 2rem;
 					text-transform: uppercase;
 				}
 				
 				&:hover > svg {
 					transform: rotate(90deg);
+				}
+
+				@include respond(phone){
+					 
 				}
 			}
 

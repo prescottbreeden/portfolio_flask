@@ -28,41 +28,17 @@ html {
 }
 
 body {
-    // margin-bottom: 6rem;
     background-color: $color-black;
-    // max-width: 114rem;
     margin: 0 auto;
-
-}
-
-
-
-.container {
-    display: flex;
-    // background-color: var(--color-white);
-    // background-color: var(--color-grey-dark-3);
-    // background-color: $color-white;
-    width: 100%;
-    
-}
-
-.app__container {
-    position: relative;
-    flex: 1 1 100%;
-    // display: flex;
-    // align-content: stretch;
 }
 
 .header {
-    // background-color: pink;
     display: block;
     
     &__title {
-        // display: block;
         text-align: center;
     }
 }
-
 
 .clear:after {
     content: "";

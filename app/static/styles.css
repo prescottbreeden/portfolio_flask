@@ -1862,22 +1862,22 @@ input:focus {
 
 .success__field-name {
   color: #ff9c67;
-  width: 10%;
+  width: 15%;
   font-size: 2.2rem;
   text-align: right; }
 
 .success__name {
-  width: 85%;
+  width: 80%;
   text-align: left;
   font-size: 2rem; }
 
 .success__email {
-  width: 85%;
+  width: 80%;
   text-align: left;
   font-size: 2rem; }
 
 .success__message {
-  width: 85%;
+  width: 80%;
   text-align: left; }
 
 .success__btn {

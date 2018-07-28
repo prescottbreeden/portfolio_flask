@@ -1,0 +1,97 @@
+.success {
+
+	&__shadowbox {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		background-color: rgba($color-black-light, .5);
+		z-index: 9000;
+	}
+
+	&__info {
+		background-color: $color-white;
+		z-index: 9999;
+		position: fixed;
+		@include center-element
+		width: 80%;
+		padding: 3rem 8rem;
+		border-radius: 4px;
+		text-align: center;
+		box-shadow: 0 1rem 2.5rem $color-black;
+
+		p {
+			margin: .2rem;
+			// border: 1px dashed green;
+		}
+	}
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__header {
+		display: inline-block;
+		color: $color-green-dark;
+		margin-bottom: 2rem;
+		border-bottom: 4px dashed $color-green-dark;
+		letter-spacing: 1px;
+	}
+
+	&__field-name {
+		color: $color-red-light;
+		width: 10%;
+		font-size: 2.2rem;
+		text-align: right;
+	}
+
+	&__name {
+		width: 85%;
+		text-align: left;
+		font-size: 2rem;
+	}
+
+	&__email {
+		width: 85%;
+		text-align: left;
+		font-size: 2rem;
+	}
+
+	&__message {
+		width: 85%;
+		text-align: left;
+
+	}
+
+	&__btn {
+		margin: 2rem auto;
+		margin-bottom: 3rem;
+		font-size: 2rem;
+		text-transform: uppercase;
+		padding: 2rem;
+		outline: none;
+		border: none;
+		box-shadow: 0 1rem 1.5rem $color-black;
+		border-radius: 4px;
+		background-color: $color-primary;
+		color: $color-white;
+		width: 40%;
+		transition: all .2s;
+
+		&:hover {
+			background-color: $color-green-dark;
+			cursor: pointer;
+		}
+
+		&:active {
+			transform: translateY(2px);
+			box-shadow: none;
+		}
+	}
+
+	&__warning {
+		font-style: italic;
+	}
+}

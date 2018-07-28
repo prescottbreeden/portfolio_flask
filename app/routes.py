@@ -44,22 +44,22 @@ def contact():
         return render_template('contact.html', errs=errors)
     else:
         # display success message
-        # mail.connect()
-        # msg = Message("Contact From Website",
-        #               sender='cnorris2882@gmail.com',
-        #               recipients=["prescott.breeden@gmail.com"])
-        # msg.body = request.form['message']
-        # msg.html = (
+        mail.connect()
+        msg = Message("Contact From Website",
+                      sender='cnorris2882@gmail.com',
+                      recipients=["prescott.breeden@gmail.com"])
+        msg.body = request.form['message']
+        msg.html = (
 
-        #     "<h1>Contact from Website</h1>"
-        #     f"<h3>Name: {request.form['name']}</h3>"
-        #     f"<h3>Email: {request.form['email']}</h3>"
-        #     f"<p>Message: {request.form['message']}</p>"
+            "<h2>Contact from Website</h2>"
+            f"<h3>Name: {request.form['name']}</h3>"
+            f"<h3>Email: {request.form['email']}</h3>"
+            f"<p>Message: {request.form['message']}</p>"
 
-        # )
+         )
 
-        # with app.app_context():
-        #     mail.send(msg)
+        with app.app_context():
+            mail.send(msg)
 
         msg = request.form['message']
 

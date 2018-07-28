@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Prescott Breeden | Software Devleoper</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+		<base href="/">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+		<script src="{{ url_for('static', filename='vendor/waypoints/lib/jquery.waypoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='app.js') }}"></script>
+	</head>
+	<body>
+		<div class="error-page">
+			<nav class="nav">
+				<div class="nav__list">
+					<div class="nav__item nav__item--home about-nav">
+						<svg class="nav__icon">
+							<use xlink:href="/static/img/icomoon/sprite.svg#icon-profile"></use>
+						</svg>
+						<span>
+							<a class="nav__link">About</a>
+						</span>
+					</div>
+					<div class="nav__item portfolio-nav">
+						<svg class="nav__icon nav__icon--portfolio">
+							<use xlink:href="/static/img/icomoon/sprite.svg#icon-embed2"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Portfolio</a>
+						</span>
+					</div>
+					<div class="nav__item tech-nav">
+						<svg class="nav__icon navigation__icon--about">
+							<use xlink:href="/static/img/icomoon/sprite.svg#icon-database"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Technology</a>
+						</span>
+					</div>
+					<div class="nav__item contact-nav">
+						<svg class="nav__icon navigation__icon--contact">
+							<use xlink:href="/static/img/icomoon/sprite.svg#icon-envelop"></use>
+						</svg>
+						<span>
+							<a class="nav__link">Contact</a>
+						</span>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="fold">
+			<section class="contact">
+				<h2 class="contact__header">Get In Touch</h2>
+				<div class="contact__container">
+					<div class="contact__form-box">
+						<!-- empty -->
+						<div class="errors">
+							{% if errs %}
+								<h3>Oops!</h3>
+							{% endif %}
+						</div>
+					</div>
+					<form class="form" action="/process" method="POST">
+						<div class="form__group">
+							<input 
+								class="form__input" 
+								id="name_fieild" 
+								type="text" 
+								name="name"
+								placeholder="Full Name"
+								autocomplete="name">
+							<label 
+								for="name"
+								class="form__label">
+								Full Name
+							</label>
+							<div class="errors">
+								{% if errs %}
+									<p class='errors-msg'>{{errs[0]}}</p>
+								{% endif %}
+							</div>
+						</div>
+						<div class="form__group">
+							<input 
+								class="form__input" 
+								id="email_field" 
+								type="email" 
+								name="email"
+								placeholder="Email Address"
+								autocomplete="email">
+							<label 
+								for="email"
+								class="form__label">
+								Email Address
+							</label>
+							<div class="errors">
+								{% if errs %}
+									<p class='errors-msg'>{{errs[1]}}</p>
+								{% endif %}
+							</div>
+						</div>
+						<div class="form__group">
+							<p class="form__textarea-label">
+								Send me a message!</p>
+								
+							<textarea 
+								name="message"
+								maxlength="500"
+								wrap="hard"
+								class="form__textarea"></textarea>
+							<div class="errors">
+								{% if errs %}
+									<p class='errors-msg'>{{errs[2]}}</p>
+								{% endif %}
+							</div>
+						</div>	
+						<button class="form__btn">Send &#9993;</button>
+						<p class="form__cta">Send a message and let's chat!</p>
+					</form>
+				</div>
+				<h3 class="contact__info--header">Connect</h3>
+				<ul class="contact__info">
+					<li class="contact__info--item">
+						<a 
+							href="https://github.com/prescottbreeden"
+							target="_blank"
+							class="contact__info--link">
+							<svg class="contact__icon">
+								<use 
+									xlink:href="/static/img/icomoon/sprite.svg#icon-github">
+								</use>
+							</svg>
+							Github
+						</a>
+						<a 
+							href="http://www.linkedin.com/in/prescottbreeden"
+							target="_blank"
+							class="contact__info--link">
+							<svg class="contact__icon">
+								<use 
+									xlink:href="/static/img/icomoon/sprite.svg#icon-linkedin">
+								</use>
+							</svg>
+							LinkedIn
+						</a>
+				
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer class="footer">
+		<div class="footer__logo">
+			<img src="/static/img/p_logo5.png" alt="site logo" class="footer__logo-img">
+			<p class="footer__logo--name">Prescott Breeden, BM</p>
+			<p class="footer__logo--brand">
+				Anything can be built. It's the idea that's the trick.
+			</p>
+		</div>
+		<div class="footer__container">
+			<div class="footer__nav">
+			<ul class="footer__nav--list">
+				<li class="footer__nav--item about-nav">
+					<a class="nav__link js--scroll-to-fold">About</a>
+				</li>
+				<li class="footer__nav--item portfolio-nav">
+					<a class="nav__link js--scroll-to-fold">Portfolio</a>
+				</li>
+				<li class="footer__nav--item tech-nav">
+					<a class="nav__link js--scroll-to-fold">Tech</a>
+				</li>
+				<li class="footer__nav--item contact-nav">
+					<a class="nav__link js--scroll-to-fold">Contact</a>
+				</li>
+			</ul>
+			</div>
+			<div class="footer__text contact-nav">
+				<p>Copyright &copy; 2018 by Prescott Breeden.</p>
+			</div>
+		
+		</div>
+		</footer>
+	</body>
+</html>

@@ -1278,6 +1278,11 @@ body {
     top: 0;
     transform: rotate(-135deg); }
 
+.error-page .nav {
+  position: fixed;
+  top: 0;
+  left: 0; }
+
 .nav {
   position: absolute;
   bottom: 0;
@@ -1468,6 +1473,13 @@ input:focus {
     .contact__icon:hover {
       fill: #ff9c67;
       cursor: pointer; }
+
+.errors {
+  color: red;
+  display: inline-block; }
+  .errors-msg {
+    background-color: rgba(221, 221, 221, 0.5);
+    padding: 1rem; }
 
 .form {
   margin-top: 2rem;

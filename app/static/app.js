@@ -897,10 +897,10 @@ $(document).ready(function() {
 					</div>
 					<div class="form__group">
 					<p class="form__textarea-label">
-						Got an idea for a project?</p>
+						Send me a message!</p>
 						
 					<textarea 
-						name="project"
+						name="message"
 						maxlength="500"
 						wrap="hard"
 						class="form__textarea"></textarea>

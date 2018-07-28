@@ -40,6 +40,10 @@ $(document).ready(function() {
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
 	})
 
+	$(document).on('click', '#reload_home', function() {
+		console.log('button clicked')
+	})
+
 
 	//=========================================================//
 	//					   TECH DESCRIPTIONS

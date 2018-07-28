@@ -19,7 +19,7 @@ textarea {
 	perspective: 400rem;
 
 	&__container {
-		transform: rotateY(180deg);
+		// transform: rotateY(180deg);
 		// backface-visibility: hidden;
 		margin: 0 auto;
 		margin-top: 3rem;
@@ -36,8 +36,11 @@ textarea {
 		background-size: cover;
 		border-radius: 4px;
 		box-shadow: 0 1rem 2rem rgba($color-black, .5);
+		opacity: 0;
+		z-index: -1;
 
-		animation: flip 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 forwards;
+		// animation: flip 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 forwards;
+		animation: slide-in 2s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 forwards;
 	}
 
 	&__header {

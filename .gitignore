@@ -2,3 +2,4 @@ node_modules/
 virtualenv/
 __pychache__/
 *.pyc
+config.py

@@ -52,6 +52,7 @@
 	&__info {
 		padding: 4rem;
 		background-color: $color-black;
+		text-align: center;
 
 		&--header {
 			text-align: center;
@@ -62,12 +63,10 @@
 		&--item {
 			text-align: center;
 			display: flex;
-			justify-content: center;
+			justify-content: space-around;	
 			align-items: center;
-
-			@include respond(phone){
-				justify-content: space-around;	
-			}
+			max-width: 65rem;
+			margin: 0 auto;
 		}
 
 		&--link:link,

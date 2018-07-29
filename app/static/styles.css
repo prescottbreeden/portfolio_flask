@@ -1478,7 +1478,8 @@ body {
         display: none; } }
   .contact__info {
     padding: 4rem;
-    background-color: #222; }
+    background-color: #222;
+    text-align: center; }
     .contact__info--header {
       text-align: center;
       text-transform: uppercase;
@@ -1486,11 +1487,10 @@ body {
     .contact__info--item {
       text-align: center;
       display: flex;
-      justify-content: center;
-      align-items: center; }
-      @media only screen and (max-width: 37.5em) {
-        .contact__info--item {
-          justify-content: space-around; } }
+      justify-content: space-around;
+      align-items: center;
+      max-width: 65rem;
+      margin: 0 auto; }
     .contact__info--link:link, .contact__info--link:visited {
       display: flex;
       flex-direction: column;

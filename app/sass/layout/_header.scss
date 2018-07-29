@@ -10,9 +10,14 @@
     background-attachment: fixed;
     position: relative;
 
-    @media only screen and (max-width: 900px) {
-        background-attachment: inherit;
-    }
+	@include respond(phone)	{
+		background-size: 75%;	
+	}
+
+	// @include respond(tab-land) {
+	//	background-attachment: inherit;
+	// }
+
 
     &__logo {
         position: relative;

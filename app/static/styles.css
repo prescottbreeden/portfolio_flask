@@ -1168,9 +1168,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 37.5em) {
     .header {
-      background-attachment: inherit; } }
+      background-size: 75%; } }
   .header__logo {
     position: relative; }
   .header__title {

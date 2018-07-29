@@ -1204,9 +1204,8 @@ body {
     font-size: 3rem;
     animation: blink 1.5s 4s step-end infinite; }
 
-.activate-nav {
-  transform: translateY(20rem);
-  background-color: pink; }
+.active-nav {
+  transform: translateY(0) !important; }
 
 .cb-nav {
   display: none; }
@@ -1300,7 +1299,9 @@ body {
       position: fixed;
       bottom: 7rem;
       left: 0;
-      height: auto; } }
+      transform: translateY(100%);
+      height: auto;
+      background-color: rgba(51, 51, 51, 0.9); } }
   .nav__list {
     margin: 0 auto;
     width: 60%;

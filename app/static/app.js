@@ -3,8 +3,6 @@
 $(document).ready(function() {
 	console.log('power overwhelming');
 	
-
-
 	// sticky navigation trigger
 	if($('.nav').css("position") === "absolute") {
 		$('nav').waypoint(function(direction) {
@@ -17,6 +15,12 @@ $(document).ready(function() {
 			}
 		});
 	}
+
+	// activate mobile nav
+	$(document).on('click', '.cb-nav__button', function() {
+		$('nav').toggleClass('active-nav');
+	})
+
 
 	//=========================================================//
 	//						 NAVIGATION

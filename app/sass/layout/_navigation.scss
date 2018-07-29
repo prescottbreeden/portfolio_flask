@@ -23,8 +23,9 @@
 		position: fixed;
 		bottom: 7rem;
 		left: 0;
-		// transform: translateY(100%);
+		transform: translateY(100%);
 		height: auto;
+		background-color: rgba($color-black-light, .9);
 	}
 
     &__list {

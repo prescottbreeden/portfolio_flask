@@ -130,9 +130,10 @@ $(document).ready(function() {
 					<div class="services--front-end">
 						<div class="cube__container">
 							<img 
-							class="cube__img"
-							src="/static/img/cube_primary.png" 
-							alt="blue cube">
+								title="Skills"
+								class="cube__img"
+								src="/static/img/cube_primary.png" 
+								alt="blue cube">
 						</div>	
 						<div class="cube__text">
 							<ul class="services--list">
@@ -146,9 +147,10 @@ $(document).ready(function() {
 					<div class="services--backend">
 						<div class="cube__container">
 							<img 
-							class="cube__img"
-							src="/static/img/cube_red.png" 
-							alt="blue cube">
+								title="Skills"
+								class="cube__img"
+								src="/static/img/cube_red.png" 
+								alt="blue cube">
 						</div>
 						<div class="cube__text">
 							<ul class="services--list">
@@ -162,9 +164,10 @@ $(document).ready(function() {
 					<div class="services--db">
 						<div class="cube__container">
 							<img 
-							class="cube__img"
-							src="/static/img/cube_teal.png" 
-							alt="blue cube">
+								title="Skills"
+								class="cube__img"
+								src="/static/img/cube_teal.png" 
+								alt="blue cube">
 						</div>
 						<div class="cube__text">
 							<ul class="services--list">
@@ -639,8 +642,9 @@ $(document).ready(function() {
 				<h2 class="site__header">What This Website is Built With</h2>		
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--heading">
-							<h3>Front-end</h3>					
+						<div 
+							class="site__container--heading">
+								<h3>Front-end</h3>					
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
@@ -696,8 +700,9 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--heading">
-							<h3>Back-end</h3>					
+						<div 
+							class="site__container--heading">
+								<h3>Back-end</h3>					
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
@@ -756,7 +761,8 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--heading">
+						<div 
+							class="site__container--heading">
 							<h3>Database</h3>					
 						</div>
 						<div class="site__container--text-box">
@@ -802,8 +808,9 @@ $(document).ready(function() {
 				</div>
 				<div class="site__wrapper">
 					<div class="site__container">
-						<div class="site__container--heading">
-							<h3>Dev Tools</h3>					
+						<div 
+							class="site__container--heading">
+								<h3>Dev Tools</h3>					
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
@@ -879,6 +886,7 @@ $(document).ready(function() {
 				<form class="form" action="/process" method="POST">
 					<div class="form__group">
 						<input 
+							title="Full Name"
 							class="form__input" 
 							id="name_fieild" 
 							type="text" 
@@ -893,6 +901,7 @@ $(document).ready(function() {
 					</div>
 					<div class="form__group">
 						<input 
+							title="Email Address"
 							class="form__input" 
 							id="email_field" 
 							type="email" 
@@ -910,12 +919,17 @@ $(document).ready(function() {
 						Send me a message!</p>
 						
 					<textarea 
+						title="Message"
 						name="message"
 						maxlength="500"
 						wrap="hard"
 						class="form__textarea"></textarea>
 					</div>	
-					<button class="form__btn">Send &#9993;</button>
+					<button 
+						title="Send Message" 
+						class="form__btn">
+							Send &#9993;
+					</button>
 					<p class="form__cta">Send a message and let's chat!</p>
 				</form>
 			</div>
@@ -923,6 +937,7 @@ $(document).ready(function() {
 			<ul class="contact__info">
 				<li class="contact__info--item">
 					<a 
+						title="Open Link"
 						href="https://github.com/prescottbreeden"
 						target="_blank"
 						class="contact__info--link">
@@ -934,6 +949,7 @@ $(document).ready(function() {
 						Github
 					</a>
 					<a 
+						title="Open Link"
 						href="http://www.linkedin.com/in/prescottbreeden"
 						target="_blank"
 						class="contact__info--link">

@@ -16,6 +16,10 @@
 	padding-bottom: 4rem;
 	color: $color-white;
 
+	@include respond(phone){
+		width: 100%;	
+	}
+
 	&__group:not(:last-child) {
 		margin-bottom: 2rem;
 	}

@@ -1,16 +1,3 @@
-input {
-
-
-    &:focus {
-        outline: none;
-    }
-}
-
-textarea {
-}
-
-// input[type="text"]
-
 .contact {
 	padding-top: 6rem;
 	background-image: linear-gradient(145deg,
@@ -19,8 +6,6 @@ textarea {
 	perspective: 400rem;
 
 	&__container {
-		// transform: rotateY(180deg);
-		// backface-visibility: hidden;
 		margin: 0 auto;
 		margin-top: 3rem;
 		width: 95%;
@@ -28,10 +13,10 @@ textarea {
 		display: flex;
 		padding: 2.5rem 6rem;
 		background-image: linear-gradient(
-										65deg, 
-										transparent 40%,
-										rgba($color-primary-light, .9) 0%,
-										rgba($color-primary, .9) 60%),
+								65deg, 
+								transparent 40%,
+								rgba($color-primary-light, .9) 0%,
+								rgba($color-primary, .9) 60%),
 								url('img/phpcode.jpeg');
 		background-size: cover;
 		border-radius: 4px;
@@ -39,8 +24,16 @@ textarea {
 		opacity: 0;
 		z-index: -1;
 
-		// animation: flip 2.5s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 forwards;
 		animation: slide-in 2s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 forwards;
+
+		@include respond(phone){
+			width: 100%;			
+			background-image: linear-gradient(
+									65deg, 
+									rgba($color-primary-light, .9),
+									rgba($color-primary, .9)),
+									url('img/phpcode.jpeg');
+		}
 	}
 
 	&__header {
@@ -49,6 +42,11 @@ textarea {
 
 	&__form-box {
 		width: 50%;
+
+		@include respond(phone){
+			// width: 100%;	
+			display: none;
+		}
 	}
 
 	&__info {
@@ -56,7 +54,6 @@ textarea {
 		background-color: $color-black;
 
 		&--header {
-			// margin-top: 2rem;
 			text-align: center;
 			text-transform: uppercase;
 			visibility: hidden;

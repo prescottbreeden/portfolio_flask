@@ -21,7 +21,9 @@
     
 	@include respond(phone)	{
 		position: fixed;
-		transform: translateY(100%);
+		bottom: 7rem;
+		left: 0;
+		// transform: translateY(100%);
 		height: auto;
 	}
 
@@ -50,7 +52,7 @@
         letter-spacing: 1.5px;
 		
 		@include respond(phone)	{
-			
+			justify-content: center;
 		}
 
         & > * {
@@ -96,7 +98,7 @@
         margin-right: .5rem;
 
 		@include respond(phone)	{
-		
+			margin-right: 1rem;	
 		}
     }
 }
@@ -105,5 +107,6 @@
     position: fixed;
     top: 0;
     left: 0;
+
 }
 

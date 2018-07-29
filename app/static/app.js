@@ -6,15 +6,17 @@ $(document).ready(function() {
 
 
 	// sticky navigation trigger
-	$('nav').waypoint(function(direction) {
-		if (direction == "down") {
-			console.log('triggered down');
-			$('.nav').addClass('sticky');
-		} else {
-			$('.nav').removeClass('sticky');
-			console.log('triggered up');
-		}
-	});
+	if($('.nav').css("position") === "absolute") {
+		$('nav').waypoint(function(direction) {
+			if (direction == "down") {
+				console.log('triggered down');
+				$('.nav').addClass('sticky');
+			} else {
+				$('.nav').removeClass('sticky');
+				console.log('triggered up');
+			}
+		});
+	}
 
 	//=========================================================//
 	//						 NAVIGATION

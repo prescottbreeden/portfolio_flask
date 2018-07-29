@@ -1878,6 +1878,10 @@ body {
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 1rem 2.5rem #222; }
+  @media only screen and (max-width: 37.5em) {
+    .success__info {
+      width: 95%;
+      padding: 2rem; } }
   .success__info p {
     margin: .2rem; }
 
@@ -1897,20 +1901,32 @@ body {
   width: 15%;
   font-size: 2.2rem;
   text-align: right; }
+  @media only screen and (max-width: 37.5em) {
+    .success__field-name {
+      width: 25%; } }
 
 .success__name {
   width: 80%;
   text-align: left;
   font-size: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .success__name {
+      width: 70%; } }
 
 .success__email {
   width: 80%;
   text-align: left;
   font-size: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .success__email {
+      width: 70%; } }
 
 .success__message {
   width: 80%;
   text-align: left; }
+  @media only screen and (max-width: 37.5em) {
+    .success__message {
+      width: 70%; } }
 
 .success__btn {
   margin: 2rem auto;
@@ -1926,6 +1942,9 @@ body {
   color: #f7f7f7;
   width: 40%;
   transition: all .2s; }
+  @media only screen and (max-width: 37.5em) {
+    .success__btn {
+      width: 60%; } }
   .success__btn:hover {
     background-color: #28b485;
     cursor: pointer; }

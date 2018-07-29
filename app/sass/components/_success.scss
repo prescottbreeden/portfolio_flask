@@ -21,6 +21,11 @@
 		text-align: center;
 		box-shadow: 0 1rem 2.5rem $color-black;
 
+		@include respond(phone)	{
+			width: 95%;
+			padding: 2rem;	
+		}
+
 		p {
 			margin: .2rem;
 			// border: 1px dashed green;
@@ -45,24 +50,40 @@
 		width: 15%;
 		font-size: 2.2rem;
 		text-align: right;
+
+		@include respond(phone)	{
+			width: 25%;	
+		}
+
 	}
 
 	&__name {
 		width: 80%;
 		text-align: left;
 		font-size: 2rem;
+		
+		@include respond(phone)	{
+			width: 70%;	
+		}
 	}
 
 	&__email {
 		width: 80%;
 		text-align: left;
 		font-size: 2rem;
+
+		@include respond(phone)	{
+			width: 70%;	
+		}
 	}
 
 	&__message {
 		width: 80%;
 		text-align: left;
 
+		@include respond(phone)	{
+			width: 70%;	
+		}
 	}
 
 	&__btn {
@@ -79,6 +100,10 @@
 		color: $color-white;
 		width: 40%;
 		transition: all .2s;
+
+		@include respond(phone){
+			width: 60%;	
+		}
 
 		&:hover {
 			background-color: $color-green-dark;

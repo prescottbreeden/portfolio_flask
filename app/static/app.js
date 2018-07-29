@@ -937,7 +937,8 @@ $(document).ready(function() {
 					</div>
 					<div class="form__group">
 					<p class="form__textarea-label">
-						Send me a message!</p>
+						Have an idea for a project?
+					</p>
 						
 					<textarea 
 						title="Message"

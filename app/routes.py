@@ -25,19 +25,29 @@ def tech(id):
 @app.route('/process', methods=['POST'])
 def contact():
 
-    errors = []
+    errors = {}
+    name_errors = []
+    email_errors = []
+    message_errors = []
+
     if len(request.form['name']) < 1:
         error = 'Name cannot be blank'
-        errors.append(error)
+        name_errors.append(error)
     if len(request.form['email']) < 1:
         error = 'Email cannot be blank'
-        errors.append(error)
+        email_errors.append(error)
     if not re.match(r"[^@]+@[^@]+\.[^@]+", request.form['email']):
         error = 'Email must be valid'
-        errors.append(error)
+        email_errors.append(error)
     if len(request.form['message']) < 1:
         error = 'Message cannot be blank'
-        errors.append(error)
+        message_errors.append(error)
+
+    errors = {
+        'name': name_errors,
+        'email': email_errors,
+        'message': message_errors
+    }
 
     if(errors):
         print(errors)

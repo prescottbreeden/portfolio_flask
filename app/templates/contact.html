@@ -83,9 +83,9 @@
 								Full Name
 							</label>
 							<div class="errors">
-								{% if errs %}
-									<p class='errors-msg'>{{errs[0]}}</p>
-								{% endif %}
+								{% for err in errs['name'] %}
+									<p class='errors-msg'>{{err}}</p>
+								{% endfor %}
 							</div>
 						</div>
 						<div class="form__group">
@@ -102,14 +102,15 @@
 								Email Address
 							</label>
 							<div class="errors">
-								{% if errs %}
-									<p class='errors-msg'>{{errs[1]}}</p>
-								{% endif %}
+								{% for err in errs['email'] %}
+									<p class='errors-msg'>{{err}}</p>
+								{% endfor %}
 							</div>
 						</div>
 						<div class="form__group">
 							<p class="form__textarea-label">
-								Send me a message!</p>
+								Have an idea for a project?
+							</p>
 								
 							<textarea 
 								name="message"
@@ -117,9 +118,9 @@
 								wrap="hard"
 								class="form__textarea"></textarea>
 							<div class="errors">
-								{% if errs %}
-									<p class='errors-msg'>{{errs[2]}}</p>
-								{% endif %}
+								{% for err in errs['message'] %}
+									<p class='errors-msg'>{{err}}</p>
+								{% endfor %}
 							</div>
 						</div>	
 						<button class="form__btn">Send &#9993;</button>

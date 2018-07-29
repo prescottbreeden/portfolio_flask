@@ -1488,7 +1488,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
+      @media only screen and (max-width: 37.5em) {
+        .contact__info--item {
+          justify-content: space-around; } }
     .contact__info--link:link, .contact__info--link:visited {
+      display: flex;
+      flex-direction: column;
       text-decoration: none;
       color: #f7f7f7;
       letter-spacing: 1px; }
@@ -1574,7 +1579,9 @@ body {
       transform: scale(1.1); }
     .form__textarea-label {
       color: #ff9c67;
-      margin-bottom: .5rem; }
+      margin-bottom: .5rem;
+      font-size: 2rem;
+      font-weight: 500; }
   .form__cta {
     margin-top: 2rem;
     color: #ff9c67;

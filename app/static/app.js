@@ -92,26 +92,35 @@ $(document).ready(function() {
 		});
 	})
 
-
-	$(document).on('vclick', '.hexagon', function() {
-		id = this.innerText;
-		$.ajax({
-			url: `/tech/${id}`,
-			dataType: 'json',
-			success: function(res) {
-				blurb = res['blurb'];
-				name = res['name'];
-				document.getElementById('blurb').innerHTML=`
-				<p>${blurb}</p>
-				`
-				document.getElementById('tech_image').innerHTML=`
-				<img src="/static/img/tlogos/${name}.png">
-				`
-			}
-		});
-	})
+	
+	//=========================================================//
+	//					   SITE MORE INFO
+	//=========================================================//
 
 	
+	$(document).on('click', '#front_end_more', function() {
+		console.log('clicked');
+		$('#front_end_more-box').toggleClass('show-text');
+		$('#front_end_more-text').toggleClass('show-text');
+	})
+
+	$(document).on('click', '#back_end_more', function() {
+		console.log('clicked');
+		$('#back_end_more-box').toggleClass('show-text');
+		$('#back_end_more-text').toggleClass('show-text');
+	})
+	
+	$(document).on('click', '#database_more', function() {
+		console.log('clicked');
+		$('#database_more-box').toggleClass('show-text');
+		$('#database_more-text').toggleClass('show-text');
+	})
+
+	$(document).on('click', '#dev_tools_more', function() {
+		console.log('clicked');
+		$('#dev_tools_more-box').toggleClass('show-text');
+		$('#dev_tools_more-text').toggleClass('show-text');
+	})
 	//==========================================================//
 	//					      DOM CONTENT
 	//==========================================================//
@@ -698,7 +707,7 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div class="site__container--more">
+							<div onclick='' id="front_end_more" class="site__container--more">
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -708,8 +717,8 @@ $(document).ready(function() {
 									</svg>
 								</div>
 							</div>
-							<div class="site__container--text">
-								<p>
+							<div id="front_end_more-box" class="site__container--text">
+								<p id="front_end_more-text" class="site__hidden-text">
 									Given the small scale of this project, a front-end
 									framework was simply not necessary. jQuery takes
 									care of all the dynamic content and the waypoints
@@ -756,7 +765,7 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div class="site__container--more">
+							<div onclick='' id="back_end_more" class="site__container--more">
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -766,8 +775,8 @@ $(document).ready(function() {
 									</svg>
 								</div>
 							</div>
-							<div class="site__container--text">
-								<p>
+							<div id="back_end_more-box" class="site__container--text">
+								<p id="back_end_more-text" class="site__hidden-text">
 									I chose to use Flask as my back-end for this site
 									because as a micro-framework, Flask is unopinionated
 									about how it is structured and the tech you wish 
@@ -802,7 +811,7 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div class="site__container--more">
+							<div onclick='' id="database_more" class="site__container--more">
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -812,8 +821,8 @@ $(document).ready(function() {
 									</svg>
 								</div>
 							</div>
-							<div class="site__container--text">
-								<p>
+							<div id="database_more-box" class="site__container--text">
+								<p id="database_more-text" class="site__hidden-text">
 									Data and databases rock, so even though this
 									project really did not need a database (sad panda),
 									I decided to use one to store the descriptions
@@ -859,7 +868,7 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div class="site__container--more">
+							<div onclick='' id="dev_tools_more" class="site__container--more">
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -869,8 +878,8 @@ $(document).ready(function() {
 									</svg>
 								</div>
 							</div>
-							<div class="site__container--text">
-								<p>
+							<div id="dev_tools_more-box" class="site__container--text">
+								<p id="dev_tools_more-text" class="site__hidden-text">
 									The Node package manager (NPM) was used to install
 									node-sass and generate my watch, compile, compress,
 									and prefix scripts to streamline the CSS build 

@@ -1170,7 +1170,14 @@ body {
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .header {
-      background-size: 75%; } }
+      background-size: 75%;
+      background-attachment: inherit; } }
+  @media only screen and (max-width: 56.75em) {
+    .header {
+      background-attachment: inherit; } }
+  @media only screen and (max-width: 75em) {
+    .header {
+      background-attachment: inherit; } }
   .header__logo {
     position: relative; }
   .header__title {
@@ -1833,6 +1840,7 @@ body {
           .site__container--tool-name {
             margin-top: -2.2rem; } }
     .site__container--more {
+      margin: 0 auto;
       display: inline-block;
       border-radius: 4px 4px 0 0;
       background-color: rgba(40, 180, 133, 0.8);
@@ -1854,14 +1862,14 @@ body {
       .site__container--more:hover {
         background-color: #ff9c67;
         cursor: pointer; }
-        .site__container--more:hover + div,
-        .site__container--more:hover + div > p {
-          opacity: 1;
-          max-height: 1000px; }
   .site__icon {
     fill: #f7f7f7;
     width: 2rem;
     margin-left: 1rem; }
+
+.show-text {
+  opacity: 1 !important;
+  max-height: 1000px !important; }
 
 .success__shadowbox {
   position: fixed;

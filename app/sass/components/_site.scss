@@ -110,6 +110,7 @@
 
 
 		&--more {
+			margin: 0 auto;
 			display: inline-block;
 			border-radius: 4px 4px 0 0;
 			background-color: rgba($color-green-dark, .8);
@@ -141,11 +142,6 @@
 				background-color: $color-red-light;
 				cursor:pointer;
 
-				& + div,
-				& + div > p {
-					opacity: 1;
-					max-height: 1000px;
-				}
 			}
 		}
 	}
@@ -155,4 +151,9 @@
 		width: 2rem;
 		margin-left: 1rem;
 	}
+}
+
+.show-text {
+	opacity: 1 !important;
+	max-height: 1000px !important;
 }

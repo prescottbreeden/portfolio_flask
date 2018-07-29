@@ -9,10 +9,6 @@
 	&__header {
 		text-align: center;
 		margin-bottom: 3rem;
-
-		@include respond(phone){
-			
-		}
 	}
 
 	&__wrapper {
@@ -48,6 +44,7 @@
 				@include respond(phone){
 					width: 100%;	
 					border-radius: 0;
+					line-height: 4rem;
 				}
 			}
 
@@ -60,19 +57,11 @@
 			border: .5px solid $color-primary;
 			max-height: 0;
 			transition: all 1s;
-		
-			@include respond(phone){
-			//	max-height: 1000px;	
-			}
 
 			& > p {
 				transition: all 1s;
 				padding: 0 1rem;
 				opacity: 0;
-
-				@include respond(phone){
-				//	opacity: 1;
-				}
 			}
 
 			&-box {
@@ -82,7 +71,6 @@
 					width: 100%;	
 				}
 			}
-
 		}
 
 		&--tool-box {
@@ -106,10 +94,6 @@
 
 			@include respond(phone){
 				margin: 1.5rem;	
-			}
-
-			&:hover {
-				// cursor: pointer;
 			}
 
 			&-name {
@@ -151,10 +135,6 @@
 				&:hover > svg {
 					transform: rotate(90deg);
 				}
-
-				@include respond(phone){
-					 
-				}
 			}
 
 			&:hover {
@@ -166,7 +146,6 @@
 					opacity: 1;
 					max-height: 1000px;
 				}
-
 			}
 		}
 	}
@@ -176,5 +155,4 @@
 		width: 2rem;
 		margin-left: 1rem;
 	}
-
 }

@@ -2,10 +2,15 @@
 
 $(document).ready(function() {
 	console.log('power overwhelming');
-	
+	var activeNav = false;
+
+	if ($('.cb-nav__checkbox').is(':checked'))	{
+		$('.cb-nav__checkbox').prop('checked', false);
+	}
+
 	// sticky navigation trigger
 	if($('.nav').css("position") === "absolute") {
-		$('nav').waypoint(function(direction) {
+		$('.nav').waypoint(function(direction) {
 			if (direction == "down") {
 				console.log('triggered down');
 				$('.nav').addClass('sticky');
@@ -19,6 +24,7 @@ $(document).ready(function() {
 	// activate mobile nav
 	$(document).on('click', '.cb-nav__button', function() {
 		$('nav').toggleClass('active-nav');
+		activeNav = !activeNav;
 	})
 
 
@@ -29,25 +35,35 @@ $(document).ready(function() {
 	$(document).on('click', '.about-nav', function() {
 		loadAbout();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
+		$('nav').removeClass('active-nav');
+		$('.cb-nav__checkbox').prop('checked', false);
 	})
 
 	$(document).on('click', '.portfolio-nav', function() {
 		loadPortfolio();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
+		$('nav').removeClass('active-nav');
+		$('.cb-nav__checkbox').prop('checked', false);
 	})
 	
 	$(document).on('click', '.tech-nav', function() {
 		loadTech();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
+		$('nav').removeClass('active-nav');
+		$('.cb-nav__checkbox').prop('checked', false);
 	})
 
 	$(document).on('click', '.contact-nav', function() {
 		loadContact();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
+		$('nav').removeClass('active-nav');
+		$('.cb-nav__checkbox').prop('checked', false);
 	})
 
 	$(document).on('click', '#reload_home', function() {
 		console.log('button clicked')
+		$('nav').removeClass('active-nav');
+		$('.cb-nav__checkbox').prop('checked', false);
 	})
 
 
@@ -112,11 +128,16 @@ $(document).ready(function() {
 			<div class="about__text-box">
 				<h2 class="about__heading">About Me</h2>
 				<p class="about__blurb">I'm a full-stack software developer with a 
-					background in the arts and sciences. As a former opera singer, then
-					CEO and then neuro&shy;scientist, the one consistency across all
-					realms was the need for newer and better tech to drive innovation. 
-					I love to think big and have a passion for tackling challenges to 
-					find elegant solutions that are clean, efficient and reusable.</p>
+					background in the arts and sciences. I graduated from Manhattan 
+					School of Music with a bachelor of music in classical vocal 
+					performance (opera). After moving to Seattle, I became a business 
+					owner taking evening classes to return to grad school in biology. 
+					While maintaining my business web presence taught me much about coding, 
+					it was during my time at ASU as a behavioral neuroscientist when 
+					I began learning R and Python for my research papers that my love 
+					for programming began to take shape. I love to think big and have 
+					a passion for tackling challenges to find elegant solutions that 
+					are clean, efficient and reusable.</p>
 			</div>
 		</section>
 		<section class="services">
@@ -126,9 +147,9 @@ $(document).ready(function() {
 					<!-- empty -->
 				</div>
 				<div class="wrapper">
-					<h3>Front End</h3>
 					<div class="services--front-end">
 						<div class="cube__container">
+							<h3>Front End</h3>
 							<img 
 								title="Skills"
 								class="cube__img"
@@ -143,14 +164,14 @@ $(document).ready(function() {
 							</ul>
 						</div>
 					</div>
-					<h3>Back End</h3>
 					<div class="services--backend">
 						<div class="cube__container">
+							<h3>Back End</h3>
 							<img 
 								title="Skills"
 								class="cube__img"
 								src="/static/img/cube_red.png" 
-								alt="blue cube">
+								alt="red cube">
 						</div>
 						<div class="cube__text">
 							<ul class="services--list">
@@ -160,14 +181,14 @@ $(document).ready(function() {
 							</ul>
 						</div>
 					</div>
-					<h3>Databases</h3>
 					<div class="services--db">
 						<div class="cube__container">
+							<h3>Databases</h3>
 							<img 
 								title="Skills"
 								class="cube__img"
 								src="/static/img/cube_teal.png" 
-								alt="blue cube">
+								alt="teal cube">
 						</div>
 						<div class="cube__text">
 							<ul class="services--list">

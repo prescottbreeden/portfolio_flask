@@ -1,6 +1,10 @@
 .about {
-    padding: 6rem 5rem 3rem 5rem;
+    padding: 6rem 5rem;
     background-color: $color-grey-light;
+
+	@include respond(phone){
+		padding-top: 3rem;	
+	}
     
     &__text-box {
         padding-top: 6rem;
@@ -10,6 +14,7 @@
 		@include respond(phone){
 			flex-direction: column;	
 			align-items: center;
+			padding-top: 3rem;
 		}
     }
 
@@ -18,14 +23,9 @@
     }
 
     &__blurb {
+		margin-top: 1rem;
         flex: 5 40%;
-        hyphens: manual;
-    }
-
-
-
-    &__courses {
-        margin-top: 12rem;
+        text-align: justify;
     }
 }
 
@@ -57,14 +57,10 @@
     }
 
     &--container {
-        // padding: 3rem; 
-        // margin-top: 4rem;
         margin: 0 auto;
         display: flex;
-        // flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        // border: 1px dashed red;
 
 		@include respond(phone){
 			display: inline-block;	
@@ -73,50 +69,52 @@
 
     &--list {
         list-style: none;
+		padding: 2rem;
     }
 
     &--front-end {
         display: flex;
         align-items: center;
-        // border: 1px dashed red;
-
+		margin-left: 2rem;
     }
 
     &--backend {
         display: flex;
         align-items: center;
-        // border: 1px dashed red;
+		margin-left: 2rem;
     }
 
     &--db {
         display: flex;
         align-items: center;
-        // border: 1px dashed red;
+		margin-left: 2rem;
     }
 
 }
-.wrapper {
-    // display: flex;
-    // flex-direction: column;
 
-    h3 {
-        // border: 1px dashed red;
-        display: inline-block;
-        width: 12rem;
-        margin-left: 2.2rem;
-        text-align: center;
-    }
-}
 .cube {
 
     &__container {
-        
+        display: flex;
+		justify-content: center;
+		position: relative;
+		margin: 3rem 0;
+
+		h3 {
+			display: inline-block;
+			position: absolute;
+			margin-top: -3rem;
+		}
     }
 
     &__img {
         height: 15rem;
         width: auto;
-        margin: 2rem;
+
+		@include respond(phone){
+			height: 12rem;
+
+		}
     }
 
     &__text {

@@ -74,6 +74,7 @@ $(document).ready(function() {
 	
 	$(document).on('click', '.hexagon', function() {
 		id = this.innerText;
+		console.log(id);
 		$.ajax({
 			url: `/tech/${id}`,
 			dataType: 'json',
@@ -626,9 +627,11 @@ $(document).ready(function() {
 			let techName = technologies.pop();
 			grid += `
 				<li class="hex-container">
-					<div class="hexagon img-${i} tech__animate-${i}">
+					<a 
+						onclick=''
+						class="hexagon img-${i} tech__animate-${i}">
 						<span class="transparent">${techName}</span>
-					</div>
+					</a>
 				</li>     
 			`	
 		}

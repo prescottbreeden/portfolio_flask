@@ -92,6 +92,27 @@ $(document).ready(function() {
 		});
 	})
 
+	//=========================================================//
+	//					   PORTFOLIO MORE INFO
+	//=========================================================//
+
+	$(document).on('click', '#casino_31_button', function() {
+		console.log('clicked');
+		$('#casino_31_tech').toggleClass('show-text');
+		$('.casino_31_tech_row').toggleClass('show-text');
+	})
+
+	$(document).on('click', '#ultimate_fan_button', function() {
+		console.log('clicked');
+		$('#ultimate_fan_tech').toggleClass('show-text');
+		$('.ultimate_fan_tech_row').toggleClass('show-text');
+	})
+	
+	$(document).on('click', '#powder_button', function() {
+		console.log('clicked');
+		$('#powder_tech').toggleClass('show-text');
+		$('.powder_tech_row').toggleClass('show-text');
+	})
 	
 	//=========================================================//
 	//					   SITE MORE INFO
@@ -121,6 +142,7 @@ $(document).ready(function() {
 		$('#dev_tools_more-box').toggleClass('show-text');
 		$('#dev_tools_more-text').toggleClass('show-text');
 	})
+
 	//==========================================================//
 	//					      DOM CONTENT
 	//==========================================================//
@@ -280,11 +302,11 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div onclick='' id="casino_31_button" class="site__container--more">
-					<div class="site__container--more-empty"></div>
-					<div class="site__container--more-text">
-						<p>Built With</p>
-						<svg class="site__icon">
+				<div onclick='' id="casino_31_button" class="more__button">
+					<div class="more__button--spacer"></div>
+					<div class="more__button--box">
+						<p class="more__button--box-text">Built With</p>
+						<svg class="more__button--box-icon">
 							<use 
 								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 							</use>
@@ -293,7 +315,7 @@ $(document).ready(function() {
 				</div>
 				<div id="casino_31_tech" class="project__tech">
 					<p class="project__tech-header">Front-End</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row casino_31_tech_row">
 						<img
 							title="HTML5"
 							src="/static/img/tlogos/html5.png"
@@ -321,7 +343,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row casino_31_tech_row">
 						<img
 							title="C#"
 							src="/static/img/tlogos/csharp.png"
@@ -349,7 +371,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row casino_31_tech_row">
 						<img
 							title="SASS"
 							src="/static/img/tlogos/sass.png"
@@ -372,7 +394,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Card API</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row casino_31_tech_row">
 						<img
 							title="JavaScript"
 							src="/static/img/tlogos/javascript.png"
@@ -442,11 +464,11 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div onclick='' id="ultimate_fan_button" class="site__container--more">
-					<div class="site__container--more-empty"></div>
-					<div class="site__container--more-text">
-						<p>Built With</p>
-						<svg class="site__icon">
+				<div onclick='' id="ultimate_fan_button" class="more__button">
+					<div class="more__button--spacer"></div>
+					<div class="more__button--box">
+						<p class="more__button--box-text">Built With</p>
+						<svg class="more__button--box-icon">
 							<use 
 								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 							</use>
@@ -455,7 +477,7 @@ $(document).ready(function() {
 				</div>
 				<div id="ultimate_fan_tech" class="project__tech">
 					<p class="project__tech-header">Front-End<p>
-					<div class="project__tech-row">
+					<div class="project__tech-row ultimate_fan_tech_row">
 						<img
 							title="HTML5"
 							src="/static/img/tlogos/html5.png"
@@ -478,7 +500,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row ultimate_fan_tech_row">
 						<img
 							title="Python"
 							src="/static/img/tlogos/python.png"
@@ -511,7 +533,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row ultimate_fan_tech_row">
 						<img
 							title="SASS"
 							src="/static/img/tlogos/sass.png"
@@ -590,11 +612,11 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div onclick='' id="powder_button" class="site__container--more">
-					<div class="site__container--more-empty"></div>
-					<div class="site__container--more-text">
-						<p>Built With</p>
-						<svg class="site__icon">
+				<div onclick='' id="powder_button" class="more__button">
+					<div class="more__button--spacer"></div>
+					<div class="more__button--box">
+						<p class="more__button--box-text">Built With</p>
+						<svg class="more__button--box-icon">
 							<use 
 								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 							</use>
@@ -603,7 +625,7 @@ $(document).ready(function() {
 				</div>
 				<div id="powder_tech" class="project__tech">
 					<p class="project__tech-header">Front-End</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row powder_tech_row">
 						<img
 							title="HTML5"
 							src="/static/img/tlogos/html5.png"
@@ -626,7 +648,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row powder_tech_row">
 						<img
 							title="JavaScript"
 							src="/static/img/tlogos/javascript.png"
@@ -649,7 +671,7 @@ $(document).ready(function() {
 							class="project__tech-row--img">
 					</div>
 					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row">
+					<div class="project__tech-row powder_tech_row">
 						<img
 							title="SASS"
 							src="/static/img/tlogos/sass.png"

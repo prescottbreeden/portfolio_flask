@@ -1,0 +1,43 @@
+.more {
+
+	&__button {
+		display: flex;
+
+		&--spacer {
+			width: 100%;
+
+		}
+
+		&--box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $color-green-dark;
+			border-radius: 4px 4px 0 0;
+			width: 20%;
+			transition: all .2s;
+
+			&:hover {
+				background-color: $color-red-light;
+				cursor: pointer;
+			}
+
+			&:hover > svg {
+				transform: rotate(90deg);
+			}
+
+			&-text {
+				color: $color-white;
+			}
+
+			&-icon {
+				width: 2rem;
+				height: 2rem;
+				margin-left: 1rem;
+				fill: $color-white;
+				transition: all .5s;
+			}
+
+		}
+	}
+}

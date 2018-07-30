@@ -56,10 +56,10 @@
 		&--text {
 			border: .5px solid $color-primary;
 			max-height: 0;
-			transition: all 1s;
+			transition: all .5s;
 
 			& > p {
-				transition: all 1s;
+				transition: all .5s;
 				padding: 0 1rem;
 				opacity: 0;
 			}

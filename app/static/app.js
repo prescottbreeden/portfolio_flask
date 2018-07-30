@@ -3,6 +3,9 @@
 $(document).ready(function() {
 	console.log('power overwhelming');
 	var activeNav = false;
+	var casino31 = false;
+	var ultimateFan = false;
+	var powder = false;
 
 	if ($('.cb-nav__checkbox').is(':checked'))	{
 		$('.cb-nav__checkbox').prop('checked', false);
@@ -97,21 +100,39 @@ $(document).ready(function() {
 	//=========================================================//
 
 	$(document).on('click', '#casino_31_button', function() {
-		console.log('clicked');
-		$('#casino_31_tech').toggleClass('show-text');
-		$('.casino_31_tech_row').toggleClass('show-text');
+		if(casino31){
+			let content = document.getElementById('casino_31_html');
+			content.innerHTML = '';
+		} else {
+			loadCasino31();
+			$('#casino_31_tech').addClass('show-text');
+			$('.casino_31_tech_row').addClass('show-text');
+		}
+		casino31 = !casino31;
 	})
 
 	$(document).on('click', '#ultimate_fan_button', function() {
-		console.log('clicked');
-		$('#ultimate_fan_tech').toggleClass('show-text');
-		$('.ultimate_fan_tech_row').toggleClass('show-text');
+		if(ultimateFan){
+			let content = document.getElementById('ultimate_fan_html');
+			content.innerHTML = '';
+		} else {
+			loadUltimateFan();
+			$('#ultimate_fan_tech').addClass('show-text');
+			$('.ultimate_fan_tech_row').addClass('show-text');
+		}
+		ultimateFan = !ultimateFan;
 	})
 	
 	$(document).on('click', '#powder_button', function() {
-		console.log('clicked');
-		$('#powder_tech').toggleClass('show-text');
-		$('.powder_tech_row').toggleClass('show-text');
+		if(powder) {
+			let content = document.getElementById('powder_html');
+			content.innerHTML = '';
+		} else {
+			loadPowder();
+			$('#powder_tech').addClass('show-text');
+			$('.powder_tech_row').addClass('show-text');
+		}
+		powder = !powder;
 	})
 	
 	//=========================================================//
@@ -314,108 +335,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div id="casino_31_tech" class="project__tech">
-					<p class="project__tech-header">Front-End</p>
-					<div class="project__tech-row casino_31_tech_row">
-						<img
-							title="HTML5"
-							src="/static/img/tlogos/html5.png"
-							alt="html5 logo"
-							class="project__tech-row--img">
-						<img
-							title="CSS3"
-							src="/static/img/tlogos/css3.png"
-							alt="css3 logo"
-							class="project__tech-row--img">
-						<img
-							title="JavaScript"
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
-						<img
-							title="jQuery"
-							src="/static/img/tlogos/jquery.png"
-							alt="jquery logo"
-							class="project__tech-row--img">
-						<img
-							title="Bootstrap"
-							src="/static/img/tlogos/bootstrap.png"
-							alt="bootstrap logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row casino_31_tech_row">
-						<img
-							title="C#"
-							src="/static/img/tlogos/csharp.png"
-							alt="csharp logo"
-							class="project__tech-row--img">
-						<img
-							title="ASP.NET Core"
-							src="/static/img/tlogos/dotnet.png"
-							alt="dotnet logo"
-							class="project__tech-row--img">
-						<img
-							title="Ubuntu"
-							src="/static/img/tlogos/ubuntu.png"
-							alt="ubuntu logo"
-							class="project__tech-row--img">
-						<img
-							title="Nginx"
-							src="/static/img/tlogos/nginx.png"
-							alt="nginx logo"
-							class="project__tech-row--img">
-						<img
-							title="Supervisor"
-							src="/static/img/tlogos/supervisor.png"
-							alt="supervisor logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row casino_31_tech_row">
-						<img
-							title="SASS"
-							src="/static/img/tlogos/sass.png"
-							alt="sass logo"
-							class="project__tech-row--img">
-						<img
-							title="GitHub"
-							src="/static/img/tlogos/github.png"
-							alt="github logo"
-							class="project__tech-row--img">
-						<img
-							title="VS Code"
-							src="/static/img/tlogos/vscode.png"
-							alt="vscode logo"
-							class="project__tech-row--img">
-						<img
-							title="Amazon Web Services"
-							src="/static/img/tlogos/aws.png"
-							alt="aws logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Card API</p>
-					<div class="project__tech-row casino_31_tech_row">
-						<img
-							title="JavaScript"
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
-						<img
-							title="Express"
-							src="/static/img/tlogos/express.png"
-							alt="express logo"
-							class="project__tech-row--img">
-						<img
-							title="Node.js"
-							src="/static/img/tlogos/nodejs.png"
-							alt="nodejs logo"
-							class="project__tech-row--img">
-						<img
-							title="Heroku"
-							src="/static/img/tlogos/heroku.png"
-							alt="heroku logo"
-							class="project__tech-row--img">
-					</div>
+					<div id="casino_31_html"></div>
 				</div>
 			</div>
 			
@@ -476,90 +396,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div id="ultimate_fan_tech" class="project__tech">
-					<p class="project__tech-header">Front-End<p>
-					<div class="project__tech-row ultimate_fan_tech_row">
-						<img
-							title="HTML5"
-							src="/static/img/tlogos/html5.png"
-							alt="html5 logo"
-							class="project__tech-row--img">
-						<img
-							title="CSS3"
-							src="/static/img/tlogos/css3.png"
-							alt="css3 logo"
-							class="project__tech-row--img">
-						<img
-							title="JavaScript"
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
-						<img
-							title="jQuery"
-							src="/static/img/tlogos/jquery.png"
-							alt="jquery logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row ultimate_fan_tech_row">
-						<img
-							title="Python"
-							src="/static/img/tlogos/python.png"
-							alt="python logo"
-							class="project__tech-row--img">
-						<img
-							title="Django"
-							src="/static/img/tlogos/django.png"
-							alt="django logo"
-							class="project__tech-row--img">
-						<img
-							title="SQLite"
-							src="/static/img/tlogos/sqlite.png"
-							alt="sqlite logo"
-							class="project__tech-row--img">
-						<img
-							title="Ubuntu"
-							src="/static/img/tlogos/ubuntu.png"
-							alt="ubuntu logo"
-							class="project__tech-row--img">
-						<img
-							title="Nginx"
-							src="/static/img/tlogos/nginx.png"
-							alt="nginx logo"
-							class="project__tech-row--img">
-						<img
-							title="Gunicorn"
-							src="/static/img/tlogos/gunicorn2.png"
-							alt="gunicorn logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row ultimate_fan_tech_row">
-						<img
-							title="SASS"
-							src="/static/img/tlogos/sass.png"
-							alt="sass logo"
-							class="project__tech-row--img">
-						<img
-							title="Node.js"
-							src="/static/img/tlogos/nodejs.png"
-							alt="nodejs logo"
-							class="project__tech-row--img">
-						<img
-							title="GitHub"
-							src="/static/img/tlogos/github.png"
-							alt="github logo"
-							class="project__tech-row--img">
-						<img
-							title="Vim"
-							src="/static/img/tlogos/vim.png"
-							alt="vim logo"
-							class="project__tech-row--img">
-						<img
-							title="Amazon Web Services"
-							src="/static/img/tlogos/aws.png"
-							alt="aws logo"
-							class="project__tech-row--img">
-					</div>
+					<div id="ultimate_fan_html"></div>
 				</div>
 			</div>
 
@@ -624,80 +461,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div id="powder_tech" class="project__tech">
-					<p class="project__tech-header">Front-End</p>
-					<div class="project__tech-row powder_tech_row">
-						<img
-							title="HTML5"
-							src="/static/img/tlogos/html5.png"
-							alt="html5 logo"
-							class="project__tech-row--img">
-						<img
-							title="CSS3"
-							src="/static/img/tlogos/css3.png"
-							alt="css3 logo"
-							class="project__tech-row--img">
-						<img
-							title="JavaScript"
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
-						<img
-							title="Angular"
-							src="/static/img/tlogos/angular.png"
-							alt="angular logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Back-End</p>
-					<div class="project__tech-row powder_tech_row">
-						<img
-							title="JavaScript"
-							src="/static/img/tlogos/javascript.png"
-							alt="javascript logo"
-							class="project__tech-row--img">
-						<img
-							title="Express"
-							src="/static/img/tlogos/express.png"
-							alt="express logo"
-							class="project__tech-row--img">
-						<img
-							title="Ubuntu"
-							src="/static/img/tlogos/ubuntu.png"
-							alt="ubuntu logo"
-							class="project__tech-row--img">
-						<img
-							title="Nginx"
-							src="/static/img/tlogos/nginx.png"
-							alt="nginx logo"
-							class="project__tech-row--img">
-					</div>
-					<p class="project__tech-header">Dev Tools</p>
-					<div class="project__tech-row powder_tech_row">
-						<img
-							title="SASS"
-							src="/static/img/tlogos/sass.png"
-							alt="sass logo"
-							class="project__tech-row--img">
-						<img
-							title="Node.js"
-							src="/static/img/tlogos/nodejs.png"
-							alt="nodejs logo"
-							class="project__tech-row--img">
-						<img
-							title="GitHub"
-							src="/static/img/tlogos/github.png"
-							alt="github logo"
-							class="project__tech-row--img">
-						<img
-							title="VS Code"
-							src="/static/img/tlogos/vscode.png"
-							alt="vscode logo"
-							class="project__tech-row--img">
-						<img
-							title="Amazon Web Services"
-							src="/static/img/tlogos/aws.png"
-							alt="aws logo"
-							class="project__tech-row--img">
-					</div>
+					<div id="powder_html"></div>
 				</div>
 			</div>
 
@@ -1125,5 +889,321 @@ $(document).ready(function() {
 
 	}
 
+	//===============================================//
+	//			CASINO31 PORTFOLIO MORE			     //
+	//===============================================//
+
+	function loadCasino31() {
+		const content = document.getElementById('casino_31_html');
+
+		content.innerHTML = `
+			<p class="project__tech-header">Front-End</p>
+			<div class="project__tech-row casino_31_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-1">
+						<h4 class="site__container--tool-name">
+							HTML5	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-2">
+						<h4 class="site__container--tool-name">
+							CSS3	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-6">
+						<h4 class="site__container--tool-name">
+							jQuery	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-27">
+						<h4 class="site__container--tool-name">
+							Bootstrap
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Back-End</p>
+			<div class="project__tech-row casino_31_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-12">
+						<h4 class="site__container--tool-name">
+							C#	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-11">
+						<h4 class="site__container--tool-name">
+							.NET Core
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-19">
+						<h4 class="site__container--tool-name">
+							Ubuntu
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-26">
+						<h4 class="site__container--tool-name">
+							Nginx
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-31">
+						<h4 class="site__container--tool-name">
+							Supervisor
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Dev Tools</p>
+			<div class="project__tech-row casino_31_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-7">
+						<h4 class="site__container--tool-name">
+							SASS
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-21">
+						<h4 class="site__container--tool-name">
+							GitHub
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-28">
+						<h4 class="site__container--tool-name">
+							VS Code
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-24">
+						<h4 class="site__container--tool-name">
+							AWS
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Card API</p>
+			<div class="project__tech-row casino_31_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-14">
+						<h4 class="site__container--tool-name">
+							Express
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-13">
+						<h4 class="site__container--tool-name">
+							Node.js
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-32">
+						<h4 class="site__container--tool-name">
+							Heroku
+						</h4>
+					</div>
+				</div>
+			</div>
+		`
+		
+	}
+
+	//===============================================//
+	//			ULTIMATE FAN PORTFOLIO MORE		     //
+	//===============================================//
+
+	function loadUltimateFan() {
+		const content = document.getElementById('ultimate_fan_html');
+
+		content.innerHTML = `
+			<p class="project__tech-header">Front-End<p>
+			<div class="project__tech-row ultimate_fan_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-1">
+						<h4 class="site__container--tool-name">
+							HTML5	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-2">
+						<h4 class="site__container--tool-name">
+							CSS3	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-6">
+						<h4 class="site__container--tool-name">
+							jQuery	
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Back-End</p>
+			<div class="project__tech-row ultimate_fan_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-10">
+						<h4 class="site__container--tool-name">
+							Python	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-9">
+						<h4 class="site__container--tool-name">
+							Django	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-16">
+						<h4 class="site__container--tool-name">
+							SQLite	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-19">
+						<h4 class="site__container--tool-name">
+							Ubuntu	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-26">
+						<h4 class="site__container--tool-name">
+							Nginx
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-29">
+						<h4 class="site__container--tool-name">
+							Gunicorn
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Dev Tools</p>
+			<div class="project__tech-row ultimate_fan_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-7">
+						<h4 class="site__container--tool-name">
+							SASS
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-13">
+						<h4 class="site__container--tool-name">
+							Node.js
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-21">
+						<h4 class="site__container--tool-name">
+							GitHub
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-20">
+						<h4 class="site__container--tool-name">
+							Vim
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-24">
+						<h4 class="site__container--tool-name">
+							AWS
+						</h4>
+					</div>
+				</div>
+			</div>
+		`
+	}
+
+
+	//===============================================//
+	//			POWDER PORTFOLIO MORE			     //
+	//===============================================//
+
+	function loadPowder() {
+		const content = document.getElementById('powder_html');
+
+		content.innerHTML = `
+			<p class="project__tech-header">Front-End</p>
+			<div class="project__tech-row powder_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-1">
+						<h4 class="site__container--tool-name">
+							HTML5	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-2">
+						<h4 class="site__container--tool-name">
+							CSS3	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-4">
+						<h4 class="site__container--tool-name">
+							Angular
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Back-End</p>
+			<div class="project__tech-row powder_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-14">
+						<h4 class="site__container--tool-name">
+							Express
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-19">
+						<h4 class="site__container--tool-name">
+							Ubuntu
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-26">
+						<h4 class="site__container--tool-name">
+							Nginx
+						</h4>
+					</div>
+				</div>
+			</div>
+			<p class="project__tech-header">Dev Tools</p>
+			<div class="project__tech-row powder_tech_row">
+				<div class="site__container--tool-box">
+					<div class="site__container--tool tool-img-7">
+						<h4 class="site__container--tool-name">
+							SASS
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-13">
+						<h4 class="site__container--tool-name">
+							Node.js
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-21">
+						<h4 class="site__container--tool-name">
+							GitHub
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-20">
+						<h4 class="site__container--tool-name">
+							Vim
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-24">
+						<h4 class="site__container--tool-name">
+							AWS
+						</h4>
+					</div>
+				</div>
+			</div>
+
+
+		`
+	}
 
 });

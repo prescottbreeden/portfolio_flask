@@ -28,7 +28,9 @@ $technologies:
 	'bootstrap',
 	'vscode',
 	'gunicorn2',
-	'sqlalchemy'
+	'sqlalchemy',
+	'supervisor',
+	'heroku'
 ;
 
 $total: length($technologies);

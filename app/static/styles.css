@@ -180,6 +180,12 @@ body {
 .tech__animate-30 {
   animation: appear 0.25s 1.5s 1 ease-out forwards; }
 
+.tech__animate-31 {
+  animation: appear 0.25s 1.55s 1 ease-out forwards; }
+
+.tech__animate-32 {
+  animation: appear 0.25s 1.6s 1 ease-out forwards; }
+
 .tool-img-1 {
   background-image: url("img/tlogos/html5.png");
   background-size: cover;
@@ -385,6 +391,20 @@ body {
 
 .tool-img-30 {
   background-image: url("img/tlogos/sqlalchemy.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-31 {
+  background-image: url("img/tlogos/supervisor.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+
+.tool-img-32 {
+  background-image: url("img/tlogos/heroku.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1080,6 +1100,52 @@ body {
     opacity: 1;
     background-color: rgba(34, 34, 34, 0.8); }
 
+.img-31 {
+  background-image: url("img/tlogos/supervisor.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+  .img-31:after {
+    content: "supervisor";
+    color: #f7f7f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    padding: .25rem 1rem;
+    width: 90%;
+    border-radius: 200px;
+    opacity: 0; }
+  .img-31:hover:after {
+    opacity: 1;
+    background-color: rgba(34, 34, 34, 0.8); }
+
+.img-32 {
+  background-image: url("img/tlogos/heroku.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backface-visibility: hidden; }
+  .img-32:after {
+    content: "heroku";
+    color: #f7f7f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    padding: .25rem 1rem;
+    width: 90%;
+    border-radius: 200px;
+    opacity: 0; }
+  .img-32:hover:after {
+    opacity: 1;
+    background-color: rgba(34, 34, 34, 0.8); }
+
 /*
 
 		@include respond(phone){
@@ -1677,7 +1743,9 @@ body {
     .more__button--box:hover > svg {
       transform: rotate(90deg); }
     .more__button--box-text {
-      color: #f7f7f7; }
+      color: #f7f7f7;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
     .more__button--box-icon {
       width: 2rem;
       height: 2rem;
@@ -1782,7 +1850,7 @@ body {
       color: #28b485; }
   .project__tech {
     margin-left: auto;
-    border: 1px solid #4A849F;
+    border-top: 1px solid #4A849F;
     width: 80%;
     max-height: 0;
     transition: all 2s; }

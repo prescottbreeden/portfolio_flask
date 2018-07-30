@@ -11,12 +11,11 @@
     position: relative;
 
 	@include respond(phone)	{
-		background-size: 75%;	
-		background-attachment: inherit;
+	
 	}
 
 	@include respond(tab-port) {
-		background-attachment: inherit;
+		
 	}
 
 	@include respond(tab-land) {

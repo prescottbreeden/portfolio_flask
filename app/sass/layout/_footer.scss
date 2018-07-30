@@ -3,6 +3,10 @@
     padding: 10rem 3rem 15rem 3rem;
     position: relative;
 
+	@include respond(phone){
+		height: 100vh;	
+	}
+
     &__logo {
         // margin: 2rem;
         text-align: center;

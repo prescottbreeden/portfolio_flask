@@ -241,13 +241,13 @@ $(document).ready(function() {
 						<span class="u-color-red">Contributors:</span> 
 						<a 
 							title="Open link to GitHub"
-							href="https://github.com/lawyerh" 
+							href="https://www.linkedin.com/in/lawyerhelbling" 
 							target="_blank"
 							class="project__description--contrib-link">
 								Lawyer Helbing</a>
 						<a 
 							title="Open link to GitHub"
-							href="https://github.com/petersonjustin" 
+							href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
 							target="_blank"
 							class="project__description--contrib-link">
 								Justin Peterson</a>
@@ -383,7 +383,7 @@ $(document).ready(function() {
 						<span class="u-color-red">Contributors:</span> 
 						<a 
 							title="Open link to GitHub"
-							href="https://github.com/" 
+							href="https://www.linkedin.com/in/stephen-silverstein/"
 							target="_blank"	
 							class="project__description--contrib-link">
 								Stephen Silverstein</a>

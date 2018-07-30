@@ -281,6 +281,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div onclick='' id="casino_31_button" class="site__container--more">
+					<div class="site__container--more-empty"></div>
 					<div class="site__container--more-text">
 						<p>Built With</p>
 						<svg class="site__icon">
@@ -442,6 +443,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div onclick='' id="ultimate_fan_button" class="site__container--more">
+					<div class="site__container--more-empty"></div>
 					<div class="site__container--more-text">
 						<p>Built With</p>
 						<svg class="site__icon">
@@ -589,6 +591,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div onclick='' id="powder_button" class="site__container--more">
+					<div class="site__container--more-empty"></div>
 					<div class="site__container--more-text">
 						<p>Built With</p>
 						<svg class="site__icon">
@@ -794,14 +797,9 @@ $(document).ready(function() {
 										jQuery	
 									</h4>
 								</div>
-								<div class="site__container--tool tool-img-7">
-									<h4 class="site__container--tool-name">
-										SASS
-									</h4>
-								</div>
 							</div>
 							<div onclick='' id="front_end_more" class="site__container--more">
-								<div class="site__container--more-empty"></div>
+							<div class="site__container--more-empty"></div>
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -943,6 +941,11 @@ $(document).ready(function() {
 						</div>
 						<div class="site__container--text-box">
 							<div class="site__container--tool-box">
+								<div class="site__container--tool tool-img-7">
+									<h4 class="site__container--tool-name">
+										SASS
+									</h4>
+								</div>
 								<div class="site__container--tool tool-img-13">
 									<h4 class="site__container--tool-name">
 										Node.js

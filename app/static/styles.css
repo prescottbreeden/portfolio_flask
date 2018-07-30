@@ -1756,7 +1756,7 @@ body {
       color: #28b485; }
   .project__tech {
     margin-left: auto;
-    border: 1px solid #28b485;
+    border: 1px solid #4A849F;
     width: 80%; }
     .project__tech-header {
       text-align: center;
@@ -1854,19 +1854,18 @@ body {
           .site__container--tool-name {
             margin-top: -2.2rem; } }
     .site__container--more {
-      margin: 0 auto;
       display: flex;
-      border-radius: 4px 4px 0 0;
       color: #f7f7f7;
       font-weight: 400;
       transition: all .2s; }
       .site__container--more-empty {
-        width: 80%; }
+        width: 100%; }
       .site__container--more-text {
         background-color: rgba(40, 180, 133, 0.8);
-        width: 20%;
+        border-radius: 4px 4px 0 0;
         display: flex;
         align-items: center;
+        flex-wrap: no-wrap;
         padding: 0 2rem; }
         .site__container--more-text:hover {
           background-color: #ff9c67;

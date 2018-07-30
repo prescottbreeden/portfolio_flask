@@ -49,7 +49,7 @@ def contact():
         'message': message_errors
     }
 
-    if(errors):
+    if(errors['name'] or errors['email'] or errors['message']):
         print(errors)
         return render_template('contact.html', errs=errors)
     else:

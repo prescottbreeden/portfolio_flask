@@ -22,6 +22,7 @@
 }
 
 .project {
+	margin-bottom: 6rem;
 
 	&__header {
 		margin-top: 3rem;
@@ -59,7 +60,6 @@
 
 	&__container {
 		margin-top: 3rem;
-		margin-bottom: 6rem;
 		padding: 0 3rem;
 		display: flex;
 		justify-content: space-around;
@@ -81,6 +81,9 @@
 		&--text-box {
 			width: 60%;
 			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 			// border: 1px dashed green;
 		}
 	}
@@ -94,7 +97,6 @@
 
         &--link {
 			text-align: center;
-            margin-top: 4rem;
 			display: flex;
 			justify-content: space-around;
 
@@ -144,26 +146,36 @@
 		}
     }
 
-	&__tech-row {
-		text-align: center;
-		padding: 0 0rem;
-		// max-height: 0;
-
-		&--img {
-			// opacity: 0;
-			height: 6rem;
-			width: auto;
-		}
-
-		@include respond(phone){
-			padding: 0;	
-		}
-	}
-
     &__tech {
-		text-align: center;
-		font-style: italic;
-		font-size: 1.5rem;
+		border: 1px dashed green;
+
+		&-header {
+			text-align: center;
+			font-style: italic;
+			font-size: 1.5rem;
+		}
+
+		&-row {
+
+			display: flex;
+			justify-content: space-around;
+			border: 1px dashed red;
+			// max-height: 0;
+
+			&--box {
+				margin: 3rem;
+			}
+
+			&--img {
+				// opacity: 0;
+				height: 10rem;
+				width: auto;
+			}
+
+			@include respond(phone){
+				padding: 0;	
+			}
+		}
     }
 
     &__desktop {

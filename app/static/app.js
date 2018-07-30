@@ -226,397 +226,430 @@ $(document).ready(function() {
 
 		<section class="portfolio">
 			<h2 class="portfolio__header">Some of My Work</h2>
-			<div class="project__header">
-				<div class="project__header--heading-box">
-					<h3 class="project__header--heading">Casino 31</h3>
-				</div>
-				<div class="project__container--empty"></div>
-			</div>
-			<div class="project__container">
-				<div class="project__container--desktop">
-					<div class="project__desktop">
-						<a 
-							title="View Website"
-							href="http://18.188.70.127/"
-							target="_blank">
-							<img 
-								src="/static/img/casino31.png" 
-								alt="project web page"
-								class="project__desktop--img">
-						</a>
+			
+			<div class="project">
+				<div class="project__header">
+					<div class="project__header--heading-box">
+						<h3 class="project__header--heading">Casino 31</h3>
 					</div>
-					<p class="project__description--link">
-						<a 
-							title="Open link to GitHub"
-							href="https://github.com/prescottbreeden/_31_by_3"
-							target="_blank">Source Code &rarr;</a>
-						<a 
-							href="http://18.188.70.127/"
-							target="_blank">Visit Website &rarr;</a>
-					</p>
+					<div class="project__container--empty"></div>
 				</div>
-				<div class="project__container--text-box">
-					<p class="project__description--text">
-						<span class="u-color-red">Casino 31</span> 
-						is a card game for 1-6 players. Users can play with 
-						their friends, the AI computer, or even just watch the 
-						computer play. Cards are served from our own API on a 
-						seperate express server.
-					</p>
-					<p class="project__description--contrib">
-						<span class="u-color-red">Contributors:</span> 
-						<a 
-							title="Open link to GitHub"
-							href="https://www.linkedin.com/in/lawyerhelbling" 
-							target="_blank"
-							class="project__description--contrib-link">
-								Lawyer Helbing</a>
-						<a 
-							title="Open link to GitHub"
-							href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
-							target="_blank"
-							class="project__description--contrib-link">
-								Justin Peterson</a>
-					</p>
-					<div class="project__tech">
-						<p>Front-End</p>
-						<div class="project__tech-row">
-							<img
-								title="HTML5"
-								src="/static/img/tlogos/html5.png"
-								alt="html5 logo"
-								class="project__tech-row--img">
-							<img
-								title="CSS3"
-								src="/static/img/tlogos/css3.png"
-								alt="css3 logo"
-								class="project__tech-row--img">
-							<img
-								title="JavaScript"
-								src="/static/img/tlogos/javascript.png"
-								alt="javascript logo"
-								class="project__tech-row--img">
-							<img
-								title="jQuery"
-								src="/static/img/tlogos/jquery.png"
-								alt="jquery logo"
-								class="project__tech-row--img">
-							<img
-								title="Bootstrap"
-								src="/static/img/tlogos/bootstrap.png"
-								alt="bootstrap logo"
-								class="project__tech-row--img">
-						</div>
-						<p>Back-End</p>
-						<div class="project__tech-row">
-							<img
-								title="ASP.NET Core"
-								src="/static/img/tlogos/dotnet.png"
-								alt="dotnet logo"
-								class="project__tech-row--img">
-							<img
-								title="C#"
-								src="/static/img/tlogos/csharp.png"
-								alt="csharp logo"
-								class="project__tech-row--img">
-							<img
-								title="Ubuntu"
-								src="/static/img/tlogos/ubuntu.png"
-								alt="ubuntu logo"
-								class="project__tech-row--img">
-							<img
-								title="Nginx"
-								src="/static/img/tlogos/nginx.png"
-								alt="nginx logo"
-								class="project__tech-row--img">
-							<img
-								title="Supervisor"
-								src="/static/img/tlogos/supervisor.png"
-								alt="supervisor logo"
-								class="project__tech-row--img">
-						</div>
-						<p>Dev Tools</p>
-						<div class="project__tech-row">
-							<img
-								title="SASS"
-								src="/static/img/tlogos/sass.png"
-								alt="sass logo"
-								class="project__tech-row--img">
-							<img
-								title="GitHub"
-								src="/static/img/tlogos/github.png"
-								alt="github logo"
-								class="project__tech-row--img">
-							<img
-								title="VS Code"
-								src="/static/img/tlogos/vscode.png"
-								alt="vscode logo"
-								class="project__tech-row--img">
-							<img
-								title="Amazon Web Services"
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
-								class="project__tech-row--img">
+				<div class="project__container">
+					<div class="project__container--desktop">
+						<div class="project__desktop">
+							<a 
+								title="View Website"
+								href="http://18.188.70.127/"
+								target="_blank">
+								<img 
+									src="/static/img/casino31.png" 
+									alt="project web page"
+									class="project__desktop--img">
+							</a>
 						</div>
 					</div>
-					<div class="project__tech">
-						<p>Card API:</p>
-						<div class="project__tech-row">
-							<img
-								title="Express"
-								src="/static/img/tlogos/express.png"
-								alt="express logo"
-								class="project__tech-row--img">
-							<img
-								title="Node.js"
-								src="/static/img/tlogos/nodejs.png"
-								alt="nodejs logo"
-								class="project__tech-row--img">
-							<img
-								title="Heroku"
-								src="/static/img/tlogos/heroku.png"
-								alt="heroku logo"
-								class="project__tech-row--img">
-						</div>
+					<div class="project__container--text-box">
+						<p class="project__description--text">
+							<span class="u-color-red">Casino 31</span> 
+							is a card game for 1-6 players. Users can play with 
+							their friends, the AI computer, or even just watch the 
+							computer play. Cards are served from our own API on a 
+							seperate express server.
+						</p>
+						<p class="project__description--link">
+							<a 
+								href="http://18.188.70.127/"
+								target="_blank">Visit Website &rarr;</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://github.com/prescottbreeden/_31_by_3"
+								target="_blank">View Source Code &rarr;</a>
+						</p>
+						<p class="project__description--contrib">
+							<span class="u-color-red">Contributors:</span> 
+							<a 
+								title="Open link to GitHub"
+								href="https://www.linkedin.com/in/lawyerhelbling" 
+								target="_blank"
+								class="project__description--contrib-link">
+									Lawyer Helbing</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
+								target="_blank"
+								class="project__description--contrib-link">
+									Justin Peterson</a>
+						</p>
 					</div>
 				</div>
-			</div>
-			<div class="project__header">
-				<div class="project__header--heading-box">
-					<h3 class="project__header--heading">Casino 31</h3>
-				</div>
-				<div class="project__container--empty"></div>
-			</div>
-			<div class="project__container">
-				<div class="project__container--desktop">
-					<div class="project__desktop">
-						<a 
-							title="View Website"
-							href="http://18.220.231.186/"
-							target="blank">
-							<img 
-								src="/static/img/ultimate_fan.png" 
-								alt="project web page"
-								class="project__desktop--img">
-						</a>
+				<div class="project__tech">
+					<p class="project__tech-header">Front-End</p>
+					<div class="project__tech-row">
+						<img
+							title="HTML5"
+							src="/static/img/tlogos/html5.png"
+							alt="html5 logo"
+							class="project__tech-row--img">
+						<img
+							title="CSS3"
+							src="/static/img/tlogos/css3.png"
+							alt="css3 logo"
+							class="project__tech-row--img">
+						<img
+							title="JavaScript"
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							title="jQuery"
+							src="/static/img/tlogos/jquery.png"
+							alt="jquery logo"
+							class="project__tech-row--img">
+						<img
+							title="Bootstrap"
+							src="/static/img/tlogos/bootstrap.png"
+							alt="bootstrap logo"
+							class="project__tech-row--img">
 					</div>
-					<p class="project__description--link">
-						<a 
-							title="Open link to GitHub"
-							href="https://github.com/prescottbreeden/ultimate_fan_project"
-							target="_blank">Source Code &rarr;</a>
-						<a 
-							href="http://18.220.231.186/"
-							target="_blank">Visit Website &rarr;</a>
-					</p>
-				</div>
-				<div class="project__container--text-box">
-					<p class="project__description--text">
-						<span class="u-color-red">Ultimate Fan</span> is a trivia game that tests users about 
-						athletes from selected categories. All trivia questions 
-						were generated via web scraping robot. 
-					</p>
-					<p class="project__description--contrib">
-						<span class="u-color-red">Contributors:</span> 
-						<a 
-							title="Open link to GitHub"
-							href="https://www.linkedin.com/in/stephen-silverstein/"
-							target="_blank"	
-							class="project__description--contrib-link">
-								Stephen Silverstein</a>
-					</p>
-					<div class="project__tech">
-						<p>Front-End<p>
-						<div class="project__tech-row">
-							<img
-								title="HTML5"
-								src="/static/img/tlogos/html5.png"
-								alt="html5 logo"
-								class="project__tech-row--img">
-							<img
-								title="CSS3"
-								src="/static/img/tlogos/css3.png"
-								alt="css3 logo"
-								class="project__tech-row--img">
-							<img
-								title="JavaScript"
-								src="/static/img/tlogos/javascript.png"
-								alt="javascript logo"
-								class="project__tech-row--img">
-							<img
-								title="jQuery"
-								src="/static/img/tlogos/jquery.png"
-								alt="jquery logo"
-								class="project__tech-row--img">
-						</div>
-						<p>Back-End</p>
-						<div class="project__tech-row">
-							<img
-								title="Django"
-								src="/static/img/tlogos/django.png"
-								alt="django logo"
-								class="project__tech-row--img">
-							<img
-								title="Python"
-								src="/static/img/tlogos/python.png"
-								alt="python logo"
-								class="project__tech-row--img">
-							<img
-								title="Nginx"
-								src="/static/img/tlogos/nginx.png"
-								alt="nginx logo"
-								class="project__tech-row--img">
-							<img
-								title="Gunicorn"
-								src="/static/img/tlogos/gunicorn2.png"
-								alt="gunicorn logo"
-								class="project__tech-row--img">
-							<img
-								title="SQLite"
-								src="/static/img/tlogos/sqlite.png"
-								alt="sqlite logo"
-								class="project__tech-row--img">
-						</div>
-						<p>Dev Tools</p>
-						<div class="project__tech-row">
-							<img
-								title="SASS"
-								src="/static/img/tlogos/sass.png"
-								alt="sass logo"
-								class="project__tech-row--img">
-							<img
-								title="Node.js"
-								src="/static/img/tlogos/nodejs.png"
-								alt="nodejs logo"
-								class="project__tech-row--img">
-							<img
-								title="GitHub"
-								src="/static/img/tlogos/github.png"
-								alt="github logo"
-								class="project__tech-row--img">
-							<img
-								title="Vim"
-								src="/static/img/tlogos/vim.png"
-								alt="vim logo"
-								class="project__tech-row--img">
-							<img
-								title="Amazon Web Services"
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
-								class="project__tech-row--img">
-						</div>
+					<p class="project__tech-header">Back-End</p>
+					<div class="project__tech-row">
+						<img
+							title="C#"
+							src="/static/img/tlogos/csharp.png"
+							alt="csharp logo"
+							class="project__tech-row--img">
+						<img
+							title="ASP.NET Core"
+							src="/static/img/tlogos/dotnet.png"
+							alt="dotnet logo"
+							class="project__tech-row--img">
+						<img
+							title="Ubuntu"
+							src="/static/img/tlogos/ubuntu.png"
+							alt="ubuntu logo"
+							class="project__tech-row--img">
+						<img
+							title="Nginx"
+							src="/static/img/tlogos/nginx.png"
+							alt="nginx logo"
+							class="project__tech-row--img">
+						<img
+							title="Supervisor"
+							src="/static/img/tlogos/supervisor.png"
+							alt="supervisor logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Dev Tools</p>
+					<div class="project__tech-row">
+						<img
+							title="SASS"
+							src="/static/img/tlogos/sass.png"
+							alt="sass logo"
+							class="project__tech-row--img">
+						<img
+							title="GitHub"
+							src="/static/img/tlogos/github.png"
+							alt="github logo"
+							class="project__tech-row--img">
+						<img
+							title="VS Code"
+							src="/static/img/tlogos/vscode.png"
+							alt="vscode logo"
+							class="project__tech-row--img">
+						<img
+							title="Amazon Web Services"
+							src="/static/img/tlogos/aws.png"
+							alt="aws logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Card API</p>
+					<div class="project__tech-row">
+						<img
+							title="JavaScript"
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							title="Express"
+							src="/static/img/tlogos/express.png"
+							alt="express logo"
+							class="project__tech-row--img">
+						<img
+							title="Node.js"
+							src="/static/img/tlogos/nodejs.png"
+							alt="nodejs logo"
+							class="project__tech-row--img">
+						<img
+							title="Heroku"
+							src="/static/img/tlogos/heroku.png"
+							alt="heroku logo"
+							class="project__tech-row--img">
 					</div>
 				</div>
 			</div>
-			<div class="project__header">
-				<div class="project__header--heading-box">
-					<h3 class="project__header--heading">Powder</h3>
-				</div>
-				<div class="project__container--empty"></div>
-			</div>
-			<div class="project__container">
-				<div class="project__container--desktop">
-					<div class="project__desktop">
-						<a 
-							title="View Website"
-							href="http://13.58.172.1/"
-							target="_blank">
-							<img 
-								src="/static/img/powder_desktop.png" 
-								alt="project web page"
-								class="project__desktop--img">
-						</a>
+			
+			<div class="project">
+				<div class="project__header">
+					<div class="project__header--heading-box">
+						<h3 class="project__header--heading">Ultimate Fan</h3>
 					</div>
-					<p class="project__description--link">
-						<a 
-							title="Open link to GitHub"
-							href="https://github.com/prescottbreeden/powder_angular"
-							target="_blank">Source Code &rarr;</a>
-						<a 
-							href="http://13.58.172.1/"
-							target="_blank">Visit Website &rarr;</a>
-					</p>
+					<div class="project__container--empty"></div>
 				</div>
-				<div class="project__container--text-box">
-					<p class="project__description--text">
-						<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
-						and features capable with just CSS3 and HTML5 alone. The 
-						site is fully responsive to provide a smooth user 
-						experience on various device sizes.
-					</p>
-					<div class="project__tech">
-						<p>Front-End</p>
-						<div class="project__tech-row">
-							<img
-								title="HTML5"
-								src="/static/img/tlogos/html5.png"
-								alt="html5 logo"
-								class="project__tech-row--img">
-							<img
-								title="CSS3"
-								src="/static/img/tlogos/css3.png"
-								alt="css3 logo"
-								class="project__tech-row--img">
-							<img
-								title="JavaScript"
-								src="/static/img/tlogos/javascript.png"
-								alt="javascript logo"
-								class="project__tech-row--img">
-							<img
-								title="Angular"
-								src="/static/img/tlogos/angular.png"
-								alt="angular logo"
-								class="project__tech-row--img">
-							</div>
-							<p>Back-End</p>
-							<div class="project__tech-row">
-							<img
-								title="Express"
-								src="/static/img/tlogos/express.png"
-								alt="express logo"
-								class="project__tech-row--img">
-							<img
-								title="Ubuntu"
-								src="/static/img/tlogos/ubuntu.png"
-								alt="ubuntu logo"
-								class="project__tech-row--img">
-							<img
-								title="Nginx"
-								src="/static/img/tlogos/nginx.png"
-								alt="nginx logo"
-								class="project__tech-row--img">
-							</div>
-							<p>Dev Tools</p>
-							<div class="project__tech-row">
-							<img
-								title="SASS"
-								src="/static/img/tlogos/sass.png"
-								alt="sass logo"
-								class="project__tech-row--img">
-							<img
-								title="Node.js"
-								src="/static/img/tlogos/nodejs.png"
-								alt="nodejs logo"
-								class="project__tech-row--img">
-							<img
-								title="GitHub"
-								src="/static/img/tlogos/github.png"
-								alt="github logo"
-								class="project__tech-row--img">
-							<img
-								title="VS Code"
-								src="/static/img/tlogos/vscode.png"
-								alt="vscode logo"
-								class="project__tech-row--img">
-							<img
-								title="Amazon Web Services"
-								src="/static/img/tlogos/aws.png"
-								alt="aws logo"
-								class="project__tech-row--img">
+				<div class="project__container">
+					<div class="project__container--desktop">
+						<div class="project__desktop">
+							<a 
+								title="View Website"
+								href="http://18.220.231.186/"
+								target="blank">
+								<img 
+									src="/static/img/ultimate_fan.png" 
+									alt="project web page"
+									class="project__desktop--img">
+							</a>
 						</div>
 					</div>
+					<div class="project__container--text-box">
+						<p class="project__description--text">
+							<span class="u-color-red">Ultimate Fan</span> is a website that tests users about 
+							their knowledge of athletes from selected categories. All trivia questions 
+							were generated via web scraping robot and data visualization is powered by Chart.js. 
+						</p>
+						<p class="project__description--link">
+							<a 
+								href="http://18.220.231.186/"
+								target="_blank">Visit Website &rarr;</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://github.com/prescottbreeden/ultimate_fan_project"
+								target="_blank">View Source Code &rarr;</a>
+						</p>
+						<p class="project__description--contrib">
+							<span class="u-color-red">Contributors:</span> 
+							<a 
+								title="Open link to GitHub"
+								href="https://www.linkedin.com/in/stephen-silverstein/"
+								target="_blank"	
+								class="project__description--contrib-link">
+									Stephen Silverstein</a>
+						</p>
+					</div>
+				</div>
+				<div class="project__tech">
+					<p class="project__tech-header">Front-End<p>
+					<div class="project__tech-row">
+						<img
+							title="HTML5"
+							src="/static/img/tlogos/html5.png"
+							alt="html5 logo"
+							class="project__tech-row--img">
+						<img
+							title="CSS3"
+							src="/static/img/tlogos/css3.png"
+							alt="css3 logo"
+							class="project__tech-row--img">
+						<img
+							title="JavaScript"
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							title="jQuery"
+							src="/static/img/tlogos/jquery.png"
+							alt="jquery logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Back-End</p>
+					<div class="project__tech-row">
+						<img
+							title="Python"
+							src="/static/img/tlogos/python.png"
+							alt="python logo"
+							class="project__tech-row--img">
+						<img
+							title="Django"
+							src="/static/img/tlogos/django.png"
+							alt="django logo"
+							class="project__tech-row--img">
+						<img
+							title="SQLite"
+							src="/static/img/tlogos/sqlite.png"
+							alt="sqlite logo"
+							class="project__tech-row--img">
+						<img
+							title="Ubuntu"
+							src="/static/img/tlogos/ubuntu.png"
+							alt="ubuntu logo"
+							class="project__tech-row--img">
+						<img
+							title="Nginx"
+							src="/static/img/tlogos/nginx.png"
+							alt="nginx logo"
+							class="project__tech-row--img">
+						<img
+							title="Gunicorn"
+							src="/static/img/tlogos/gunicorn2.png"
+							alt="gunicorn logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Dev Tools</p>
+					<div class="project__tech-row">
+						<img
+							title="SASS"
+							src="/static/img/tlogos/sass.png"
+							alt="sass logo"
+							class="project__tech-row--img">
+						<img
+							title="Node.js"
+							src="/static/img/tlogos/nodejs.png"
+							alt="nodejs logo"
+							class="project__tech-row--img">
+						<img
+							title="GitHub"
+							src="/static/img/tlogos/github.png"
+							alt="github logo"
+							class="project__tech-row--img">
+						<img
+							title="Vim"
+							src="/static/img/tlogos/vim.png"
+							alt="vim logo"
+							class="project__tech-row--img">
+						<img
+							title="Amazon Web Services"
+							src="/static/img/tlogos/aws.png"
+							alt="aws logo"
+							class="project__tech-row--img">
+					</div>
 				</div>
 			</div>
+
+			<div class="project">
+				<div class="project__header">
+					<div class="project__header--heading-box">
+						<h3 class="project__header--heading">Powder</h3>
+					</div>
+					<div class="project__container--empty"></div>
+				</div>
+				<div class="project__container">
+					<div class="project__container--desktop">
+						<div class="project__desktop">
+							<a 
+								title="View Website"
+								href="http://13.58.172.1/"
+								target="_blank">
+								<img 
+									src="/static/img/powder_desktop.png" 
+									alt="project web page"
+									class="project__desktop--img">
+							</a>
+						</div>
+					</div>
+					<div class="project__container--text-box">
+						<p class="project__description--text">
+							<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
+							and features capable with just CSS3 and HTML5 alone. The 
+							site is fully responsive to provide a smooth user 
+							experience on various device sizes.
+						</p>
+						<p class="project__description--link">
+							<a 
+								href="http://13.58.172.1/"
+								target="_blank">Visit Website &rarr;</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://github.com/prescottbreeden/powder_angular"
+								target="_blank">View Source Code &rarr;</a>
+						</p>
+						<p class="project__description--contrib">
+							<span class="u-color-red">Contributors:</span> 
+							<a 
+								title="Open link to GitHub"
+		
+								href="https://github.com/jonasschmedtmann"
+								target="_blank"	
+								class="project__description--contrib-link">
+									Jonas Schmedtmann</a>
+						</p>
+					</div>
+				</div>
+				<div class="project__tech">
+					<p class="project__tech-header">Front-End</p>
+					<div class="project__tech-row">
+						<img
+							title="HTML5"
+							src="/static/img/tlogos/html5.png"
+							alt="html5 logo"
+							class="project__tech-row--img">
+						<img
+							title="CSS3"
+							src="/static/img/tlogos/css3.png"
+							alt="css3 logo"
+							class="project__tech-row--img">
+						<img
+							title="JavaScript"
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							title="Angular"
+							src="/static/img/tlogos/angular.png"
+							alt="angular logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Back-End</p>
+					<div class="project__tech-row">
+						<img
+							title="JavaScript"
+							src="/static/img/tlogos/javascript.png"
+							alt="javascript logo"
+							class="project__tech-row--img">
+						<img
+							title="Express"
+							src="/static/img/tlogos/express.png"
+							alt="express logo"
+							class="project__tech-row--img">
+						<img
+							title="Ubuntu"
+							src="/static/img/tlogos/ubuntu.png"
+							alt="ubuntu logo"
+							class="project__tech-row--img">
+						<img
+							title="Nginx"
+							src="/static/img/tlogos/nginx.png"
+							alt="nginx logo"
+							class="project__tech-row--img">
+					</div>
+					<p class="project__tech-header">Dev Tools</p>
+					<div class="project__tech-row">
+						<img
+							title="SASS"
+							src="/static/img/tlogos/sass.png"
+							alt="sass logo"
+							class="project__tech-row--img">
+						<img
+							title="Node.js"
+							src="/static/img/tlogos/nodejs.png"
+							alt="nodejs logo"
+							class="project__tech-row--img">
+						<img
+							title="GitHub"
+							src="/static/img/tlogos/github.png"
+							alt="github logo"
+							class="project__tech-row--img">
+						<img
+							title="VS Code"
+							src="/static/img/tlogos/vscode.png"
+							alt="vscode logo"
+							class="project__tech-row--img">
+						<img
+							title="Amazon Web Services"
+							src="/static/img/tlogos/aws.png"
+							alt="aws logo"
+							class="project__tech-row--img">
+					</div>
+				</div>
+			</div>
+
 		</section>
 
 		`;

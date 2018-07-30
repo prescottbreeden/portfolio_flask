@@ -1855,16 +1855,22 @@ body {
             margin-top: -2.2rem; } }
     .site__container--more {
       margin: 0 auto;
-      display: inline-block;
+      display: flex;
       border-radius: 4px 4px 0 0;
-      background-color: rgba(40, 180, 133, 0.8);
       color: #f7f7f7;
       font-weight: 400;
       transition: all .2s; }
+      .site__container--more-empty {
+        width: 80%; }
       .site__container--more-text {
+        background-color: rgba(40, 180, 133, 0.8);
+        width: 20%;
         display: flex;
         align-items: center;
-        margin: 0 2rem; }
+        padding: 0 2rem; }
+        .site__container--more-text:hover {
+          background-color: #ff9c67;
+          cursor: pointer; }
         .site__container--more-text svg {
           height: 3rem;
           display: inline-block;
@@ -1873,9 +1879,6 @@ body {
           text-transform: uppercase; }
         .site__container--more-text:hover > svg {
           transform: rotate(90deg); }
-      .site__container--more:hover {
-        background-color: #ff9c67;
-        cursor: pointer; }
   .site__icon {
     fill: #f7f7f7;
     width: 2rem;

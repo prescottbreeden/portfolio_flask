@@ -801,6 +801,7 @@ $(document).ready(function() {
 								</div>
 							</div>
 							<div onclick='' id="front_end_more" class="site__container--more">
+								<div class="site__container--more-empty"></div>
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -859,6 +860,7 @@ $(document).ready(function() {
 								</div>
 							</div>
 							<div onclick='' id="back_end_more" class="site__container--more">
+								<div class="site__container--more-empty"></div>
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -905,6 +907,7 @@ $(document).ready(function() {
 								</div>
 							</div>
 							<div onclick='' id="database_more" class="site__container--more">
+								<div class="site__container--more-empty"></div>
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">
@@ -962,6 +965,7 @@ $(document).ready(function() {
 								</div>
 							</div>
 							<div onclick='' id="dev_tools_more" class="site__container--more">
+								<div class="site__container--more-empty"></div>
 								<div class="site__container--more-text">
 									<p>More</p>
 									<svg class="site__icon">

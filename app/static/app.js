@@ -236,17 +236,15 @@ $(document).ready(function() {
 				</div>
 				<div class="project__container">
 					<div class="project__container--desktop">
-						<div class="project__desktop">
-							<a 
-								title="View Website"
-								href="http://18.188.70.127/"
-								target="_blank">
-								<img 
-									src="/static/img/casino31.png" 
-									alt="project web page"
-									class="project__desktop--img">
-							</a>
-						</div>
+						<a 
+							title="View Website"
+							href="http://18.188.70.127/"
+							target="_blank">
+							<img 
+								src="/static/img/casino31.png" 
+								alt="project web page"
+								class="project__desktop--img">
+						</a>
 					</div>
 					<div class="project__container--text-box">
 						<p class="project__description--text">
@@ -407,17 +405,15 @@ $(document).ready(function() {
 				</div>
 				<div class="project__container">
 					<div class="project__container--desktop">
-						<div class="project__desktop">
-							<a 
-								title="View Website"
-								href="http://18.220.231.186/"
-								target="blank">
-								<img 
-									src="/static/img/ultimate_fan.png" 
-									alt="project web page"
-									class="project__desktop--img">
-							</a>
-						</div>
+						<a 
+							title="View Website"
+							href="http://18.220.231.186/"
+							target="blank">
+							<img 
+								src="/static/img/ultimate_fan.png" 
+								alt="project web page"
+								class="project__desktop--img">
+						</a>
 					</div>
 					<div class="project__container--text-box">
 						<p class="project__description--text">

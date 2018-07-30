@@ -1708,13 +1708,22 @@ body {
     padding: 0 3rem;
     display: flex;
     justify-content: space-around; }
-    @media only screen and (max-width: 37.5em) {
-      .project__container {
-        flex-direction: column; } }
     .project__container--empty {
       width: 60%; }
     .project__container--desktop {
-      width: 40%; }
+      width: 40%;
+      animation: appear .5s linear 1;
+      transition: all .2s; }
+      .project__container--desktop img {
+        height: auto;
+        width: 100%;
+        transition: all .2s; }
+        @media only screen and (max-width: 37.5em) {
+          .project__container--desktop img {
+            width: 100%;
+            height: auto; } }
+      .project__container--desktop:hover {
+        transform: scale(1.1); }
     .project__container--text-box {
       width: 60%;
       padding: 2rem;
@@ -1745,24 +1754,19 @@ body {
     color: #3f7188; }
     .project__description--contrib-link:link:hover, .project__description--contrib-link:visited:hover {
       color: #28b485; }
-  @media only screen and (max-width: 37.5em) {
-    .project__description {
-      order: 2;
-      width: 100%;
-      text-align: center; } }
   .project__tech {
+    margin-left: auto;
     border: 1px solid #28b485;
-    width: 80%;
-    max-height: 0; }
+    width: 80%; }
     .project__tech-header {
       text-align: center;
       font-style: italic;
       font-size: 1.5rem;
-      opacity: 0; }
+      display: none; }
     .project__tech-row {
       display: flex;
       justify-content: space-around;
-      opacity: 0; }
+      display: none; }
       .project__tech-row--box {
         margin: 3rem; }
       .project__tech-row--img {
@@ -1771,24 +1775,6 @@ body {
       @media only screen and (max-width: 37.5em) {
         .project__tech-row {
           padding: 0; } }
-  .project__desktop {
-    display: inline-block;
-    text-align: center;
-    animation: appear .5s linear 1; }
-    .project__desktop--img {
-      height: auto;
-      width: 100%;
-      transition: all .2s; }
-      .project__desktop--img:hover {
-        transform: scale(1.1); }
-      @media only screen and (max-width: 37.5em) {
-        .project__desktop--img {
-          width: 100%;
-          height: auto; } }
-    @media only screen and (max-width: 37.5em) {
-      .project__desktop {
-        width: 100%;
-        order: 1; } }
 
 .site {
   padding: 3rem 5rem;

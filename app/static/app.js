@@ -282,7 +282,17 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div class="project__tech">
+				<div onclick='' id="casino_31_button" class="site__container--more">
+					<div class="site__container--more-text">
+						<p>Built With</p>
+						<svg class="site__icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
+							</use>
+						</svg>
+					</div>
+				</div>
+				<div id="casino_31_tech" class="project__tech">
 					<p class="project__tech-header">Front-End</p>
 					<div class="project__tech-row">
 						<img
@@ -435,7 +445,17 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div class="project__tech">
+				<div onclick='' id="ultimate_fan_button" class="site__container--more">
+					<div class="site__container--more-text">
+						<p>Built With</p>
+						<svg class="site__icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
+							</use>
+						</svg>
+					</div>
+				</div>
+				<div id="ultimate_fan_tech" class="project__tech">
 					<p class="project__tech-header">Front-End<p>
 					<div class="project__tech-row">
 						<img
@@ -572,7 +592,17 @@ $(document).ready(function() {
 						</p>
 					</div>
 				</div>
-				<div class="project__tech">
+				<div onclick='' id="powder_button" class="site__container--more">
+					<div class="site__container--more-text">
+						<p>Built With</p>
+						<svg class="site__icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
+							</use>
+						</svg>
+					</div>
+				</div>
+				<div id="powder_tech" class="project__tech">
 					<p class="project__tech-header">Front-End</p>
 					<div class="project__tech-row">
 						<img

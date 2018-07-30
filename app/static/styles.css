@@ -1751,15 +1751,18 @@ body {
       width: 100%;
       text-align: center; } }
   .project__tech {
-    border: 1px dashed green; }
+    border: 1px solid #28b485;
+    width: 80%;
+    max-height: 0; }
     .project__tech-header {
       text-align: center;
       font-style: italic;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      opacity: 0; }
     .project__tech-row {
       display: flex;
       justify-content: space-around;
-      border: 1px dashed red; }
+      opacity: 0; }
       .project__tech-row--box {
         margin: 3rem; }
       .project__tech-row--img {

@@ -7,11 +7,11 @@ $(document).ready(function() {
 	var ultimateFan = false;
 	var powder = false;
 
-
-
 	//=========================================================//
 	//						 NAVIGATION
 	//=========================================================//
+	
+
 
 	//---------------- BEHAVIOR -------------//
 	
@@ -188,12 +188,11 @@ $(document).ready(function() {
 					School of Music with a bachelor of music in classical vocal 
 					performance (opera). After moving to Seattle, I became a business 
 					owner taking evening classes to return to grad school in biology. 
-					While maintaining my business web presence taught me much about coding, 
-					it was during my time at ASU as a behavioral neuroscientist when 
+					During this time, I minimized a lot of business costs by maintaining 
+					my own business web presences which taught me much about coding.
+					However, it was during my time at ASU as a researcher when 
 					I began learning R and Python for my research papers that my love 
-					for programming began to take shape. I love to think big and have 
-					a passion for tackling challenges to find elegant solutions that 
-					are clean, efficient and reusable.</p>
+					for programming began to take shape.</p>
 			</div>
 		</section>
 		<section class="services">
@@ -1075,11 +1074,6 @@ $(document).ready(function() {
 							Django	
 						</h4>
 					</div>
-					<div class="site__container--tool tool-img-16">
-						<h4 class="site__container--tool-name">
-							SQLite	
-						</h4>
-					</div>
 					<div class="site__container--tool tool-img-19">
 						<h4 class="site__container--tool-name">
 							Ubuntu	
@@ -1093,6 +1087,18 @@ $(document).ready(function() {
 					<div class="site__container--tool tool-img-29">
 						<h4 class="site__container--tool-name">
 							Gunicorn
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Database</h3>	
+				</div>
+				<div class="project__tech-row ultimate_fan_tech_row">
+					<div class="site__container--tool tool-img-16">
+						<h4 class="site__container--tool-name">
+							SQLite	
 						</h4>
 					</div>
 				</div>

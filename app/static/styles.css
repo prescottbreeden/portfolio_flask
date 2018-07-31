@@ -1944,6 +1944,7 @@ body {
       margin-bottom: 3rem;
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
       opacity: 0;
       transition: opacity 1s;
       width: 100%; }
@@ -2025,6 +2026,10 @@ body {
       background-size: cover;
       height: 12rem;
       width: 10.5rem; }
+      @media only screen and (max-width: 56.75em) {
+        .site__container--tool {
+          height: 10rem;
+          width: 8.5rem; } }
       @media only screen and (max-width: 37.5em) {
         .site__container--tool {
           margin: 1.5rem; } }

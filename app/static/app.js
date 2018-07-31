@@ -273,6 +273,71 @@ $(document).ready(function() {
 			<div class="project">
 				<div class="project__header">
 					<div class="project__header--heading-box">
+						<h3 class="project__header--heading">Powder</h3>
+					</div>
+					<div class="project__container--empty"></div>
+				</div>
+				<div class="project__container">
+					<div class="project__container--desktop">
+						<div class="project__desktop">
+							<a 
+								title="View Website"
+								href="http://13.58.172.1/"
+								target="_blank">
+								<img 
+									src="/static/img/powder_desktop.png" 
+									alt="project web page"
+									class="project__desktop--img">
+							</a>
+						</div>
+					</div>
+					<div class="project__container--text-box">
+						<p class="project__description--text">
+							<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
+							and features capable with just CSS3 and HTML5 alone. The 
+							site is fully responsive to provide a smooth user 
+							experience on various device sizes.
+						</p>
+						<p class="project__description--link">
+							<a 
+								href="http://13.58.172.1/"
+								target="_blank">Visit Website &rarr;</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://github.com/prescottbreeden/powder_angular"
+								target="_blank">View Source Code &rarr;</a>
+						</p>
+						<p class="project__description--contrib">
+							<span class="u-color-red">Contributors:</span> 
+							<a 
+								title="Open link to GitHub"
+		
+								href="https://github.com/jonasschmedtmann"
+								target="_blank"	
+								class="project__description--contrib-link">
+									Jonas Schmedtmann</a>
+						</p>
+					</div>
+				</div>
+				<div onclick='' id="powder_button" class="more__button">
+					<div class="more__button--spacer"></div>
+					<div class="more__button--box">
+						<p class="more__button--box-text">Built With</p>
+						<svg class="more__button--box-icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
+							</use>
+						</svg>
+					</div>
+				</div>
+				<div id="powder_tech" class="project__tech">
+					<div id="powder_html"></div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project__header">
+					<div class="project__header--heading-box">
 						<h3 class="project__header--heading">Casino 31</h3>
 					</div>
 					<div class="project__container--empty"></div>
@@ -306,9 +371,9 @@ $(document).ready(function() {
 								href="https://github.com/prescottbreeden/_31_by_3"
 								target="_blank">View Source Code &rarr;</a>
 						</p>
-						<p class="project__description--contrib">
+						<div class="project__description--contrib-row">
+							<p class="project__description--contrib">
 							<span class="u-color-red">Contributors:</span> 
-							<div class="project__description--contrib-row">
 								<a 
 									title="Open link to GitHub"
 									href="https://www.linkedin.com/in/lawyerhelbling" 
@@ -321,8 +386,8 @@ $(document).ready(function() {
 									target="_blank"
 									class="project__description--contrib-link">
 										Justin Peterson</a>
-							</div>
-						</p>
+							</p>
+						</div>
 					</div>
 				</div>
 				<div onclick='' id="casino_31_button" class="more__button">
@@ -402,70 +467,6 @@ $(document).ready(function() {
 				</div>
 			</div>
 
-			<div class="project">
-				<div class="project__header">
-					<div class="project__header--heading-box">
-						<h3 class="project__header--heading">Powder</h3>
-					</div>
-					<div class="project__container--empty"></div>
-				</div>
-				<div class="project__container">
-					<div class="project__container--desktop">
-						<div class="project__desktop">
-							<a 
-								title="View Website"
-								href="http://13.58.172.1/"
-								target="_blank">
-								<img 
-									src="/static/img/powder_desktop.png" 
-									alt="project web page"
-									class="project__desktop--img">
-							</a>
-						</div>
-					</div>
-					<div class="project__container--text-box">
-						<p class="project__description--text">
-							<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
-							and features capable with just CSS3 and HTML5 alone. The 
-							site is fully responsive to provide a smooth user 
-							experience on various device sizes.
-						</p>
-						<p class="project__description--link">
-							<a 
-								href="http://13.58.172.1/"
-								target="_blank">Visit Website &rarr;</a>
-							<a 
-								title="Open link to GitHub"
-								href="https://github.com/prescottbreeden/powder_angular"
-								target="_blank">View Source Code &rarr;</a>
-						</p>
-						<p class="project__description--contrib">
-							<span class="u-color-red">Contributors:</span> 
-							<a 
-								title="Open link to GitHub"
-		
-								href="https://github.com/jonasschmedtmann"
-								target="_blank"	
-								class="project__description--contrib-link">
-									Jonas Schmedtmann</a>
-						</p>
-					</div>
-				</div>
-				<div onclick='' id="powder_button" class="more__button">
-					<div class="more__button--spacer"></div>
-					<div class="more__button--box">
-						<p class="more__button--box-text">Built With</p>
-						<svg class="more__button--box-icon">
-							<use 
-								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
-							</use>
-						</svg>
-					</div>
-				</div>
-				<div id="powder_tech" class="project__tech">
-					<div id="powder_html"></div>
-				</div>
-			</div>
 
 		</section>
 

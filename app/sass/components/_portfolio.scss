@@ -176,22 +176,22 @@
 			}
 
 			&-row {
+				display: flex;
+				align-items: center;
 				
 				@include respond(phone)	{
-					display: flex;
-					justify-content: space-around;
+					flex-direction: column;
 					
 				}
 			}
 
 			&-link:link,
 			&-link:visited {
-				margin-left: 1rem;
+				margin: 1rem;
 				color: $color-primary-dark;
 
 				@include respond(phone)	{
 					display: inline-block;	
-					margin: 1rem 0;
 				}
 
 				&:hover {

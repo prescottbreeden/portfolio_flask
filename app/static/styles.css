@@ -1903,17 +1903,18 @@ body {
     .project__description--contrib {
       text-align: center;
       margin-top: 1rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .project__description--contrib-row {
-      display: flex;
-      justify-content: space-around; } }
+  .project__description--contrib-row {
+    display: flex;
+    align-items: center; }
+    @media only screen and (max-width: 37.5em) {
+      .project__description--contrib-row {
+        flex-direction: column; } }
   .project__description--contrib-link:link, .project__description--contrib-link:visited {
-    margin-left: 1rem;
+    margin: 1rem;
     color: #3f7188; }
     @media only screen and (max-width: 37.5em) {
       .project__description--contrib-link:link, .project__description--contrib-link:visited {
-        display: inline-block;
-        margin: 1rem 0; } }
+        display: inline-block; } }
     .project__description--contrib-link:link:hover, .project__description--contrib-link:visited:hover {
       color: #28b485; }
   .project__tech {

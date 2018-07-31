@@ -587,11 +587,11 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div onclick='' id="front_end_more" class="site__container--more">
-							<div class="site__container--more-empty"></div>
-								<div class="site__container--more-text">
-									<p>More</p>
-									<svg class="site__icon">
+							<div onclick='' id="front_end_more" class="more__button">
+								<div class="more__button--spacer"></div>
+								<div class="more__button--box">
+									<p class="more__button--box-text">More</p>
+									<svg class="more__button--box-icon">
 										<use 
 											xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 										</use>
@@ -646,11 +646,11 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div onclick='' id="back_end_more" class="site__container--more">
-								<div class="site__container--more-empty"></div>
-								<div class="site__container--more-text">
-									<p>More</p>
-									<svg class="site__icon">
+							<div onclick='' id="back_end_more" class="more__button">
+								<div class="more__button--spacer"></div>
+								<div class="more__button--box">
+									<p class="more__button--box-text">More</p>
+									<svg class="more__button--box-icon">
 										<use 
 											xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 										</use>
@@ -693,11 +693,11 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div onclick='' id="database_more" class="site__container--more">
-								<div class="site__container--more-empty"></div>
-								<div class="site__container--more-text">
-									<p>More</p>
-									<svg class="site__icon">
+							<div onclick='' id="database_more" class="more__button">
+								<div class="more__button--spacer"></div>
+								<div class="more__button--box">
+									<p class="more__button--box-text">More</p>
+									<svg class="more__button--box-icon">
 										<use 
 											xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 										</use>
@@ -756,11 +756,11 @@ $(document).ready(function() {
 									</h4>
 								</div>
 							</div>
-							<div onclick='' id="dev_tools_more" class="site__container--more">
-								<div class="site__container--more-empty"></div>
-								<div class="site__container--more-text">
-									<p>More</p>
-									<svg class="site__icon">
+							<div onclick='' id="dev_tools_more" class="more__button">
+								<div class="more__button--spacer"></div>
+								<div class="more__button--box">
+									<p class="more__button--box-text">More</p>
+									<svg class="more__button--box-icon">
 										<use 
 											xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
 										</use>

@@ -3,9 +3,16 @@
 	&__button {
 		display: flex;
 
-		&--spacer {
-			width: 100%;
+		@include respond(phone){
+			justify-content: center;	
+		}
 
+		&--spacer {
+			width: 75%;
+
+			@include respond(phone){
+				width: 0%;	
+			}
 		}
 
 		&--box {
@@ -16,6 +23,10 @@
 			border-radius: 4px 4px 0 0;
 			width: 20%;
 			transition: all .2s;
+
+			@include respond(phone){
+				width: 50%;		
+			}
 
 			&:hover {
 				background-color: $color-red-light;
@@ -39,7 +50,40 @@
 				fill: $color-white;
 				transition: all .5s;
 			}
+		}
+	}
 
+	&__container {
+		border-top: 1px solid $color-black-light;
+		display: flex;
+
+		@include respond(phone){
+			flex-direction: column;			
+		}
+
+		&--heading {
+			text-align: center;
+			width: 30%;
+
+			@include respond(phone){
+				width: 100%;	
+			}
+
+			h3 {
+				background-color: $color-black-light;
+				color: $color-white;
+				display: inline-block;
+				padding: 0 2rem;
+				border-radius: 0 0 4px 4px;
+				text-transform: uppercase;
+				font-size: 1.7rem;
+				font-weight: 300;
+
+				@include respond(phone){
+					width: 100%;		
+				}
+			}
 		}
 	}
 }
+

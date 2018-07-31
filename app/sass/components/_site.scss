@@ -115,8 +115,16 @@
 			font-weight: 400;
 			transition: all .2s;
 
+			@include respond(phone){
+				justify-content: center;	
+			}
+
 			&-empty {
 				width: 100%;
+
+				@include respond(phone)	{
+					width: 0%	
+				}
 			}
 
 			&-text {
@@ -126,6 +134,11 @@
 				align-items: center;
 				flex-wrap: no-wrap;
 				padding: 0 2rem;
+				justify-content: center;
+
+				@include respond(phone){
+					// width: 50%;		
+				}
 
 				&:hover {
 					background-color: $color-red-light;
@@ -159,5 +172,5 @@
 
 .show-text {
 	opacity: 1 !important;
-	max-height: 1000px !important;
+	max-height: 10000px !important;
 }

@@ -308,18 +308,20 @@ $(document).ready(function() {
 						</p>
 						<p class="project__description--contrib">
 							<span class="u-color-red">Contributors:</span> 
-							<a 
-								title="Open link to GitHub"
-								href="https://www.linkedin.com/in/lawyerhelbling" 
-								target="_blank"
-								class="project__description--contrib-link">
-									Lawyer Helbing</a>
-							<a 
-								title="Open link to GitHub"
-								href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
-								target="_blank"
-								class="project__description--contrib-link">
-									Justin Peterson</a>
+							<div class="project__description--contrib-row">
+								<a 
+									title="Open link to GitHub"
+									href="https://www.linkedin.com/in/lawyerhelbling" 
+									target="_blank"
+									class="project__description--contrib-link">
+										Lawyer Helbing</a>
+								<a 
+									title="Open link to GitHub"
+									href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
+									target="_blank"
+									class="project__description--contrib-link">
+										Justin Peterson</a>
+							</div>
 						</p>
 					</div>
 				</div>
@@ -897,9 +899,11 @@ $(document).ready(function() {
 		const content = document.getElementById('casino_31_html');
 
 		content.innerHTML = `
-			<p class="project__tech-header">Front-End</p>
-			<div class="project__tech-row casino_31_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Front-End</h3>	
+				</div>
+				<div class="project__tech-row casino_31_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
 							HTML5	
@@ -927,9 +931,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Back-End</p>
-			<div class="project__tech-row casino_31_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Back-End</h3>	
+				</div>
+				<div class="project__tech-row casino_31_tech_row">
 					<div class="site__container--tool tool-img-12">
 						<h4 class="site__container--tool-name">
 							C#	
@@ -957,9 +963,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Dev Tools</p>
-			<div class="project__tech-row casino_31_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Dev Tools</h3>	
+				</div>
+				<div class="project__tech-row casino_31_tech_row">
 					<div class="site__container--tool tool-img-7">
 						<h4 class="site__container--tool-name">
 							SASS
@@ -982,9 +990,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Card API</p>
-			<div class="project__tech-row casino_31_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Card API</h3>	
+				</div>
+				<div class="project__tech-row casino_31_tech_row">
 					<div class="site__container--tool tool-img-3">
 						<h4 class="site__container--tool-name">
 							JavaScript
@@ -1019,9 +1029,11 @@ $(document).ready(function() {
 		const content = document.getElementById('ultimate_fan_html');
 
 		content.innerHTML = `
-			<p class="project__tech-header">Front-End<p>
-			<div class="project__tech-row ultimate_fan_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Front-End</h3>	
+				</div>
+				<div class="project__tech-row ultimate_fan_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
 							HTML5	
@@ -1044,9 +1056,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Back-End</p>
-			<div class="project__tech-row ultimate_fan_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Back-End</h3>	
+				</div>
+				<div class="project__tech-row ultimate_fan_tech_row">
 					<div class="site__container--tool tool-img-10">
 						<h4 class="site__container--tool-name">
 							Python	
@@ -1079,9 +1093,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Dev Tools</p>
-			<div class="project__tech-row ultimate_fan_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Dev Tools</h3>	
+				</div>
+				<div class="project__tech-row ultimate_fan_tech_row">
 					<div class="site__container--tool tool-img-7">
 						<h4 class="site__container--tool-name">
 							SASS
@@ -1121,9 +1137,11 @@ $(document).ready(function() {
 		const content = document.getElementById('powder_html');
 
 		content.innerHTML = `
-			<p class="project__tech-header">Front-End</p>
-			<div class="project__tech-row powder_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Front-End</h3>	
+				</div>
+				<div class="project__tech-row powder_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
 							HTML5	
@@ -1146,9 +1164,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Back-End</p>
-			<div class="project__tech-row powder_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Back-End</h3>	
+				</div>
+				<div class="project__tech-row powder_tech_row">
 					<div class="site__container--tool tool-img-3">
 						<h4 class="site__container--tool-name">
 							JavaScript
@@ -1171,9 +1191,11 @@ $(document).ready(function() {
 					</div>
 				</div>
 			</div>
-			<p class="project__tech-header">Dev Tools</p>
-			<div class="project__tech-row powder_tech_row">
-				<div class="site__container--tool-box">
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Dev Tools</h3>	
+				</div>
+				<div class="project__tech-row powder_tech_row">
 					<div class="site__container--tool tool-img-7">
 						<h4 class="site__container--tool-name">
 							SASS

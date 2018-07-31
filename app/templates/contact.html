@@ -14,42 +14,45 @@
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
 		<script src="{{ url_for('static', filename='vendor/waypoints/lib/jquery.waypoints.min.js') }}"></script>
-		<script src="{{ url_for('static', filename='app.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='app.js') }}"></script>
 	</head>
 	<body>
 		<div class="error-page">
 			<nav class="nav">
 				<div class="nav__list">
-					<div class="nav__item nav__item--home about-nav">
-						<svg class="nav__icon">
-							<use xlink:href="/static/img/icomoon/sprite.svg#icon-profile"></use>
-						</svg>
-						<span>
-							<a class="nav__link">About</a>
-						</span>
-					</div>
-					<div class="nav__item portfolio-nav">
+						<div class="nav__item">
+							<svg class="nav__icon">
+								<use xlink:href="/static/img/icomoon/sprite.svg#icon-profile"></use>
+							</svg>
+							<span>
+								<a href="https://www.prescottbreeden.com" class="nav__link">About</a>
+							</span>
+						</div>
+
+					<div class="nav__item">
 						<svg class="nav__icon nav__icon--portfolio">
 							<use xlink:href="/static/img/icomoon/sprite.svg#icon-embed2"></use>
 						</svg>
 						<span>
-							<a class="nav__link">Portfolio</a>
+							<a href="https://www.prescottbreeden.com" class="nav__link">Portfolio</a>
 						</span>
 					</div>
-					<div class="nav__item tech-nav">
+
+					<div class="nav__item">
 						<svg class="nav__icon navigation__icon--about">
 							<use xlink:href="/static/img/icomoon/sprite.svg#icon-database"></use>
 						</svg>
 						<span>
-							<a class="nav__link">Technology</a>
+							<a href="https://www.prescottbreeden.com" class="nav__link">Technology</a>
 						</span>
 					</div>
-					<div class="nav__item contact-nav">
+				
+					<div class="nav__item">
 						<svg class="nav__icon navigation__icon--contact">
 							<use xlink:href="/static/img/icomoon/sprite.svg#icon-envelop"></use>
 						</svg>
 						<span>
-							<a class="nav__link">Contact</a>
+							<a href="https://www.prescottbreeden.com" class="nav__link">Contact</a>
 						</span>
 					</div>
 				</div>
@@ -75,8 +78,10 @@
 								id="name_fieild" 
 								type="text" 
 								name="name"
-								placeholder="Full Name"
-								autocomplete="name">
+								placeholder="Your Full Name"
+								autocomplete="name"
+								value="{{form['name']}}"
+								>
 							<label 
 								for="name"
 								class="form__label">
@@ -93,9 +98,11 @@
 								class="form__input" 
 								id="email_field" 
 								type="email" 
+								pattern="[^@]+@[^@]+\.[^@]+"
 								name="email"
-								placeholder="Email Address"
-								autocomplete="email">
+								placeholder="Your Email Address"
+								autocomplete="email"
+								value="{{form['email']}}">
 							<label 
 								for="email"
 								class="form__label">
@@ -109,14 +116,14 @@
 						</div>
 						<div class="form__group">
 							<p class="form__textarea-label">
-								Have an idea for a project?
+								Message
 							</p>
 								
 							<textarea 
 								name="message"
 								maxlength="500"
 								wrap="hard"
-								class="form__textarea"></textarea>
+								class="form__textarea">{{form['message']}}</textarea>
 							<div class="errors">
 								{% for err in errs['message'] %}
 									<p class='errors-msg'>{{err}}</p>
@@ -124,7 +131,6 @@
 							</div>
 						</div>	
 						<button class="form__btn">Send &#9993;</button>
-						<p class="form__cta">Send a message and let's chat!</p>
 					</form>
 				</div>
 				<h3 class="contact__info--header">Connect</h3>
@@ -161,9 +167,10 @@
 		<div class="footer__logo">
 			<img src="/static/img/p_logo5.png" alt="site logo" class="footer__logo-img">
 			<p class="footer__logo--name">Prescott Breeden, BM</p>
-			<p class="footer__logo--brand">
-				Anything can be built. It's the idea that's the trick.
-			</p>
+			<div class="footer__logo--brand">
+				<p class="footer__logo--brand-text">Anything can be built.</p>
+				<p class="footer__logo--brand-text">It's the idea that's the trick.</p>
+			</div>
 		</div>
 		<div class="footer__container">
 			<div class="footer__nav">

@@ -17,9 +17,12 @@
         }
     
         &--brand {
-            text-align: center;
-            color: $color-red;
-            letter-spacing: 1px;
+
+			&-text {
+				text-align: center;
+				color: $color-red;
+				letter-spacing: 1px;
+			}
         }
 
         &--name {

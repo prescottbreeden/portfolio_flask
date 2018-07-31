@@ -1175,7 +1175,7 @@ body {
     .footer__logo-img {
       height: 20rem;
       width: auto; }
-    .footer__logo--brand {
+    .footer__logo--brand-text {
       text-align: center;
       color: #F2845C;
       letter-spacing: 1px; }
@@ -1271,7 +1271,7 @@ body {
     color: #F2845C; }
   .header__blink {
     font-size: 3rem;
-    animation: blink 1.5s 4s step-end infinite; }
+    animation: blink 1.5s step-end infinite; }
 
 .active-nav {
   transform: translateY(0) !important; }

@@ -7,6 +7,14 @@ $(document).ready(function() {
 	var ultimateFan = false;
 	var powder = false;
 
+
+
+	//=========================================================//
+	//						 NAVIGATION
+	//=========================================================//
+
+	//---------------- BEHAVIOR -------------//
+	
 	if ($('.cb-nav__checkbox').is(':checked'))	{
 		$('.cb-nav__checkbox').prop('checked', false);
 	}
@@ -30,11 +38,8 @@ $(document).ready(function() {
 		activeNav = !activeNav;
 	})
 
-
-	//=========================================================//
-	//						 NAVIGATION
-	//=========================================================//
-
+	//---------------- ROUTES -------------//
+	
 	$(document).on('click', '.about-nav', function() {
 		loadAbout();
 		$('html, body').animate({scrollTop: $('#fold').offset().top}, 1000);
@@ -64,11 +69,9 @@ $(document).ready(function() {
 	})
 
 	$(document).on('click', '#reload_home', function() {
-		console.log('button clicked')
 		$('nav').removeClass('active-nav');
 		$('.cb-nav__checkbox').prop('checked', false);
 	})
-
 
 	//=========================================================//
 	//					   TECH DESCRIPTIONS
@@ -813,7 +816,7 @@ $(document).ready(function() {
 							id="name_fieild" 
 							type="text" 
 							name="name"
-							placeholder="Full Name"
+							placeholder="Your Full Name"
 							autocomplete="name">
 						<label 
 							for="name"
@@ -827,8 +830,9 @@ $(document).ready(function() {
 							class="form__input" 
 							id="email_field" 
 							type="email" 
+							pattern="[^@]+@[^@]+\.[^@]+"
 							name="email"
-							placeholder="Email Address"
+							placeholder="Your Email Address"
 							autocomplete="email">
 						<label 
 							for="email"
@@ -838,7 +842,7 @@ $(document).ready(function() {
 					</div>
 					<div class="form__group">
 					<p class="form__textarea-label">
-						Have an idea for a project?
+						Message
 					</p>
 						
 					<textarea 
@@ -851,9 +855,8 @@ $(document).ready(function() {
 					<button 
 						title="Send Message" 
 						class="form__btn">
-							Send &#9993;
+							Send Email &#9993;
 					</button>
-					<p class="form__cta">Send a message and let's chat!</p>
 				</form>
 			</div>
 			<h3 class="contact__info--header">Connect</h3>

@@ -51,7 +51,7 @@ def contact():
 
     if(errors['name'] or errors['email'] or errors['message']):
         print(errors)
-        return render_template('contact.html', errs=errors)
+        return render_template('contact.html', errs=errors, form=request.form)
     else:
         # display success message
         mail.connect()

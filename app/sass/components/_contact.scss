@@ -53,11 +53,16 @@
 	}
 
 	&__icon {
-		height: 5rem;
-		width: 5rem;
+		height: 7rem;
+		width: 7rem;
 		margin: 0 2rem;
 		display: flex;
 		fill: $color-white;
+
+		@include respond(phone) {
+			height: 5rem;
+			width: 5rem;
+		}
 
 		&:hover {
 			fill: $color-red-light;

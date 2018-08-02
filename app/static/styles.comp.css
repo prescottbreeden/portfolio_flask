@@ -1556,11 +1556,15 @@ body {
       color: #f7f7f7;
       letter-spacing: 1px; }
   .contact__icon {
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     margin: 0 2rem;
     display: flex;
     fill: #f7f7f7; }
+    @media only screen and (max-width: 37.5em) {
+      .contact__icon {
+        height: 5rem;
+        width: 5rem; } }
     .contact__icon:hover {
       fill: #ff9c67;
       cursor: pointer; }

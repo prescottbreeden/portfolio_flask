@@ -961,12 +961,12 @@ $(document).ready(function() {
 					<h3>Back-End</h3>	
 				</div>
 				<div class="project__tech-row slotify_tech_row">
-					<div class="site__container--tool tool-img-12">
+					<div class="site__container--tool tool-img-20">
 						<h4 class="site__container--tool-name">
 							PHP
 						</h4>
 					</div>
-					<div class="site__container--tool tool-img-11">
+					<div class="site__container--tool tool-img-18">
 						<h4 class="site__container--tool-name">
 							Apache
 						</h4>

@@ -2,10 +2,11 @@
 
 $(document).ready(function() {
 	console.log('power overwhelming');
-	var activeNav = false;
-	var casino31 = false;
-	var ultimateFan = false;
-	var powder = false;
+	let activeNav = false;
+	let slotify = false;
+	let casino31 = false;
+	let ultimateFan = false;
+	let powder = false;
 
 	//=========================================================//
 	//						 NAVIGATION
@@ -102,6 +103,18 @@ $(document).ready(function() {
 	//					   PORTFOLIO MORE INFO
 	//=========================================================//
 
+	$(document).on('click', '#slotify_button', function() {
+		if(slotify){
+			let content = document.getElementById('slotify_html');
+			content.innerHTML = '';
+		} else {
+			loadSlotify();
+			$('#slotify_tech').addClass('show-text');
+			$('.slotify_tech_row').addClass('show-text');
+		}
+		slotify = !slotify;
+	})
+	
 	$(document).on('click', '#casino_31_button', function() {
 		if(casino31){
 			let content = document.getElementById('casino_31_html');
@@ -272,6 +285,70 @@ $(document).ready(function() {
 			<div class="project">
 				<div class="project__header">
 					<div class="project__header--heading-box">
+						<h3 class="project__header--heading">Slotify</h3>
+					</div>
+					<div class="project__container--empty"></div>
+				</div>
+				<div class="project__container">
+					<div class="project__container--desktop">
+						<div class="project__desktop">
+							<a 
+								title="View Website"
+								href="http://54.193.101.95/"
+								target="_blank">
+								<img 
+									src="/static/img/slotify.png" 
+									alt="project web page"
+									class="project__desktop--img">
+							</a>
+						</div>
+					</div>
+					<div class="project__container--text-box">
+						<p class="project__description--text">
+							<span class="u-color-red">Slotify</span>
+							is a video game music player that includes playlist
+							creation, song/album saving, shuffle, repeat, option
+							drop-down menus, and other standard spotify functionalities.
+						</p>
+						<p class="project__description--link">
+							<a 
+								href="http://54.193.101.95/"
+								target="_blank">Visit Website &rarr;</a>
+							<a 
+								title="Open link to GitHub"
+								href="https://github.com/prescottbreeden/slotify"
+								target="_blank">View Source Code &rarr;</a>
+						</p>
+						<p class="project__description--contrib">
+							<span class="u-color-red">Contributors:</span> 
+							<a 
+								title="Open link to GitHub"
+		
+								href="https://github.com/ReeceKenney"
+								target="_blank"	
+								class="project__description--contrib-link">
+									Reece Kenney</a>
+						</p>
+					</div>
+				</div>
+				<div onclick='' id="slotify_button" class="more__button">
+					<div class="more__button--spacer"></div>
+					<div class="more__button--box">
+						<p class="more__button--box-text">Built With</p>
+						<svg class="more__button--box-icon">
+							<use 
+								xlink:href="/static/img/icomoon/sprite.svg#icon-circle-right">
+							</use>
+						</svg>
+					</div>
+				</div>
+				<div id="slotify_tech" class="project__tech">
+					<div id="slotify_html"></div>
+				</div>
+			</div>
+			<div class="project">
+				<div class="project__header">
+					<div class="project__header--heading-box">
 						<h3 class="project__header--heading">Powder</h3>
 					</div>
 					<div class="project__container--empty"></div>
@@ -329,8 +406,8 @@ $(document).ready(function() {
 						</svg>
 					</div>
 				</div>
-				<div id="powder_tech" class="project__tech">
-					<div id="powder_html"></div>
+				<div id="slotify_tech" class="project__tech">
+					<div id="slotify_html"></div>
 				</div>
 			</div>
 			<div class="project">
@@ -845,6 +922,105 @@ $(document).ready(function() {
 	}
 
 	//===============================================//
+	//			SLOTIFY PORTFOLIO MORE			     //
+	//===============================================//
+
+	function loadSlotify() {
+		const content = document.getElementById('slotify_html');
+
+		content.innerHTML = `
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Front-End</h3>	
+				</div>
+				<div class="project__tech-row slotify_tech_row">
+					<div class="site__container--tool tool-img-1">
+						<h4 class="site__container--tool-name">
+							HTML5	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-2">
+						<h4 class="site__container--tool-name">
+							CSS3	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-3">
+						<h4 class="site__container--tool-name">
+							JavaScript	
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-6">
+						<h4 class="site__container--tool-name">
+							jQuery	
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Back-End</h3>	
+				</div>
+				<div class="project__tech-row slotify_tech_row">
+					<div class="site__container--tool tool-img-12">
+						<h4 class="site__container--tool-name">
+							PHP
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-11">
+						<h4 class="site__container--tool-name">
+							Apache
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-19">
+						<h4 class="site__container--tool-name">
+							Ubuntu
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Database</h3>	
+				</div>
+				<div class="project__tech-row slotify_tech_row">
+					<div class="site__container--tool tool-img-16">
+						<h4 class="site__container--tool-name">
+							MySQL
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="more__container">
+				<div class="more__container--heading">
+					<h3>Dev Tools</h3>	
+				</div>
+				<div class="project__tech-row slotify_tech_row">
+					<div class="site__container--tool tool-img-7">
+						<h4 class="site__container--tool-name">
+							SASS
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-21">
+						<h4 class="site__container--tool-name">
+							GitHub
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-33">
+						<h4 class="site__container--tool-name">
+							Vim
+						</h4>
+					</div>
+					<div class="site__container--tool tool-img-24">
+						<h4 class="site__container--tool-name">
+							AWS
+						</h4>
+					</div>
+				</div>
+			</div>
+		`
+		
+	}
+	//===============================================//
 	//			CASINO31 PORTFOLIO MORE			     //
 	//===============================================//
 
@@ -1087,7 +1263,6 @@ $(document).ready(function() {
 			</div>
 		`
 	}
-
 
 	//===============================================//
 	//			POWDER PORTFOLIO MORE			     //

@@ -16,9 +16,9 @@ $technologies:
 	'sql',
 	'sqlite',
 	'mongodb', 
-	'r',
+	'apache',
 	'ubuntu',
-	'vim',
+	'php',
 	'github',
 	'firebase',
 	'git',
@@ -30,7 +30,9 @@ $technologies:
 	'gunicorn2',
 	'sqlalchemy',
 	'supervisor',
-	'heroku'
+	'heroku',
+	'vim',
+	'r',
 ;
 
 $total: length($technologies);

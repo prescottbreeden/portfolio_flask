@@ -492,9 +492,9 @@ $(document).ready(function() {
 			'sql',
 			'sqlite',
 			'mongodb', 
-			'r',
 			'ubuntu',
-			'vim',
+			'apache',
+			'php',
 			'github'
 		];
 
@@ -740,7 +740,7 @@ $(document).ready(function() {
 										GitHub
 									</h4>
 								</div>
-								<div class="site__container--tool tool-img-20">
+								<div class="site__container--tool tool-img-33">
 									<h4 class="site__container--tool-name">
 										Vim
 									</h4>
@@ -1073,7 +1073,7 @@ $(document).ready(function() {
 							GitHub
 						</h4>
 					</div>
-					<div class="site__container--tool tool-img-20">
+					<div class="site__container--tool tool-img-33">
 						<h4 class="site__container--tool-name">
 							Vim
 						</h4>
@@ -1171,7 +1171,7 @@ $(document).ready(function() {
 							GitHub
 						</h4>
 					</div>
-					<div class="site__container--tool tool-img-20">
+					<div class="site__container--tool tool-img-33">
 						<h4 class="site__container--tool-name">
 							Vim
 						</h4>

@@ -308,7 +308,8 @@ $(document).ready(function() {
 							<span class="u-color-red">Slotify</span>
 							is a video game music player that includes playlist
 							creation, song/album saving, shuffle, repeat, option
-							drop-down menus, and other standard spotify functionalities.
+							drop-down menus, searchable content, and other
+							standard spotify functionalities.
 						</p>
 						<p class="project__description--link">
 							<a 
@@ -318,16 +319,6 @@ $(document).ready(function() {
 								title="Open link to GitHub"
 								href="https://github.com/prescottbreeden/slotify"
 								target="_blank">View Source Code &rarr;</a>
-						</p>
-						<p class="project__description--contrib">
-							<span class="u-color-red">Contributors:</span> 
-							<a 
-								title="Open link to GitHub"
-		
-								href="https://github.com/ReeceKenney"
-								target="_blank"	
-								class="project__description--contrib-link">
-									Reece Kenney</a>
 						</p>
 					</div>
 				</div>
@@ -369,10 +360,13 @@ $(document).ready(function() {
 					</div>
 					<div class="project__container--text-box">
 						<p class="project__description--text">
-							<span class="u-color-red">Powder</span> is a mock-landing page showcasing various animations 
-							and features capable with just CSS3 and HTML5 alone. The 
-							site is fully responsive to provide a smooth user 
-							experience on various device sizes.
+							<span class="u-color-red">Powder</span> is a website
+							for a mock heli-skiing company.  Features include 
+							HTML/CSS validation styling, full-page expandable
+							navagation menu, custom CSS float-grid, background
+							clipping and masking, and numerous hover and event
+							animations. The site is fully responsive to provide 
+							a smooth user experience on various device sizes.
 						</p>
 						<p class="project__description--link">
 							<a 
@@ -382,16 +376,6 @@ $(document).ready(function() {
 								title="Open link to GitHub"
 								href="https://github.com/prescottbreeden/powder_angular"
 								target="_blank">View Source Code &rarr;</a>
-						</p>
-						<p class="project__description--contrib">
-							<span class="u-color-red">Contributors:</span> 
-							<a 
-								title="Open link to GitHub"
-		
-								href="https://github.com/jonasschmedtmann"
-								target="_blank"	
-								class="project__description--contrib-link">
-									Jonas Schmedtmann</a>
 						</p>
 					</div>
 				</div>
@@ -406,8 +390,8 @@ $(document).ready(function() {
 						</svg>
 					</div>
 				</div>
-				<div id="slotify_tech" class="project__tech">
-					<div id="slotify_html"></div>
+				<div id="powder_tech" class="project__tech">
+					<div id="powder_html"></div>
 				</div>
 			</div>
 			<div class="project">
@@ -434,7 +418,7 @@ $(document).ready(function() {
 							<span class="u-color-red">Casino 31</span> 
 							is a card game for 1-6 players. Users can play with 
 							their friends, the AI computer, or even just watch the 
-							computer play. Cards are served from our own API on a 
+							computer play. Cards are served from an API on a 
 							seperate express server.
 						</p>
 						<p class="project__description--link">
@@ -446,23 +430,6 @@ $(document).ready(function() {
 								href="https://github.com/prescottbreeden/_31_by_3"
 								target="_blank">View Source Code &rarr;</a>
 						</p>
-						<div class="project__description--contrib-row">
-							<p class="project__description--contrib">
-							<span class="u-color-red">Contributors:</span> 
-								<a 
-									title="Open link to GitHub"
-									href="https://www.linkedin.com/in/lawyerhelbling" 
-									target="_blank"
-									class="project__description--contrib-link">
-										Lawyer Helbing</a>
-								<a 
-									title="Open link to GitHub"
-									href="https://www.linkedin.com/in/justin-peterson-6b38b66a" 
-									target="_blank"
-									class="project__description--contrib-link">
-										Justin Peterson</a>
-							</p>
-						</div>
 					</div>
 				</div>
 				<div onclick='' id="casino_31_button" class="more__button">
@@ -502,9 +469,11 @@ $(document).ready(function() {
 					</div>
 					<div class="project__container--text-box">
 						<p class="project__description--text">
-							<span class="u-color-red">Ultimate Fan</span> is a website that tests users about 
-							their knowledge of athletes from selected categories. All trivia questions 
-							were generated via web scraping robot and data visualization is powered by Chart.js. 
+							<span class="u-color-red">Ultimate Fan</span> is a
+							website that tests users about their knowledge of 
+							athletes from selected categories. All trivia
+							questions were generated via web scraping robot and 
+							data visualization is powered by Chart.js. 
 						</p>
 						<p class="project__description--link">
 							<a 
@@ -514,15 +483,6 @@ $(document).ready(function() {
 								title="Open link to GitHub"
 								href="https://github.com/prescottbreeden/ultimate_fan_project"
 								target="_blank">View Source Code &rarr;</a>
-						</p>
-						<p class="project__description--contrib">
-							<span class="u-color-red">Contributors:</span> 
-							<a 
-								title="Open link to GitHub"
-								href="https://www.linkedin.com/in/stephen-silverstein/"
-								target="_blank"	
-								class="project__description--contrib-link">
-									Stephen Silverstein</a>
 						</p>
 					</div>
 				</div>

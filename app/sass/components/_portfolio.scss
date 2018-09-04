@@ -117,9 +117,9 @@
 		&--text-box {
 			width: 60%;
 			padding: 2rem;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
+			// display: flex;
+			// flex-direction: column;
+			// justify-content: space-between;
 			// border: 1px dashed green;
 
 			@include respond(phone){
@@ -136,6 +136,7 @@
         }
 
         &--link {
+			margin-top: 5rem;
 			text-align: center;
 			display: flex;
 			justify-content: space-around;

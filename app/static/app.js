@@ -512,8 +512,8 @@ $(document).ready(function() {
 	function loadTech() {
 
 		let technologies = [
-			'html5',
-			'css3', 
+			'html',
+			'css', 
 			'javascript',
 			'angular', 
 			'react', 
@@ -600,12 +600,12 @@ $(document).ready(function() {
 							<div class="site__container--tool-box">
 								<div class="site__container--tool tool-img-1">
 									<h4 class="site__container--tool-name">
-										HTML5	
+										HTML
 									</h4>
 								</div>
 								<div class="site__container--tool tool-img-2">
 									<h4 class="site__container--tool-name">
-										CSS3	
+										CSS
 									</h4>
 								</div>
 								<div class="site__container--tool tool-img-3">
@@ -636,7 +636,7 @@ $(document).ready(function() {
 									framework was simply not necessary. jQuery takes
 									care of all the dynamic content and the waypoints
 									library enabled the implementation of the 
-									"sticky nav-bar" effect and page scrolling. HTML5
+									"sticky nav-bar" effect and page scrolling. HTML
 									tags are optimized for added accessibility and 
 									all	CSS was built with SASS.
 								</p>
@@ -896,12 +896,12 @@ $(document).ready(function() {
 				<div class="project__tech-row slotify_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
-							HTML5	
+							HTML	
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-2">
 						<h4 class="site__container--tool-name">
-							CSS3	
+							CSS	
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-3">
@@ -995,12 +995,12 @@ $(document).ready(function() {
 				<div class="project__tech-row casino_31_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
-							HTML5	
+							HTML	
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-2">
 						<h4 class="site__container--tool-name">
-							CSS3	
+							CSS	
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-3">
@@ -1125,12 +1125,12 @@ $(document).ready(function() {
 				<div class="project__tech-row ultimate_fan_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
-							HTML5	
+							HTML
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-2">
 						<h4 class="site__container--tool-name">
-							CSS3	
+							CSS	
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-3">
@@ -1239,12 +1239,12 @@ $(document).ready(function() {
 				<div class="project__tech-row powder_tech_row">
 					<div class="site__container--tool tool-img-1">
 						<h4 class="site__container--tool-name">
-							HTML5	
+							HTML
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-2">
 						<h4 class="site__container--tool-name">
-							CSS3	
+							CSS
 						</h4>
 					</div>
 					<div class="site__container--tool tool-img-3">

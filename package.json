@@ -10,7 +10,7 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' app/static/styles.comp.css -o app/static/styles.prefix.css",
     "compress:css": "node-sass app/static/styles.prefix.css app/static/styles.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
-	"compress:js": "node-minify --compressor 'gcc' --input 'app/static/app.js' --output 'app/static/app.min.js'"
+    "compress:js": "node-minify --compressor 'gcc' --input 'app/static/app.js' --output 'app/static/app.min.js'"
   },
   "keywords": [],
   "author": "Prescott Breeden <prescott.breeden@gmail.com>",

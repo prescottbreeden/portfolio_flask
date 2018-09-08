@@ -1912,7 +1912,7 @@ body {
         .project__container--empty {
           width: 0%; } }
     .project__container--desktop {
-      width: 40%;
+      width: 45%;
       animation: appear .5s linear 1;
       transition: all .2s; }
       @media only screen and (max-width: 37.5em) {
@@ -1920,16 +1920,16 @@ body {
           width: 100%; } }
       .project__container--desktop img {
         height: auto;
-        width: 100%;
+        width: 90%;
         transition: all .2s; }
         @media only screen and (max-width: 37.5em) {
           .project__container--desktop img {
             width: 100%;
             height: auto; } }
       .project__container--desktop:hover {
-        transform: scale(1.1); }
+        transform: scale(1.05); }
     .project__container--text-box {
-      width: 60%;
+      width: 55%;
       padding: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .project__container--text-box {

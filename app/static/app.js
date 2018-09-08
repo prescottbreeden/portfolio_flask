@@ -313,6 +313,7 @@ $(document).ready(function() {
 						</p>
 						<p class="project__description--link">
 							<a 
+								title="Open link to Website"
 								href="http://54.193.101.95/"
 								target="_blank">Visit Website &rarr;</a>
 							<a 
@@ -370,6 +371,7 @@ $(document).ready(function() {
 						</p>
 						<p class="project__description--link">
 							<a 
+								title="Open link to Website"
 								href="http://13.58.172.1/"
 								target="_blank">Visit Website &rarr;</a>
 							<a 
@@ -423,6 +425,7 @@ $(document).ready(function() {
 						</p>
 						<p class="project__description--link">
 							<a 
+								title="Open link to Website"
 								href="http://18.188.70.127/"
 								target="_blank">Visit Website &rarr;</a>
 							<a 
@@ -477,6 +480,7 @@ $(document).ready(function() {
 						</p>
 						<p class="project__description--link">
 							<a 
+								title="Open link to Website"
 								href="http://18.220.231.186/"
 								target="_blank">Visit Website &rarr;</a>
 							<a 
@@ -529,8 +533,8 @@ $(document).ready(function() {
 			'sql',
 			'sqlite',
 			'mongodb', 
-			'ubuntu',
 			'apache',
+			'ubuntu',
 			'php',
 			'github'
 		];

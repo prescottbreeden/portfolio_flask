@@ -193,14 +193,14 @@ body {
   animation: appear 0.25s 1.7s 1 ease-out forwards; }
 
 .tool-img-1 {
-  background-image: url("img/tlogos/html5.png");
+  background-image: url("img/tlogos/html.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
 
 .tool-img-2 {
-  background-image: url("img/tlogos/css3.png");
+  background-image: url("img/tlogos/css.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -431,13 +431,13 @@ body {
   backface-visibility: hidden; }
 
 .img-1 {
-  background-image: url("img/tlogos/html5.png");
+  background-image: url("img/tlogos/html.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-1:after {
-    content: "html5";
+    content: "html";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
@@ -454,13 +454,13 @@ body {
     background-color: rgba(34, 34, 34, 0.8); }
 
 .img-2 {
-  background-image: url("img/tlogos/css3.png");
+  background-image: url("img/tlogos/css.png");
   background-size: cover;
   background-position: center;
   position: relative;
   backface-visibility: hidden; }
   .img-2:after {
-    content: "css3";
+    content: "css";
     color: #f7f7f7;
     position: absolute;
     top: 50%;
